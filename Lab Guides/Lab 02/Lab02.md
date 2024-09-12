@@ -18,32 +18,30 @@ can create custom entities for your specific purpose.
 
 1.  Select **Settings** in the top-right of the screen.
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 2.  Select the **Entities** tab. You can see a list of pre-built
     entities.
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
 ### Task 2: Create the property type entity
 
 1.  Select **+ Add an entity** and select **+ New entity**.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 2.  Select the **Closed list** tile.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 3.  Enter the below details
 
-> Name - +++**Property Type**+++
->
-> **Enter item** under List items –
->
-> +++**Apartment**+++ - Select **Add**
->
-![](./media/image5.png)
+    -    Name - +++**Property Type**+++
+    -    **Enter item** under List items –
+    -    +++**Apartment**+++ - Select **Add**
+
+    ![](./media/image5.png)
 
 4.  Enter +++**Condominium**+++ in the **Enter item** field and
     select **Add**.
@@ -51,12 +49,12 @@ can create custom entities for your specific purpose.
 5.  Enter +++**Duplex**+++ in the **Enter item** field and
     select **Add**.
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 6.  Select **+ Synonyms** for **Apartment**, enter +++**Flat**+++, then
     select the **+** icon and select **Done**.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 7.  Select **+ Synonyms** for **House**, enter +++**Single-family
     home**+++, then select the **+** icon and select **Done**.
@@ -67,11 +65,11 @@ can create custom entities for your specific purpose.
 
 9.  Select **Save**.
 
-![](./media/image8.png)
+    ![](./media/image8.png)
 
 10. Select **Close**.
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 ### Task 3: Create number of bedrooms entity
 
@@ -85,9 +83,9 @@ can create custom entities for your specific purpose.
 
 3.  Enter the below details and click on **Save**.
 
-- Name  - +++**Number of Bedrooms**+++ 
-
-- Pattern  - +++**\[1-5\]**+++ 
+    - Name  - +++**Number of Bedrooms**+++ 
+    
+    - Pattern  - +++**\[1-5\]**+++ 
 
 ![](./media/image12.png)
 
@@ -132,12 +130,12 @@ can create custom entities for your specific purpose.
 
 6.  Enter the below details and click on **Save**.
 
-- **Enter a message** - +++How many bedrooms do you need?+++
-
-- **Identify -** Select **Number of Bedrooms**
-
-- **Save user response as** -
-  Enter +++NumberofBedrooms+++ for **Variable name**
+    - **Enter a message** - +++How many bedrooms do you need?+++
+    
+    - **Identify -** Select **Number of Bedrooms**
+    
+    - **Save user response as** -
+      Enter +++NumberofBedrooms+++ for **Variable name**
 
 ![](./media/image19.png)
 
@@ -220,11 +218,11 @@ Power Automate cloud flows
 
 18. Enter the below details
 
-- **Enter a name** - +++PropertyId+++
-
-- **Enter a value to respond with** - select **Insert Expression** and
-  enter the following expression:
-  +++first(outputs('List_rows')?\['body/value'\])\['contoso_realestatepropertyid'\]+++
+    - **Enter a name** - +++PropertyId+++
+    
+    - **Enter a value to respond with** - select **Insert Expression** and
+      enter the following expression:
+      +++first(outputs('List_rows')?\['body/value'\])\['contoso_realestatepropertyid'\]+++
 
 ![](./media/image32.png)
 
@@ -236,11 +234,11 @@ Power Automate cloud flows
 
 21. Select **Text**.
 
-- **Enter a name** - +++PropertyName+++ 
-
-- **Enter a value to respond with** - select **Insert Expression** and
-  enter the following expression:
-  +++first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]+++
+    - **Enter a name** - +++PropertyName+++ 
+    
+    - **Enter a value to respond with** - select **Insert Expression** and
+      enter the following expression:
+      +++first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]+++
 
 ![](./media/image34.png)
 
