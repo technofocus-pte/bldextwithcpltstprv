@@ -45,7 +45,7 @@ booking requests online.
 ### Task 1: Sign up for Dynamics 365 Customer Service trial
 
 1.  Login to
-    +++<https://dynamics.microsoft.com/en-us/customer-service/overview/>+++
+    +++https://dynamics.microsoft.com/en-us/customer-service/overview/+++
     and click on **Try for free**
 
 ![](./media/image1.png)
