@@ -131,7 +131,7 @@ if consent is already provided by the tenant administrator.
 ### Task 3: Configure Omnichannel Power Virtual Agent Extension
 
 1.  Open the link,
-    +++<https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com>+++
+    +++https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com+++
     and click on Get it now in the Omnichannel Power Virtual Agent
     Extension page.
 
@@ -1048,7 +1048,7 @@ add new ones.
 
 ### Task 1: Configure workstream 
 
-1.  Login to +++<https://www.office.com>+++ using your admin tenant id.
+1.  Login to +++https://www.office.com+++ using your admin tenant id.
 
 2.  Select **Apps** from the left pane.
 
