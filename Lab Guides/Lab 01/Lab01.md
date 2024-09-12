@@ -46,7 +46,7 @@ booking requests online.
 
 1.  Login to
     +++https://dynamics.microsoft.com/en-us/customer-service/overview/+++
-    and click on **Try for free**
+    and click on **Try for freee**
 
 ![](./media/image1.png)
 
