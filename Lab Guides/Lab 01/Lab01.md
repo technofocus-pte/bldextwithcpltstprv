@@ -48,8 +48,7 @@ booking requests online.
     +++<https://dynamics.microsoft.com/en-us/customer-service/overview/>+++
     and click on **Try for free**
 
-<img src="./media/image1.png" style="width:6.26806in;height:3.31597in"
-alt="A person in a vest and glasses Description automatically generated" />
+![](./media/image1.png)
 
 2.  Enter your Tenant id and click on **Start your free trial**.
 
