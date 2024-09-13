@@ -19,22 +19,23 @@ the organization has valid license for the same.
 
 2.  Select **Library** on the side navigation pane.
 
+    aaaa
     ![](./media/image1.png)
 
-3.  Select **+ Add an item**. You're prompted to select a Microsoft
+4.  Select **+ Add an item**. You're prompted to select a Microsoft
     Copilot to extend.
 
     ![](./media/image2.png)
 
-4.  Select **Copilot for Microsoft 365**.
+5.  Select **Copilot for Microsoft 365**.
 
     ![](./media/image3.png)
 
-5.  A **New action** menu appears. Select **Prompt**.
+6.  A **New action** menu appears. Select **Prompt**.
 
     ![](./media/image4.png)
 
-6.  The **Add a prompt action** wizard opens.
+7.  The **Add a prompt action** wizard opens.
 
 ## **Exercise 2: Generate content or extract insights with AI Builder dynamic prompts**
 
