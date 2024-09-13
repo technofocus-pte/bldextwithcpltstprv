@@ -17,126 +17,85 @@ the organization has valid license for the same.
     +++https://copilotstudio.microsoft.com+++ using your admin tenant
     credentials.
 
-2.  Select **Library** on the side navigation pane.
+2.  Select **Library** on the side navigation pane.
 
-> <img src="./media/image1.png" style="width:6.5in;height:3.81944in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image1.png)
 
-3.  Select **+ Add an item**. You're prompted to select a Microsoft
+3.  Select **+ Add an item**. You're prompted to select a Microsoft
     Copilot to extend.
 
-> <img src="./media/image2.png" style="width:6.18782in;height:4.12521in"
-> alt="A screenshot of a library Description automatically generated" />
+    ![](./media/image2.png)
 
 4.  Select **Copilot for Microsoft 365**.
 
-> <img src="./media/image3.png" style="width:5.12526in;height:3.32656in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image3.png)
 
-5.  A **New action** menu appears. Select **Prompt**.
+5.  A **New action** menu appears. Select **Prompt**.
 
-> <img src="./media/image4.png" style="width:6.5in;height:2.09583in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image4.png)
 
-6.  The **Add a prompt action** wizard opens.
+6.  The **Add a prompt action** wizard opens.
 
 ## **Exercise 2: Generate content or extract insights with AI Builder dynamic prompts**
 
 1.  Provide the below details and click on **Next**.
 
-- Name - +++**Dynamic prompt**+++
+    - Name - +++**Dynamic prompt**+++
+    
+    - Description - +++**Dynamic prompt to summarize text**+++
 
-- Description - +++**Dynamic prompt to summarize text**+++
-
-<img src="./media/image5.png" style="width:6.5in;height:4.29514in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image5.png)
 
 2.  Select **Summarize text**.
 
-<img src="./media/image6.png" style="width:6.5in;height:4.49931in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image6.png)
 
 3.  It will add a prompt with a dynamic value **text**.
 
-> <img src="./media/image7.png" style="width:6.5in;height:3.41042in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image7.png)
 
 4.  Click on the **Input** under Prompt Settings add the below content
     in the **Sample data**.
+	
+    ```
+    Meet comfortably and confidently with customizable meeting views
+    The meeting stage, or gallery, is at the core of the virtual meeting experience and can either hinder or enhance meeting efficiency depending on your needs. We’re excited to share how we’re evolving the default gallery experience in Teams meetings to give you a simpler, more predictable meeting presence—while enabling more controls that let you personalize the view to suit your preferences.
+    First, let’s look at the new default gallery experience that will be applicable to all. The new gallery will place everyone in tiles of equal size (16:9 ratio) whether their video is turned on or off. Additionally, the new default gallery layout will be more consistent and predictable for all meetings, regardless of size and content shared.
+    And when a Teams Room joins the meeting, the video of the room automatically enlarges, bridging the gap between remote and in-room participants. Remote attendees enjoy a clearer view and better connection, easily spotting who is speaking. Want a custom view? Simply tweak the tile size to your preference from the more options (...) menu by hovering on the room name. It's seamless, inclusive, and ensures everyone can be seen, no matter where they are.
+    Next, let’s look at the controls that help you customize every meeting view to suit your needs.
+    
+    While the default gallery size for meetings will be 16 participants, you can customize the number of participants visible on your screen to best fit your preference. You can choose from 4, 9, 16, and 49 participants visible on the screen for gallery size.
+    
+    There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so comments are not missed.
+    ```
 
-> **Meet comfortably and confidently with customizable meeting views**
->
-> **The meeting stage, or gallery, is at the core of the virtual meeting
-> experience and can either hinder or enhance meeting efficiency
-> depending on your needs. We’re excited to share how we’re evolving the
-> default gallery experience in Teams meetings to give you a simpler,
-> more predictable meeting presence—while enabling more controls that
-> let you personalize the view to suit your preferences.**
->
-> **First, let’s look at the new default gallery experience that will be
-> applicable to all. The new gallery will place everyone in tiles of
-> equal size (16:9 ratio) whether their video is turned on or off.
-> Additionally, the new default gallery layout will be more consistent
-> and predictable for all meetings, regardless of size and content
-> shared.**
->
-> **And when a Teams Room joins the meeting, the video of the room
-> automatically enlarges, bridging the gap between remote and in-room
-> participants. Remote attendees enjoy a clearer view and better
-> connection, easily spotting who is speaking. Want a custom view?
-> Simply tweak the tile size to your preference from the more options
-> (...) menu by hovering on the room name. It's seamless, inclusive, and
-> ensures everyone can be seen, no matter where they are.**
->
-> **Next, let’s look at the controls that help you customize every
-> meeting view to suit your needs.**
->
-> **  
-> While the default gallery size for meetings will be 16 participants,
-> you can customize the number of participants visible on your screen to
-> best fit your preference. You can choose from 4, 9, 16, and 49
-> participants visible on the screen for gallery size.**
->
-> **There are still a few default configurations that AI will optimize
-> for to improve engagement and efficiency. For virtual participants,
-> these are prioritizing those that have a raised hand and prioritizing
-> the active speaker, enhancing their visibility so comments are not
-> missed.**
->
-> <img src="./media/image8.png" style="width:6.5in;height:3.46875in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image8.png)
 
 5.  Click on **Test prompt**.
 
-> <img src="./media/image9.png" style="width:6.5in;height:3.37569in"
-> alt="A screenshot of a computer screen Description automatically generated" />
+    ![](./media/image9.png)
 
 6.  Notice that the Prompt response, summarizing the text is generated.
 
-> <img src="./media/image10.png" style="width:6.5in;height:3.38889in"
-> alt="A screenshot of a computer Description automatically generated" />
+![](./media/image10.png)
 
 7.  Click on **Save custom prompt**.
 
-<img src="./media/image11.png" style="width:6.5in;height:3.36806in"
-alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image11.png)
 
 8.  Click on **Next**.
 
-<img src="./media/image12.png" style="width:6.5in;height:4.31389in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image12.png)
 
 9.  Click on **Publish.**
 
-<img src="./media/image13.png" style="width:6.5in;height:3.18611in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image13.png)
 
 10. Once published, click on **Go to details page** to view the details.
 
-<img src="./media/image14.png" style="width:6.5in;height:2.98194in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image14.png)
 
-Your prompt action is now published to **Copilot for Microsoft 365**. It
+Your prompt action is now published to **Copilot for Microsoft 365**. It
 will show up in copilot experiences only if you have a valid Copilot
 license.
 
