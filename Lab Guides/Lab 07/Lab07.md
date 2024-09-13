@@ -25,7 +25,7 @@ the organization has valid license for the same.
 4.  Select **+ Add an item**. You're prompted to select a Microsoft
     Copilot to extend.
 
-    ![](./media/image2.png)
+![](./media/image2.png)
 
 5.  Select **Copilot for Microsoft 365**.
 
