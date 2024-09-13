@@ -23,39 +23,39 @@ In this lab, we will learn how to create a Conversational action.
 
 2.  Select **Copilot for Microsoft 365**.
 
-![](./media/image1.png
+    ![](./media/image1.png
 )
 
 3.  Select **Actions**.
 
-![](./media/image2.png
+    ![](./media/image2.png
 )
 
 4.  Select **+ Add an action**.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 5.  Select **Conversational** in the **New action** pane.
 
-![](./media/image4.png
+    ![](./media/image4.png
 )
 
 6.  Provide the name for the action as !!**Conversational action**!!.
     Select **Create**.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 7.  Once ready, the created action opens in Authoring canvas. Select
     **Topics**.
 
-![](./media/image7.png
+    ![](./media/image7.png
 )
 
 8.  Name the topic as !!Holidaylist!!
 
-![](./media/image8.png
+    ![](./media/image8.png
 )
 
 9.  In the Trigger node’s description, provide a clear description of
@@ -63,17 +63,17 @@ In this lab, we will learn how to create a Conversational action.
     do. Let this topic help the user to find the list of holidays in the
     year 2024.
 
-Type +++**This plugin helps to retrieve the list of holidays for the
+    Type +++**This plugin helps to retrieve the list of holidays for the
 year 2024.**+++ in the Trigger node’s description.
 
-![](./media/image9.png
+    ![](./media/image9.png
 )
 
-This description has functional purpose and is used by the Microsoft
+    This description has functional purpose and is used by the Microsoft
 Copilot to determine whether to invoke your plugin or not.
 
 10. Add a message node with the list of holidays.
-
+    ```
     - New Year's Day - January 1
 
     - Martin Luther King, Jr.'s Birthday (Third Monday of January) -
@@ -97,15 +97,16 @@ Copilot to determine whether to invoke your plugin or not.
     - Thanksgiving Day (fourth Thursday of November): November 28
 
     - Christmas Day - December 25
+    ```
 
-![](./media/image10.png)
+    ![](./media/image10.png)
 
 11. Click on **Save** to save the plugin.
 
-![](./media/image11.png
+    ![](./media/image11.png
 )
 
-![](./media/image12.png)
+    ![](./media/image12.png)
 
 ## **Exercise 2: Publishing your conversational action to Microsoft Copilot**
 
@@ -116,21 +117,21 @@ Copilot to determine whether to invoke your plugin or not.
 
 2.  Click on **Publish**.
 
-![](./media/image13.png
+    ![](./media/image13.png
 )
 
 3.  Select **Publish.**
 
-![](./media/image14.png)
+    ![](./media/image14.png)
 
 4.  Select **Publish** on **Publish latest content** dialog.
 
-![](./media/image15.png
+    ![](./media/image15.png
 )
 
 5.  The publish status is shown on the screen.
 
-![](./media/image16.png
+    ![](./media/image16.png
 )
 
 Note: The publish should complete quickly. The actual availability in
