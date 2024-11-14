@@ -24,7 +24,7 @@
     **Update available**, **select** the **check box** to agree to the
     terms and click on **Update**.
 
-Make sure to do this for **all** the entries with **Update available**
+    Make sure to do this for **all** the entries with **Update available**
 as the Status.
 
     ![](./media/image5.png)
