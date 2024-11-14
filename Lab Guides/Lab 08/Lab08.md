@@ -17,7 +17,7 @@ In this lab, we will learn how to add a connector action and publish it.
 ### **Task 1: Select the Copilot experience and choose connector action**
 
 1.  Login to the Copilot Studio at
-    +++https://copilotstudio.microsoft.com+++ using your tenant
+    !!https://copilotstudio.microsoft.com!! using your tenant
     credentials if not done already.
 
 2.  On the home page, select **Copilots** and select **Copilot for
