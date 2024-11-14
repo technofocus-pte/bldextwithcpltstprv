@@ -71,7 +71,7 @@ to search for and select !!**Power Virtual agent**!! and add it.
 
     ![](./media/image9.png)
 
->[!Alert] **Important:** This step may take around 10 minutes. If it is taking too
+    >[!Alert] **Important:** This step may take around 10 minutes. If it is taking too
 long, close it, select Copilot Studio or Power Virtual Agents from Apps
 in the left pane and redo step 4.
 
