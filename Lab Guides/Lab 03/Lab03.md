@@ -40,33 +40,33 @@ can create custom entities for your specific purpose.
 
 3.  Enter the below details
 
--	Name - +++Property Type+++
--	 Enter item under List items – 
-    -	+++Apartment+++ - Select Add
+-   Name - !!Property Type!!
+-    Enter item under List items – 
+    -   !!Apartment!! - Select Add
 
     ![](./media/image5.png)
 
-4.  Enter +++**Condominium**+++ in the **Enter item** field and
+4.  Enter !!**Condominium**!! in the **Enter item** field and
     select **Add**.
 
-5.  Enter +++**Duplex**+++ in the **Enter item** field and
+5.  Enter !!**Duplex**!! in the **Enter item** field and
     select **Add**.
 
-6.  Enter +++**House**+++ in the **Enter item** field and
+6.  Enter !!**House**!! in the **Enter item** field and
     select **Add**.
 
    ![](./media/image6.png)
 
-7.  Select **+ Synonyms** for **Apartment**, enter +++**Flat**+++, then
+7.  Select **+ Synonyms** for **Apartment**, enter !!**Flat**!!, then
     select the **+** icon and select **Done**.
 
     ![](./media/image7.png)
 
-8.  Select **+ Synonyms** for **House**, enter +++**Single-family
-    home**+++, then select the **+** icon and select **Done**.
+8.  Select **+ Synonyms** for **House**, enter !!**Single-family
+    home**!!, then select the **+** icon and select **Done**.
 
 9.  Select **+ Synonyms** for **Condominium**,
-    enter +++**Townhouse**+++, then select the **+** icon and
+    enter !!**Townhouse**!!, then select the **+** icon and
     select **Done**.
 
 10. Select **Save**.
@@ -89,9 +89,9 @@ can create custom entities for your specific purpose.
 
 3.  Enter the below details and click on **Save**.
 
-- Name  - +++**Number of Bedrooms**+++ 
+- Name  - !!**Number of Bedrooms**!! 
 
-- Pattern  - +++**\[1-5\]**+++ 
+- Pattern  - !!**\[1-5\]**!! 
 
     ![](./media/image12.png)
 
@@ -117,7 +117,7 @@ can create custom entities for your specific purpose.
 
 3.  Fill in the below details.
 
-- **Enter a message** - +++What type of property do you want to see?+++
+- **Enter a message** - !!What type of property do you want to see?!!
 
 - **Identify** – Select **Property Type**
 
@@ -127,7 +127,7 @@ can create custom entities for your specific purpose.
     ![](./media/image17.png)
 
 4.  Select the variable in **Save user response as** and enter
-    +++**PropertyType**+++ for **Variable name**
+    !!**PropertyType**!! for **Variable name**
 
     ![](./media/image18.png)
 
@@ -136,12 +136,12 @@ can create custom entities for your specific purpose.
 
 6.  Enter the below details and click on **Save**.
 
-    - **Enter a message** - +++How many bedrooms do you need?+++
+    - **Enter a message** - !!How many bedrooms do you need?!!
 
     - **Identify -** Select **Number of Bedrooms**
 
     - **Save user response as** -
-  Enter +++NumberofBedrooms+++ for **Variable name**
+  Enter !!NumberofBedrooms!! for **Variable name**
 
     ![](./media/image19.png)
 
@@ -164,7 +164,7 @@ Power Automate cloud flows
 3.  Sign in to Power Automate if prompted.
 
 4.  Select **Run a flow from Copilot** in the top-left of the screen and
-    enter +++**Get Property**+++ as the flow name.
+    enter !!**Get Property**!! as the flow name.
 
     ![](./media/image22.png)
 
@@ -179,9 +179,9 @@ Power Automate cloud flows
 
 7.  Enter the below details
 
-    - **Input** – +++Bedrooms+++
+    - **Input** – !!Bedrooms!!
 
-    - **Please enter your input** - +++Number of Bedrooms+++
+    - **Please enter your input** - !!Number of Bedrooms!!
 
     ![](./media/image25.png)
 
@@ -190,7 +190,7 @@ Power Automate cloud flows
 
     ![](./media/image26.png)
 
-9.  Enter +++**Dataverse**+++ in the **Search** field and select **See
+9.  Enter !!**Dataverse**!! in the **Search** field and select **See
     more** for the **Microsoft Dataverse connector**.
 
     ![](./media/image27.png)
@@ -208,7 +208,7 @@ Power Automate cloud flows
 
 13. Select **Show all**.
 
-14. Enter +++contoso_bedrooms eq+++ in the **Filter Rows** field.
+14. Enter !!contoso_bedrooms eq!! in the **Filter Rows** field.
 
 15. Use **Dynamic content** to select the **Bedrooms** parameter and
     select **Add**.
@@ -224,11 +224,11 @@ Power Automate cloud flows
 
 18. Enter the below details
 
-    - **Enter a name** - +++PropertyId+++
+    - **Enter a name** - !!PropertyId!!
 
     - **Enter a value to respond with** - select **Insert Expression** and
   enter the following expression:
-      +++first(outputs('List_rows')?['body/value'])['contoso_realestatepropertyid']+++
+      !!first(outputs('List_rows')?['body/value'])['contoso_realestatepropertyid']!!
 
     ![](./media/image32.png)
 
@@ -240,11 +240,11 @@ Power Automate cloud flows
 
 21. Select **Text**.
 
-    - **Enter a name** - +++PropertyName+++ 
+    - **Enter a name** - !!PropertyName!! 
 
     - **Enter a value to respond with** - select **Insert Expression** and
   enter the following expression:
-      +++first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]+++
+      !!first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]!!
 
     ![](./media/image34.png)
 
@@ -311,7 +311,7 @@ Power Automate cloud flows
 
 11. Fill in the below details
 
-    - **Enter a message** - enter +++Property+++
+    - **Enter a message** - enter !!Property!!
 
     - Select the **Insert variable** icon and select
   the **PropertyName** variable.
@@ -341,7 +341,7 @@ Power Automate cloud flows
     ![](./media/image52.png)
 
 3.  Select **Run a flow from Copilot** in the top-left of the screen and
-    enter +++ **Booking Request**+++ as the flow name.
+    enter !! **Booking Request**!! as the flow name.
 
     ![](./media/image53.png)
 
@@ -354,21 +354,21 @@ Power Automate cloud flows
 
 5.  Enter the below details
 
-    - Input - +++**PropertyId**+++
+    - Input - !!**PropertyId**!!
 
-    - Please enter your input **-** +++**Property**+++
+    - Please enter your input **-** !!**Property**!!
 
 6.  Select **+ Add an input -\> Text**
 
-    - Input - +++**ViewerName**+++
+    - Input - !!**ViewerName**!!
 
-    - Please enter your input **-** +++**Viewer Name**+++
+    - Please enter your input **-** !!**Viewer Name**!!
 
 7.  Select **+ Add an input -\>** **Text**.
 
-    - Input - +++**ViewerEmail**+++
+    - Input - !!**ViewerEmail**!!
 
-    - Please enter your input **-** +++**Viewer Email**+++
+    - Please enter your input **-** !!**Viewer Email**!!
 
     ![](./media/image56.png)
 
@@ -377,7 +377,7 @@ Power Automate cloud flows
 
     ![](./media/image57.png)
 
-9.  Enter +++**Dataverse**+++ in the **Search** field and select **See
+9.  Enter !!**Dataverse**!! in the **Search** field and select **See
     more** for the Dataverse connector.
 
     ![](./media/image58.png)
@@ -388,13 +388,13 @@ Power Automate cloud flows
 
 11. Select **Booking Requests** for table name.
 
-12. Enter +++**Copilot booking**+++ in the **Booking Name** field.
+12. Enter !!**Copilot booking**!! in the **Booking Name** field.
 
 13. Select **Show all**.
 
     ![](./media/image60.png)
 
-14. Enter +++contoso_bookingrequests()+++ in the **Property (Real Estate
+14. Enter !!contoso_bookingrequests()!! in the **Property (Real Estate
     Properties)** field, move the cursor within the brackets, and
     use **Dynamic content**.
 
@@ -511,7 +511,7 @@ parameter.
 
 3.  In response, enter a trigger phrase for the topic that you created:
 
-    +++I want to book a real estate showing+++
+    !!I want to book a real estate showing!!
 
 4.  The copilot responds with the "**What is your name?**" question.
 
@@ -527,7 +527,7 @@ parameter.
 
 7.  Select **House** for the type of property prompt.
 
-8.  Enter +++**2**+++ for the number of bedrooms prompts.
+8.  Enter !!**2**!! for the number of bedrooms prompts.
 
     ![](./media/image84.png)
 
@@ -545,7 +545,7 @@ parameter.
 ### Task 2: Verify booking request
 
 1.  Navigate to the Power Apps portal at
-    +++**https://make.powerapps.com**+++.
+    !!**https://make.powerapps.com**!!.
 
 2.  In the left navigation pane, select **Tables** and
     select **Custom**.
@@ -567,7 +567,7 @@ improve your copilot's responses.
 ### Task 1: Enable Generative AI
 
 1.  Login to the Copilot Studio using your tenant credentials at
-    +++<https://copilotstudio.microsoft.com>+++ if not logged in
+    !!<https://copilotstudio.microsoft.com>!! if not logged in
     already.
 
 2.  Select the Copilot **Real Estate Booking Service**.
@@ -614,12 +614,12 @@ respond**.
     ![](./media/image94.png)
 
 3.  Enter the public website
-    link +++https://create.microsoft.com/templates/real-estate+++.
+    link !!https://create.microsoft.com/templates/real-estate!!.
     Select **Add**.
 
     ![](./media/image95.png)
 
-4.  Give the name +++ Real Estate Website+++ in the Name field and then
+4.  Give the name !! Real Estate Website!! in the Name field and then
     select **Add**.
 
     ![](./media/image96.png)
@@ -789,3 +789,5 @@ In this lab, we have learnt to
 - Add knowledge to the copilot
 
 - Enable Generative AI
+
+
