@@ -1,105 +1,144 @@
-# **Lab 07 – Extending Microsoft Copilot with prompt actions (preview)**
+**Lab 07 - Creating conversational actions for Microsoft Copilot**
 
 **Lab duration** – 20 minutes
 
 **Objective**
 
-AI actions can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating Prompt actions.
+Microsoft Copilot provides out of the box experiences to engage with
+content and resources from across your organization. In some situations,
+answers and interaction with external systems are required. With
+Microsoft Copilot Studio, you can author a conversational topic that can
+be published as a Copilot Plugin. Once your Tenant Admin approves the
+Plugin, it can be added to your organization's M365 Chat experiences.
 
-The action will be available in the Microsoft Copilot in production, if
+The actions will be available in the Microsoft Copilot in production, if
 the organization has valid license for the same.
 
-## **Exercise 1: Navigate to the Add a prompt action wizard**
+In this lab, we will learn how to create a Conversational action.
 
-1.  Sign into Copilot Studio at
-    +++https://copilotstudio.microsoft.com+++ using your admin tenant
-    credentials.
+## **Exercise 1: Create a Conversational action**
 
-2.  Select **Library** on the side navigation pane.
+1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
+    tenant credentials if not already logged in.
+
+2.  Select **Copilot for Microsoft 365**.
 
     ![](./media/image1.png)
 
-4.  Select **+ Add an item**. You're prompted to select a Microsoft
-    Copilot to extend.
+3.  Select **Actions**.
 
     ![](./media/image2.png)
 
-5.  Select **Copilot for Microsoft 365**.
+4.  Select **+ Add an action**.
 
     ![](./media/image3.png)
 
-6.  A **New action** menu appears. Select **Prompt**.
+5.  Select **Conversational** in the **New action** pane.
 
     ![](./media/image4.png)
 
-7.  The **Add a prompt action** wizard opens.
-
-## **Exercise 2: Generate content or extract insights with AI Builder dynamic prompts**
-
-1.  Provide the below details and click on **Next**.
-
-    - Name - +++**Dynamic prompt**+++
-    
-    - Description - +++**Dynamic prompt to summarize text**+++
+6.  Provide the name for the action as **Conversational action**.
+    Select **Create**.
 
     ![](./media/image5.png)
 
-2.  Select **Summarize text**.
-
     ![](./media/image6.png)
 
-3.  It will add a prompt with a dynamic value **text**.
+7.  Once ready, the created action opens in Authoring canvas. Select
+    **Topics**.
 
     ![](./media/image7.png)
 
-4.  Click on the **Input** under Prompt Settings add the below content
-    in the **Sample data**.
-	
-    ```
-    Meet comfortably and confidently with customizable meeting views
-    The meeting stage, or gallery, is at the core of the virtual meeting experience and can either hinder or enhance meeting efficiency depending on your needs. We’re excited to share how we’re evolving the default gallery experience in Teams meetings to give you a simpler, more predictable meeting presence—while enabling more controls that let you personalize the view to suit your preferences.
-    First, let’s look at the new default gallery experience that will be applicable to all. The new gallery will place everyone in tiles of equal size (16:9 ratio) whether their video is turned on or off. Additionally, the new default gallery layout will be more consistent and predictable for all meetings, regardless of size and content shared.
-    And when a Teams Room joins the meeting, the video of the room automatically enlarges, bridging the gap between remote and in-room participants. Remote attendees enjoy a clearer view and better connection, easily spotting who is speaking. Want a custom view? Simply tweak the tile size to your preference from the more options (...) menu by hovering on the room name. It's seamless, inclusive, and ensures everyone can be seen, no matter where they are.
-    Next, let’s look at the controls that help you customize every meeting view to suit your needs.
-    
-    While the default gallery size for meetings will be 16 participants, you can customize the number of participants visible on your screen to best fit your preference. You can choose from 4, 9, 16, and 49 participants visible on the screen for gallery size.
-    
-    There are still a few default configurations that AI will optimize for to improve engagement and efficiency. For virtual participants, these are prioritizing those that have a raised hand and prioritizing the active speaker, enhancing their visibility so comments are not missed.
-    ```
+8.  Name the topic as Holidaylist
 
     ![](./media/image8.png)
 
-5.  Click on **Test prompt**.
+9.  In the Trigger node’s description, provide a clear description of
+    how the conversational plugin can help the user and what it can
+    do. Let this topic help the user to find the list of holidays in the
+    year 2024.
+
+Type +++**This plugin helps to retrieve the list of holidays for the
+year 2024.**+++ in the Trigger node’s description.
 
     ![](./media/image9.png)
 
-6.  Notice that the Prompt response, summarizing the text is generated.
+This description has functional purpose and is used by the Microsoft
+Copilot to determine whether to invoke your plugin or not.
 
-![](./media/image10.png)
+10. Add a message node with the list of holidays.
 
-7.  Click on **Save custom prompt**.
+    - New Year's Day - January 1
+
+    - Martin Luther King, Jr.'s Birthday (Third Monday of January) -
+      January 15, 2024
+
+    - Washington's Birthday or Presidents' Day (third Monday of
+      February) - February 19
+
+    - Memorial Day (last Monday of May) - May 27
+
+    - Juneteenth Day - June 19
+
+    - Independence Day - July 4
+
+    - Labor Day (first Monday of September) - September 2
+
+    - Columbus Day (Second Monday of October) - October 14
+
+    - Veterans Day or Veterans Day - November 11
+
+    - Thanksgiving Day (fourth Thursday of November): November 28
+
+    - Christmas Day - December 25
+
+    ![](./media/image10.png)
+
+11. Click on **Save** to save the plugin.
 
     ![](./media/image11.png)
 
-8.  Click on **Next**.
-
     ![](./media/image12.png)
 
-9.  Click on **Publish.**
+## **Exercise 2: Publishing your conversational action to Microsoft Copilot**
+
+1.  Publishing your conversational plugin creates a new plugin in the
+    Dataverse registry for your Tenant. Once available there, your
+    tenant admin needs to approve your plugin to be available to users
+    in the Microsoft Copilot plugins catalog.
+
+2.  Click on **Publish**.
 
     ![](./media/image13.png)
 
-10. Once published, click on **Go to details page** to view the details.
+3.  Select **Publish.**
 
     ![](./media/image14.png)
 
-Your prompt action is now published to **Copilot for Microsoft 365**. It
-will show up in copilot experiences only if you have a valid Copilot
-license.
+4.  Select **Publish** on **Publish latest content** dialog.
+
+    ![](./media/image15.png)
+
+5.  The publish status is shown on the screen.
+
+    ![](./media/image16.png)
+
+    >[!Note] Note: The publish should complete quickly. The actual availability in
+the Microsoft Admin Center can take up to 4 hours.
+
+>[!Alert] **Important:** **:** For the admin to get it listed in the admin center,
+the company will have to hold a valid Copilot license.
+
+6.  Your Admin can find the **Dataverse and Microsoft Copilot
+    Studio** integrated app in the Microsoft Admin Center
+    under **Settings**, then **Integrations to be reviewed and
+    approved**.
+
+7.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
+    Studio integrated app, it should appear in the user's list of
+    plugins in their Microsoft Copilot UI.
 
 **Summary:**
 
-In this lab, we have learnt to create and publish connector actions from
-the Copilot Studio.
+In this lab, we have learnt how to create a conversational action and to
+publish it.
