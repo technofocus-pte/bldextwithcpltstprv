@@ -5,7 +5,7 @@
 ### Task 1: Configure Omnichannel Power Virtual Agent Extension
 
 1.  Open the link,
-    +++<https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com>+++
+    !!https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com!!
     and click on Get it now in the Omnichannel Power Virtual Agent
     Extension page.
 
@@ -24,7 +24,7 @@
     **Update available**, **select** the **check box** to agree to the
     terms and click on **Update**.
 
-    Make sure to do this for **all** the entries with **Update available**
+Make sure to do this for **all** the entries with **Update available**
 as the Status.
 
     ![](./media/image5.png)
@@ -33,7 +33,7 @@ as the Status.
 
 ### Task 2: Configure search settings in the Power Platform admin center
 
-1.  Login to +++<https://admin.powerplatform.microsoft.com/>+++ using
+1.  Login to !!<https://admin.powerplatform.microsoft.com/>!! using
     your tenant details. Select **Environments** -\> **CustomerService
     Trial**.
 
@@ -226,10 +226,10 @@ complete the Exercises 7 and 8. Please omit them.
 
 9.  Specify the following in the user page.
 
-    | Setting	|	Value |
+    | Setting   |   Value |
     |:---------|:---------|
-    |	Capacity |	100|
-    |	Default Presence | available	|
+    |   Capacity |  100|
+    |   Default Presence | available    |
     ![](./media/image41.png)
 
 10. Select **Save and close**.
@@ -246,7 +246,7 @@ complete the Exercises 7 and 8. Please omit them.
 
 2.  Fill in the below details, scroll down and click on **Create**.
 
-    - Name - +++**New Workstream**+++
+    - Name - !!**New Workstream**!!
 
     - Owner – **MOD Administrator** (Selected by default)
 
@@ -266,14 +266,14 @@ complete the Exercises 7 and 8. Please omit them.
 4.  In the **Live chat setup – Channel details** screen, fill in the
     below details and click on **Next**.
 
-    - Name - +++**Chat Channel**+++
+    - Name - !!**Chat Channel**!!
 
     - Language – **United States**
 
     ![](./media/image47.png)
 
 5.  In the Live chat setup – Chat widget screen, provide the name as
-    +++**Store Locator Assistant**+++, accept the other defaults and
+    !!**Store Locator Assistant**!!, accept the other defaults and
     click on **Next**.
 
     ![](./media/image48.png)
@@ -328,7 +328,7 @@ complete the Exercises 7 and 8. Please omit them.
 
 ## Exercise 5: Create a webpage and test the escalation to agent
 
-1.  Login to +++https://make.powerpages.microsoft.com/+++ using your
+1.  Login to !!https://make.powerpages.microsoft.com/!! using your
     tenant admin credentials.
 
     ![](./media/image58.png)
@@ -352,8 +352,8 @@ complete the Exercises 7 and 8. Please omit them.
 
     ![](./media/image62.png)
 
-7.  In the Give your site a name textbox, enter the name as +++**Contoso
-    Store assistant**+++, accept the other defaults and click on
+7.  In the Give your site a name textbox, enter the name as !!**Contoso
+    Store assistant**!!, accept the other defaults and click on
     **Done**.
 
     ![](./media/image63.png)
@@ -404,7 +404,7 @@ complete the Exercises 7 and 8. Please omit them.
 
     ![](./media/image73.png)
 
-18. Enter +++Talk to agent+++.
+18. Enter !!Talk to agent!!.
 
     ![](./media/image74.png)
 
@@ -445,3 +445,5 @@ In this lab, we have learnt to
   page.
 
 - Configure and test the escalation to a live agent.
+
+
