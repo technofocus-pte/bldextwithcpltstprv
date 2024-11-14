@@ -1,744 +1,791 @@
-# Lab 03- Using a connection to Azure OpenAI on your data for generative answers
+## Lab 03 - Enhancing the Real Estate copilot with Gen AI capabilities
 
-**Lab duration** – 40 minutes
+**Lab duration** – 80 minutes
 
 **Objective:**
 
-In this lab, we will learn how to use the Azure Open AI connection in
-the copilot to generate answers.
+Implement entities, slot filling and variables usage in the Copilot for
+Real Estate app. Enhance the copilot created for the Real Estate app to
+elevate the customer experience by implementing Generative AI.
 
-## Exercise 0: Register the required Resource providers
+## Exercise 1: Use entities to improve the copilot
 
-1.  Login to +++<u><https://portal.azure.com/>+++</u>, using the Azure
-    account credentials from the Resources tab of the VM.
+Microsoft Copilot Studio uses entities to understand user intent. There
+are many prebuilt entities included for commonly used information. You
+can create custom entities for your specific purpose.
 
-2.  On **Welcome to Microsoft Azure** dialog box, click on **Maybe
-    later** button.
+### Task 1: View prebuilt entities
 
-    ![](./media/image1.png
-)
+1.  Open the Copilot Studio at !!https://copilotstudio.microsoft.com!!
+    and open the agent **Real Estate Booking Service.**
 
-3.  Type in +++**Subscriptions**+++ in the search bar and select
-    **Subscriptions**.
+2.  Select **Settings** in the top-right of the screen.
 
-    ![](./media/image2.png
-)
+    ![](./media/image1.png)
 
-4.  Click on your assigned **subscription**.
+3.  Select the **Entities** tab. You can see a list of pre-built
+    entities.
 
-    ![](./media/image3.png
-)
+    ![](./media/image2.png)
 
-5.  From the left menu, click on the **Resource Providers** under
-    Settings.
+### Task 2: Create the property type entity
 
-    ![](./media/image4.png
-)
+1.  Select **+ Add an entity** and select **+ New entity**.
 
-6.  In the search bar, type +++**Microsoft.Storage**+++, select
-    **Microsoft.Storage** from the list below. Click on the three dots
-    and select **Register**.
+    ![](./media/image3.png)
 
-    ![](./media/image5.png
-)
+2.  Select the **Closed list** tile.
 
-    ![](./media/image6.png
-)
+    ![](./media/image4.png)
 
-7.  A notification stating **Successfully registered resource provider**
-    is obtained once the registration is successful.
+3.  Enter the below details
 
-8.  Repeat steps 6 and 7 to register the following Resource providers.
+-	Name - +++Property Type+++
+-	 Enter item under List items – 
+    -	+++Apartment+++ - Select Add
 
-    - **Microsoft.Security**
+    ![](./media/image5.png)
 
-    - **Microsoft.Search**
+4.  Enter +++**Condominium**+++ in the **Enter item** field and
+    select **Add**.
 
-    - **Microsoft.CognitiveServices**
+5.  Enter +++**Duplex**+++ in the **Enter item** field and
+    select **Add**.
 
-    - **Microsoft.Sql**
+6.  Enter +++**House**+++ in the **Enter item** field and
+    select **Add**.
 
-    - **Microsoft.Web**
+   ![](./media/image6.png)
 
-    - **Microsoft.ManagedIdentity**
+7.  Select **+ Synonyms** for **Apartment**, enter +++**Flat**+++, then
+    select the **+** icon and select **Done**.
 
-## Exercise 1: Create Azure OpenAI resource
+    ![](./media/image7.png)
 
-1.  From the Azure portal home page, click on **Azure portal menu**
-    represented by three horizontal bars on the left side of the
-    Microsoft Azure command bar as shown in the below image.
+8.  Select **+ Synonyms** for **House**, enter +++**Single-family
+    home**+++, then select the **+** icon and select **Done**.
 
-    ![](./media/image7.png
-)
+9.  Select **+ Synonyms** for **Condominium**,
+    enter +++**Townhouse**+++, then select the **+** icon and
+    select **Done**.
 
-2.  Navigate and click on **+ Create a resource**.
+10. Select **Save**.
 
-    ![](./media/image8.png
-)
+    ![](./media/image8.png)
 
-3.  On **Create a resource** page, in the **Search services and
-    marketplace** search bar, type **Azure OpenAI**, then press the
-    **Enter** button.
+11. Select **Close**.
 
-    ![](./media/image9.png
-)
+    ![](./media/image9.png)
 
-4.  In the Marketplace page, navigate to the Azure OpenAI section, click
-    on the Create V chevron button, then click on **Azure OpenAI** as
-    shown in the image. (In case, you clicked on the Azure **OpenAI
-    section**, then click on the **Create** button on the **Azure OpenAI
-    page**).
+### Task 3: Create number of bedrooms entity
 
-    ![](./media/image10.png
-)
+1.  Select **+ Add an entity** and select **+ New entity**.
 
-5.  In the **Create Azure OpenAI** window, under the **Basics** tab,
-    enter the following details and click on the **Next** button.
+    ![](./media/image10.png)
 
-    1.  **Subscription**: Select the assigned subscription
+2.  Select the **Regular expression (Regex)** tile.
 
-    2.  **Resource group**: click on Create new\> enter **AOAI-RGXX**(XX
-        can be a unique number)
+    ![](./media/image11.png)
 
-    3.  **Region**: Select **East US**
+3.  Enter the below details and click on **Save**.
 
-    4.  **Name**: Azure-openai-testXX (XX can be a unique number) (here,
-        we entered **Azure-open-test29**)
+- Name  - +++**Number of Bedrooms**+++ 
 
-    5.  **Pricing tier**: Select **Standard S0**
+- Pattern  - +++**\[1-5\]**+++ 
 
-    ![](./media/image11.png
-)
+    ![](./media/image12.png)
 
-    ![](./media/image12.png
-)
+4.  Select **Close**.
 
-6.  In the **Network** tab, leave all the radio buttons in the default
-    state, and click on the **Next** button.
+    ![](./media/image13.png)
 
-    ![](./media/image13.png
-)
+5.  Close the **Settings** pane.
 
-7.  In the **Tags** tab, leave all the fields in the default state, and
-    click on the **Next** button.
+    ![](./media/image14.png)
 
-    ![](./media/image14.png
-)
+### Task 4: Use entities
 
-8.  In the **Review+submit** tab, once the Validation is Passed, click
-    on the **Create** button.
+1.  Select the **Topics** tab. Select the **Book a Real Estate
+    Showing** topic.
 
-    ![](./media/image15.png
-)
+    ![](./media/image15.png)
 
-9.  Wait for the deployment to complete. The deployment will take around
-    10-15 minutes.
+2.  Select the **+** icon above the property question node and
+    select **Ask a question**.
 
-    ![](./media/image16.png
-)
+    ![](./media/image16.png)
 
-10. On **Microsoft.CognitiveServicesOpenAI** window, after the
-    deployment is completed, click on the **Go to resource** button.
+3.  Fill in the below details.
 
-    ![](./media/image17.png
-)
+- **Enter a message** - +++What type of property do you want to see?+++
 
-## Exercise 2- Create an Azure Storage Account and Azure cognitive Search by using the portal
+- **Identify** – Select **Property Type**
 
-### **Task 1: Cognitive Services Usages Reader for the Azure OpenAI resource**
+- Select **Select options for user** and check the **Display** option
+  for all list values.
 
-1.  From the home page of Azure portal(+++https://portal.azure.com+++),
-    type in +++**Subscriptions**+++ in the search bar and select
-    **Subscriptions**.
+    ![](./media/image17.png)
 
-    ![](./media/image2.png
-)
+4.  Select the variable in **Save user response as** and enter
+    +++**PropertyType**+++ for **Variable name**
 
-2.  Click on your assigned **subscription**.
+    ![](./media/image18.png)
 
-    ![](./media/image3.png
-)
+5.  Select the **+** icon below the new question node and select **Ask a
+    question**.
 
-3.  From the left menu, click on the **Access control(IAM).**
+6.  Enter the below details and click on **Save**.
 
-    ![](./media/image18.png")
+    - **Enter a message** - +++How many bedrooms do you need?+++
 
-4.  On the Access control(IAM) page, Click +**Add** and select **Add
-    role assignments.**
+    - **Identify -** Select **Number of Bedrooms**
 
-    ![](./media/image19.png")
+    - **Save user response as** -
+  Enter +++NumberofBedrooms+++ for **Variable name**
 
-5.  Type the **Cognitive Services Usages Reader** in the search box and
-    select it. Click **Next**
+    ![](./media/image19.png)
+
+## Exercise 2: Create Copilot actions
+
+Microsoft Copilot Studio can access data in Microsoft Dataverse using
+Power Automate cloud flows
+
+### Task 1: Create Power Automate flow to retrieve a property
+
+1.  Select the **Actions** tab from the top menu. Select **+ Add an
+    action**.
 
     ![](./media/image20.png)
 
-6.  In the **Add role assignment** tab, select Assign access to User
-    group or service principal. Under Members, click **+Select members**
+2.  Scroll down and select **Create a new flow**.
 
     ![](./media/image21.png)
 
-7.  On the Select members tab , search your Azure OpenAI subscription
-    and click **Select.**
+3.  Sign in to Power Automate if prompted.
+
+4.  Select **Run a flow from Copilot** in the top-left of the screen and
+    enter +++**Get Property**+++ as the flow name.
 
     ![](./media/image22.png)
 
-8.  In the **Add role assignment** page, Click **Review + Assign**, you
-    will get a notification once the role assignment is complete.
+5.  Select the trigger step **Run a flow from Copilot** and select **+
+    Add an input**.
 
-    ![](./media/image23.png
-)
+    ![](./media/image23.png)
 
-    ![](./media/image24.png
-)
+6.  Select **Text**.
 
-9.  You will see a notification – added as Cognitive Services Usage
-    Reader for Azure Pass-Sponsorship.
+    ![](./media/image24.png)
 
-    ![](./media/image25.png
-)
+7.  Enter the below details
 
-10. In Azure subscription page from the left menu, click on the **Access
-    control(IAM).**
+    - **Input** – +++Bedrooms+++
 
-    ![](./media/image18.png")
+    - **Please enter your input** - +++Number of Bedrooms+++
 
+    ![](./media/image25.png)
 
-11. On the Access control(IAM) page, Click +**Add** and select **Add
-    role assignments.**
-
-    ![](./media/image19.png")
-
-12. Type the [**Cognitive Services
-    Contributor**](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control#cognitive-services-contributor)
-    in the search box and select it. Click **Next**.
+8.  Select the **+** icon between the two steps in the flow and
+    select **Add an action**.
 
     ![](./media/image26.png)
 
-13. In the **Add role assignment** tab, select Assign access to User
-    group or service principal. Under Members, click **+Select members**
+9.  Enter +++**Dataverse**+++ in the **Search** field and select **See
+    more** for the **Microsoft Dataverse connector**.
 
     ![](./media/image27.png)
 
-14. On the Select members tab , search your Azure OpenAI subscription
-    and click **Select.**
-
-    ![](./media/image22.png
-)
-
-15. In the **Add role assignment** page, Click **Review + Assign**, you
-    will get a notification once the role assignment is complete.
+10. Select the **List rows** action.
 
     ![](./media/image28.png)
 
+11. If prompted for authentication, select **OAuth** and select **Sign
+    in**. Sign in using your tenant id if prompted.
+
     ![](./media/image29.png)
 
-16. You will see a notification – added as Cognitive Services Usage
-    Reader for Azure Pass-Sponsorship.
+12. Select **Real Estate Properties** for table name.
 
-    ![](./media/image30.png")
+13. Select **Show all**.
 
-17. Click on **Home**, search for +++**Azure OpenAI**+++ in the search
-    bar and select **Azure OpenAI.**
+14. Enter +++contoso_bedrooms eq+++ in the **Filter Rows** field.
 
-    ![](./media/image31.png
-)
+15. Use **Dynamic content** to select the **Bedrooms** parameter and
+    select **Add**.
 
-18. Click on your **Azure OpenAI** service.
+    ![](./media/image30.png)
 
-    ![](./media/image32.png
-)
+16. Select the **Respond to Copilot** action and select **+ Add an
+    output**.
 
-19. From the left menu, click on the **Access control(IAM).**
+    ![](./media/image31.png)
 
-    ![](./media/image33.png
-)
+17. Select **Text**.
 
-21. Type the [**Cognitive Services
-    Contributor**](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control#cognitive-services-contributor)
-    in the search box and select it. Click **Next**.
+18. Enter the below details
 
-    ![](./media/image35.png
-)
+    - **Enter a name** - +++PropertyId+++
 
-22. In the **Add role assignment** tab, select Assign access to User
-    group or service principal. Under Members, click **+Select members**
+    - **Enter a value to respond with** - select **Insert Expression** and
+  enter the following expression:
+      +++first(outputs('List_rows')?['body/value'])['contoso_realestatepropertyid']+++
 
-    ![](./media/image27.png
-)
+    ![](./media/image32.png)
 
-23. On the Select members tab , search your Azure OpenAI subscription
-    and click **Select.**
+19. Select **Add**.
 
-    ![](./media/image22.png
-)
+    ![](./media/image33.png)
 
-24. In the **Add role assignment** page, Click **Review + Assign**, you
-    will get a notification once the role assignment is complete.
+20. Select **+ Add an output**.
 
-    ![](./media/image28.png
-)
+21. Select **Text**.
 
-    ![](./media/image29.png
-)
+    - **Enter a name** - +++PropertyName+++ 
 
-25. You will see a notification – added as Cognitive Services Usage
-    Reader for Azure Pass-Sponsorship.
+    - **Enter a value to respond with** - select **Insert Expression** and
+  enter the following expression:
+      +++first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]+++
 
-    ![](./media/image36.png
-)
+    ![](./media/image34.png)
 
-### **Task 2: Create an Azure Storage Account by using the portal**
+22. Select **Settings**. Ensure that **Asynchronous Response** is set
+    to **Off**.
 
-1.  Sign in to the +++**<https://portal.azure.com/>+++**
+    ![](./media/image35.png)
 
-2.  Click on the **Portal Menu**, then select **+ Create a resource**
+23. Select **Save draft**.
+
+    ![](./media/image36.png)
+
+24. Once save, select **Publish**.
 
     ![](./media/image37.png)
 
-3.  In the **Create a resource** window search box, type +++**Storage
-    account**+++ and then click on the **storage account**.
+25. Close the Power Automate tab.
+
+### Task 2: Add a Copilot action for retrieving a property
+
+1.  Back in the Copilot Studio page, select **Refresh**.
 
     ![](./media/image38.png)
 
-4.  In the **Marketplace** page, click on the **Storage account**
-    section.
+2.  Select the **Get Property** flow.
 
-    ![](./media/image39.png
-)
+    ![](./media/image39.png)
 
-5.  In the **Storage account** window, click on the **Create** button.
+3.  Select **Next** in the **Choose an action** screen.
 
-    ![](./media/image40.png
-)
+    ![](./media/image40.png)
 
-6.  On **Create a storage account** window, under the **Basics** tab,
-    enter the below details to create a storage account and then click
-    on **Review + create**
+4.  Select **Next** in the **Review inputs and outputs** screen.
 
-- 
+    ![](./media/image41.png)
 
-    | **Subscription** | Select your Azure OpenAI subscription |
-    |----|----|
-    | **Resource group** | Select AOAI-RGXX |
-    | **Storage account name** | **azureopenaistorageXX**(XX can be a unique number) (here, we entered **azureopenaistorage39**) |
-    | **Region** | **East US** |
-    | **Performance** | **Standard: **Recommended for most scenarios (general-purpose v2 account) |
-    | **Redundancy** | **Locally-redundant storage (LRS)** |
+5.  Select **Finish** in the **Review and finish** screen.
 
-    ![](./media/image41.png")
+    ![](./media/image42.png)
 
-7.  On the **Review** tab, click on the **Create** button.
-
-    ![](./media/image42.png")
-
-8.  This new Azure Storage account is now set up to host data for an
-    Azure Data Lake. Click on the **Go to resource** button.
+6.  Select the **Topics** tab. And select the **Book a Real Estate
+    Showing** topic.
 
     ![](./media/image43.png)
 
-9.  After the account has been deployed, you will find options related
-    to Azure Data Lake in the Overview page. In the left-side navigation
-    pane, navigate to **Data storage** section, then click on
-    **Containers**.
+7.  Select the **+** icon below the **How many bedrooms do you need
+    question?** node and select **Call an action**. Select the **Get
+    Property** flow.
 
-    ![](./media/image44.png")
+    ![](./media/image44.png)
 
-10. On **azureopenaistorageXX \| Containers** page, click on
-    **+Container.**
+8.  Select the **NumberofBedrooms** variable for the **Bedrooms** input
+    parameter.
 
     ![](./media/image45.png)
 
-11. On the New container pane that appear on the right side, enter the
-    container **Name** as +++ **source**+++ and click on **Create**
-    button.
+9.  Select the **three dots** in the **Which property do you want to
+    see?** question node and select **Delete**.
 
     ![](./media/image46.png)
 
-12. On **azureopenaistorageXX \| Containers** page, select **source**
-    container.
+10. Select the the **+** icon under the action node and select **Send a
+    message**.
+
+11. Fill in the below details
+
+    - **Enter a message** - enter +++Property+++
+
+    - Select the **Insert variable** icon and select
+  the **PropertyName** variable.
 
     ![](./media/image47.png)
 
-13. On **source** container page, click on **Upload** button.
+12. Select **Save**.
 
     ![](./media/image48.png)
 
-14. In the **Upload blob** pane, click on **Browse for file**, navigate
-    to **C:\Labfiles** location and select **TF-AzureOpenAI.pdf**, then
-    click on the **Open** button.
+13. Once saved, select **Publish** and select **Publish**.
 
     ![](./media/image49.png)
 
+14. Click on Publish in the Publish confirmation dialog.
+
     ![](./media/image50.png)
 
-15. In **Upload blob** pane, click on the **Upload** button.
+### Task 3: Create Power Automate flow to make a booking
+
+1.  Select the **Actions** tab and select **+ Add an action**.
 
     ![](./media/image51.png)
 
-16. You will see a notification – **Successfully uploaded blob** when
-    the uploaded is succeeded.
+2.  Scroll down and select **Create a new flow**.
 
-    ![](./media/image52.png")
+    ![](./media/image52.png)
+
+3.  Select **Run a flow from Copilot** in the top-left of the screen and
+    enter +++ **Booking Request**+++ as the flow name.
 
     ![](./media/image53.png)
 
-### **Task 3: Create an Azure Cognitive Search service in the portal**
-
-1.  From the **azureopenaistorageXX \| Containers** page, click on
-    **Home** to go back to Azure portal home page.
+4.  Select the trigger step **Run a flow from Copilot** and select **+
+    Add an input -\> Text**.
 
     ![](./media/image54.png)
 
-2.  In Azure portal home page, click on **+ Create Resource**.
+    ![](./media/image55.png)
 
-    ![](./media/image55.png")
+5.  Enter the below details
 
-3.  In the **Create a resource** page search bar, type **Azure AI
-    Search** and click on the appeared **azure ai search**.
+    - Input - +++**PropertyId**+++
+
+    - Please enter your input **-** +++**Property**+++
+
+6.  Select **+ Add an input -\> Text**
+
+    - Input - +++**ViewerName**+++
+
+    - Please enter your input **-** +++**Viewer Name**+++
+
+7.  Select **+ Add an input -\>** **Text**.
+
+    - Input - +++**ViewerEmail**+++
+
+    - Please enter your input **-** +++**Viewer Email**+++
 
     ![](./media/image56.png)
 
-4.  Click on **azure ai search** section.
+8.  Select the **+** icon between the two steps in the flow and
+    select **Add an action**.
 
-    ![](./media/image57.png")
+    ![](./media/image57.png)
 
-5.  In the **Azure AI Search** page, click on the **Create** button.
+9.  Enter +++**Dataverse**+++ in the **Search** field and select **See
+    more** for the Dataverse connector.
 
     ![](./media/image58.png)
 
-6.  On the **Create a search service** page, provide the following
-    information and click on **Review+create** button.
+10. Select the **Add a new row** action.
 
-    | **Field**          | **Description**                                |
-    |--------------------|------------------------------------------------|
-    | **Subscription**   | Select your Azure OpenAI subscription          |
-    | **Resource group** | Select your Resource group                     |
-    | **Region**         | EastUS                                         |
-    | **Name**           | **mysearchserviceXX** (XXcan be unique number) |
-    | **Pricing Tier**   | Click on change Price Tire\>select **Basic**   |
+    ![](./media/image59.png)
 
-    ![](./media/image59.png")
+11. Select **Booking Requests** for table name.
+
+12. Enter +++**Copilot booking**+++ in the **Booking Name** field.
+
+13. Select **Show all**.
 
     ![](./media/image60.png)
 
-    ![](./media/image61.png")
+14. Enter +++contoso_bookingrequests()+++ in the **Property (Real Estate
+    Properties)** field, move the cursor within the brackets, and
+    use **Dynamic content**.
 
-7.  Once the Validation is passed, click on the **Create** button.
+    ![](./media/image61.png)
 
-    ![](./media/image62.png")
+15. Select the **PropertyId** parameter.
+
+    ![](./media/image62.png)
+
+16. Use **Dynamic content** to select the **ViewerName** parameter for
+    the **Viewer Name** field.
 
     ![](./media/image63.png)
 
-8.  After the deployment is completed, click on the **Go to resource**
-    button.
+17. Use **Dynamic content** to select the **ViewerEmail** parameter for
+    the **Viewer Email** field.
 
-    ![](./media/image64.png")
+    ![](./media/image64.png)
 
-9.  In the **mysearchserviceXX** Overview page. In the left-side
-    navigation pane, under **Settings** section, select **Semantic
-    ranker**.
+18. The parameters will now look similar to those in the screenshot
+    below.
 
     ![](./media/image65.png)
 
-10. On the **Semantic ranker** tab**,** select **Free** tile and click
-    on the **Select plan.**
+19. Select the **Respond to Copilot** action. Select **Settings** and
+    ensure that **Asynchronous Response** is set to **Off**.
 
-    ![](./media/image66.png")
+    ![](./media/image66.png)
 
-11. You will see a notification -**Successfully updated semantic ranker
-    to free plan**
+20. Select **Save draft**.
 
-    ![](./media/image67.png />
+    ![](./media/image67.png)
 
-## Exercise-3: Add your data using Azure OpenAI Studio
+21. Once saved, select **Publish**.
 
-### **Task 1: Deploy gpt-3-turbo and embedded models in Azure AI Studio**
+    ![](./media/image68.png)
 
-1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL:
-    +++https://oai.azure.com/+++ then
-    press the **Enter** button. Login using your **Azure** credentials.
+22. Close the Power Automate tab.
 
-    ![](./media/image68.png
-)
+### Task 4: Add a Copilot action for creating a booking request
 
-> **Note**: If you are directed to the **Azure OpenAI Studio** home
-> page, then skip steps from \#2 to \#4, else continue.
+1.  Back in the Copilot Studio page, select **Refresh**.
 
-2.  In the **Microsoft Azure** window, enter your **Sign-in**
-    credentials, and click on the **Next** button.
+    ![](./media/image69.png)
 
-    ![](./media/image69.png
-)
-
-3.  Then, enter the password and click on the **Sign in** button**.**
+2.  Select the **Booking Request** flow.
 
     ![](./media/image70.png)
 
-4.  In **Stay signed in?** window, click on the **Yes** button.
+3.  Select **Next** in the Choose an option screen.
 
     ![](./media/image71.png)
 
-5.  On the **Welcome to Azure OpenAI Studio** dialog box, under the
-    **Subscription** field, enter the subscription assigned to you, and
-    in the **Resource** field, select the existing AOAI Resource name,
-    and then click on the **Use resource** button.
+4.  Select **Next** in the Review inputs and outputs .
 
-    ![](./media/image72.png
-)
+    ![](./media/image72.png)
 
-6.  Within few minutes **Azure OpenAI Studio** page will appear.
+5.  Select **Finish** in the **Review and finish** screen.
 
-    ![](./media/image73.png
-)
+    ![](./media/image73.png)
 
-7.  On the **Azure OpenAI Studio** homepage, click on **Create new
-    deployment** button.
+6.  Select the **Topics** tab and select the **Book a Real Estate
+    Showing** topic.
 
-    ![](./media/image74.png
-)
+    ![](./media/image74.png)
 
-8.  In the **Deployments** page, click on +**Create new deployment**.
+7.  Select the **+** icon below the **What date and time do you want to
+    see the property?** node and select **Call an action**.
 
-    ![](./media/image75.png
-)
+8.  Select the **Booking Request** flow.
 
-9.  Enter the below details and click on the **Create** button. 
+    ![](./media/image75.png)
 
-    -	Model – Select **gpt-35-turbo**
-    
-    -	Deployment type – **Standard**
-    
-    -	Deployment name - +++**gpt-35-turbo**+++
+9.  Select the **PropertyId** variable for the **PropertyId** input
+    parameter.
 
-    ![](./media/image76.png) 
+    Select the **Name** variable for the **ViewerName** input parameter.
 
-You will see a notification – **Successfully Created deployment** when the deployment is succeeded. (You can also view the notification by clicking on the bell icon beside **Azure AI \| Azure AI Studio)**.
+    Select the **EmailAddress** variable for the **ViewerEmail** input
+parameter.
 
-    ![](./media/image77.png
-)
+    ![](./media/image76.png)
 
-## Exercise 4: Create a Copilot app with custom data
+10. Select the **+** icon below the action node. Select **Topic
+    management**, then select **Go to another topic** and select **End
+    of conversation**.
 
-### **Task 1: Create a chatbot with custom data**
+    ![](./media/image77.png)
 
-1.  Select **Chat** to open the Chat playground.
+11. Select **Save**.
 
-    ![](./media/image78.png
-)
+    ![](./media/image78.png)
 
-2.  In **Chat playground pane** , under the Assistant setup select **Add
-    your data** and then select the **+Add data source** .
+12. Once saved, select **Publish** and select **Publish** again in the
+    confirmation dialog.
 
     ![](./media/image79.png)
 
-3.  In the **Add data** page, under **Select or add data source** enter
-    the following details and select **Next.**
+    ![](./media/image80.png)
 
-    | **Select data source** | **Select Azure Blob Storage(preview)** |
-    |----|----|
-    | **Subscription** | Select your Azure OpenAI subscription |
-    | **Select Azure Blob storage resource** | Select **azureopenaistorageXX** |
-    | **Select storage container** | Select **source** |
-    | **Select Azure AI Search resource** | Select **mysearchserviceXX** |
-    | **Enter the index name** | **copilot-index** |
-    | **Indexer schedule** | Once |
+## Exercise 3: Test the copilot 
 
-    ![](./media/image80.png")
+### Task 1: Test the copilot and make a booking request
 
-***Note**: In case, you encounter an error – **Can‘t manage CORS on this
-resource. Please select another storage resource**, then syn your VM
-time, as mentioned in Lab \#1, Task \#1.*
-
-4.  In the **Add data** page, on the **Data management** tab select
-    **Keyword** under **Search type,** select the chunk size as
-    **1024(default).**Then, click on **Next.**
+1.  Select the **Test** button in the top-right of the screen to open
+    the testing panel. Select the **three dots** at the top of the
+    testing panel in the top-right of the screen. Select **Track between
+    topics**.
 
     ![](./media/image81.png)
 
-5.  In **Review and Finish** pane, review the details that you’ve
-    entered, and click on **Save and close** button**.**
+2.  When the **Conversation Start** message appears, your agent starts a
+    conversation.
 
-    ![](./media/image82.png")
+3.  In response, enter a trigger phrase for the topic that you created:
 
-6.  The data will be added in your Chat Playground. This will take
-    approximately 4-5 minutes.
+    +++I want to book a real estate showing+++
 
-    ![](./media/image83.png
-)
+4.  The copilot responds with the "**What is your name?**" question.
 
-    ![](./media/image84.png")
+5.  Enter your name.
 
-7.  In Azure AI Studio **Chat playground**, click on the V chevron
-    button beside **Deploy to**, then navigate and click on **A new
-    copilot in Copilot Studio(preview)**
+    ![](./media/image82.png)
 
-***Note:** In case, you did not see **Deploy to** button on your VM,
-then use Ctrl+- or Ctrl+minus keyboard shortcut to zoom out and decrease
-the font size.*
+6.  Then enter your email when it prompts for the email. After you enter
+    the details, a question asking if the information is correct, and
+    options to select **Yes** or **No** is prompted. Select **Yes**.
 
-    ![](./media/image85.png")
+    ![](./media/image83.png)
 
-8.  **Deploy to a copilot in Copilot Studio(preview)** dialog box
-    appears, then click on the **Continue in Copilot Studio** button.
+7.  Select **House** for the type of property prompt.
+
+8.  Enter +++**2**+++ for the number of bedrooms prompts.
+
+    ![](./media/image84.png)
+
+9.  Enter !!Tomorrow 2:00 PM!! to the **What date and time do you want
+    to see the property?** prompt.
+
+10. Select **Yes** to the **Did that answer your question?** prompt.
+
+11. Select any rating.
+
+12. Select **No** to the **Can I help with anything else?** prompt.
+
+    ![](./media/image85.png)
+
+### Task 2: Verify booking request
+
+1.  Navigate to the Power Apps portal at
+    +++**https://make.powerapps.com**+++.
+
+2.  In the left navigation pane, select **Tables** and
+    select **Custom**.
+
+3.  Select the **Booking Request** table.
 
     ![](./media/image86.png)
 
-9.  you are prompted to **Choose your country/region**, then click on
-    the dropdown and select your region, then click on **Start free
-    trail** button.
+4.  Under **Booking Request columns and data** you should see that a
+    Copilot booking request is now created.
 
     ![](./media/image87.png)
 
-    ![](./media/image88.png")
+## Exercise 4: Set up Generative AI
 
-10. In the **Create a copilot pane,** enter **Copilot name** as
-    **TF-Copilot** and click on **Create** button.
+In this exercise, you learn how to use the Generative answers feature to
+improve your copilot's responses.
 
-    ![](./media/image89.png")
+### Task 1: Enable Generative AI
 
-11. Wait for the deployment to complete. The deployment will take around
-    **15-16** minutes.
+1.  Login to the Copilot Studio using your tenant credentials at
+    +++<https://copilotstudio.microsoft.com>+++ if not logged in
+    already.
 
-    ![](./media/image90.png
-)
+2.  Select the Copilot **Real Estate Booking Service**.
 
-12. In the **New features in Copilot Studio** dialog box, click on the
-    **Skip** button.
+    ![](./media/image88.png)
+
+3.  Select **Settings** in the top-right of the screen.
+
+    ![](./media/image89.png)
+
+4.  Select the **Generative AI** tab.
+
+    Select **Generative** under **How should your copilot decide how to
+respond**.
+
+    Select **Medium** for **Copilot content moderation**.
+
+    Select **Save**.
+
+    ![](./media/image90.png)
+
+5.  **Close** the Settings pane.
 
     ![](./media/image91.png)
 
-    ![](./media/image92.png")
+### Task 2: Enable knowledge
 
-13. In the Copilot Studio, select **Topics** under the **Overview .**
+1.  Select your copilot in the Copilot pane on the left-hand side of the
+    screen to return to the **Overview** tab.
+
+2.  Verify that general knowledge is enabled in the Knowledge section.
+
+    ![](./media/image92.png)
+
+### Task 3: Add knowledge from a website
+
+1.  Select **+ Add knowledge** under the **Knowledge** section in the
+    Overview page of the copilot.
 
     ![](./media/image93.png)
 
-15. Select **Edit** under the **Data sources.**
+2.  Select the **Public websites** tile.
 
-    ![](./media/image95.png")
+    ![](./media/image94.png)
 
-16. In the **Create generative answers properties** pane, under Azure
-    OpenAI Services on your data select **Connection properties** .
+3.  Enter the public website
+    link +++https://create.microsoft.com/templates/real-estate+++.
+    Select **Add**.
 
-    ![](./media/image96.png")
+    ![](./media/image95.png)
 
-17. Under the **Data sources**, in the **Connect data** field enter
-    +++**content+++** and click on the **plus(+)** symbol.
+4.  Give the name +++ Real Estate Website+++ in the Name field and then
+    select **Add**.
+
+    ![](./media/image96.png)
+
+### Task 4: Add knowledge from Dataverse
+
+1.  Select the **Knowledge** tab. Select **+ Add knowledge**.
 
     ![](./media/image97.png)
 
-18. In your **Copilot Studio \| TF-Copilot** window, navigate to the
-    **Test copilot** pane enter the following text and click on the
-    **Submit icon** as shown in the below image.
-
-**TextCopy**
-
-**<span class="mark">How do I get access to Azure OpenAI?</span>**
+2.  Select **Dataverse**.
 
     ![](./media/image98.png)
 
-19. Similarly, paste the following text in the text box and click on the
-    **Send** icon.
+3.  Select the **Real Estate Property** table and select **Next**.
 
+    ![](./media/image99.png)
 
-    +++**What is the expiry date of GPT-35-Turbo version 0301 and GPT-4 version 0314?**+++
+4.  Preview the data in the next screen and then select **Next**.
 
-    ![](./media/image99.png")
+    ![](./media/image100.png)
 
-    ![](./media/image100.png")
+5.  Review the details and click on **Add** in the Review and finish
+    screen.
 
-### **Task 2: Delete the deployed models**
+    ![](./media/image101.png)
 
-1.  In Azure OpenAI Studio, on the left pane, under the **Management**
-    section, click on **Deployments**.
+### Task 5: Add knowledge from files
 
-    ![](./media/image101.png
-)
+1.  From the **Knowledge** tab, select **+ Add knowledge**.
 
-2.  Select **gpt-35-turbo0301** deployment name and click on **Delete
-    deployment**.
+    ![](./media/image102.png)
 
-    ![](./media/image102.png")
+2.  Select **Files**.
 
-3.  In the **Confirm delete** dialog box, click on the **Delete**
-    button. You will see the notification – **Successfully Deleted
-    deployment** (In case, you did not see the notification, then click
-    on the bell icon beside **Azure AI \| Azure AI Studio**).
+    ![](./media/image103.png)
 
-    ![](./media/image103.png
-)
+3.  Select Click to browse and browse to locate the file
+    **SummitRealtyCaseStudy.docx** at **C:\LabFiles** and select it.
 
-    ![](./media/image104.png")
+    ![](./media/image104.png)
 
-4.  In Azure OpenAI Studio, on the left pane, under the **Management**
-    section, click on **Deployments**.
+4.  Select **Add**.
 
-    ![](./media/image101.png")
+    ![](./media/image105.png)
 
-5.  Select **text-embedding-ada-002** deployment name and click on
-    **Delete deployment**.
+### Task 6: Use generative answers in System fallback topic
 
-    ![](./media/image105.png")
+1.  Select the **Topics** tab and select **System**. Select
+    the **Fallback** topic.
 
-6.  In the **Confirm delete** dialog box, click on the **Delete**
-    button. You will see the notification – **Successfully Deleted
-    deployment** (In case, you did not see the notification, then click
-    on the bell icon beside **Cognitive Services \| Azure OpenAI
-    Studio**).
+    ![](./media/image106.png)
 
-    ![](./media/image106.png")
-
-### **Task 3: Delete the Azure storage account, Azure cognitive search and Azure Web app**
-
-1.  To delete the storage account, navigate to Azure portal home page,
-    type **Resource groups** in the Azure portal search bar, navigate
-    and click on **Resource groups** under **Services**.
+2.  Select the **three dots** in the message node and select **Delete**.
 
     ![](./media/image107.png)
 
-2.  Click on the assigned resource group.
+3.  Select the **+** icon under the Condition node, select **Advanced**,
+    and select **Generative answers**.
 
-    ![](./media/image108.png")
+    ![](./media/image108.png)
 
-3.  Carefully select storage account, Azure Cognitive Search, Azure web
-    app, CosmosDB that you’ve created.
+4.  Select the **Input** field, select **System** in the **Select a
+    variable** pane. Select **Activity.Text** from it.
 
-**Note**: Don’t select Azure OpenAI service.
+    ![](./media/image109.png)
 
-    ![](./media/image109.png")
-
-4.  In the Resource group page, navigate to
-    <span class="mark">the</span> command bar and click on **Delete**.
-
-    **Important Note**: Don’t click on **Delete resource group**. If you
-    don’t see the **Delete** option in the command bar, then click on the
-    horizontal ellipsis.
+5.  Select **Edit** under **Data sources**.
 
     ![](./media/image110.png)
 
-5.  In the **Delete Resources** pane that appears on the right side,
-    enter the **delete** and click on **Delete** button.
+6.  Select **Search only selected sources**.
 
-    ![](./media/image111.png")
+    ![](./media/image111.png)
 
-6.  On **Delete confirmation** dialog box, click on D**elete** button.
+7.  Select the **SummitRealtyCaseStudy** document. Deselect **Allow the
+    AI to use its own general knowledge**.
+    Select **Medium** for **Content moderation**.
 
-    ![](./media/image112.png")
+    ![](./media/image112.png)
 
-7.  Click on the bell icon, you’ll see the notification – **Executed
-    delete command on 4 selected items.**
+8.  Select **Save**.
 
-    ![](./media/image113.png")
+    ![](./media/image113.png)
 
-> **Summary**
->
-> You've created a storage account, container, and Azure cognitive
-> service in Azure portal, then you've deployed gpt-3-turbo model in
-> Azure AI Studio. You’ve added data in Chat Playground and tested the
-> Assistant setup by sending queries in a chat session. Then, you've
-> launched a new app and started conversation with the chatbot. You've
-> deleted the gpt-3-turbo model, Azure storage account, cognitive search
-> service, and the new web app to effectively and efficiently manage the
-> Azure OpenAI resources.
+### Task 7: Configure Security
+
+1.  Select your copilot in the Copilot pane on the left-hand side of the
+    screen to return to the **Overview** tab.
+
+2.  From the copilot page top menu, click on **Channels** (If the
+    Channels is not visible, click on the +1 to view the **Channels**
+    option)
+
+    ![](./media/image114.png)
+
+3.  Select **Dynamics 365 Customer Service** from the Customer
+    engagement hub pane.
+
+    ![](./media/image115.png)
+
+4.  On the Dynamics 365 Customer Service page, click on **Disconnect**.
+
+    ![](./media/image116.png)
+
+5.  Once done, **close** the Dynamics 365 Customer Service pane.
+
+    ![](./media/image117.png)
+
+6.  Select **Settings** in the top-right of the screen.
+
+    ![](./media/image118.png)
+
+7.  Select the **Security** tab and then select
+    the **Authentication** tile.
+
+    ![](./media/image119.png)
+
+8.  Select Authenticate with Microsoft **(Entra ID authentication in
+    Teams and Power App)**.
+
+9.  Select **Save**.
+
+    ![](./media/image120.png)
+
+10. Select **Save**.
+
+    ![](./media/image121.png)
+
+11. Select **Close**.
+
+    ![](./media/image122.png)
+
+12. Select your copilot in the Copilot pane on the left-hand side of the
+    screen to return to the **Overview** tab.
+
+13. Select **Publish** and select **Publish**.
+
+    ![](./media/image123.png)
+
+### Task 8: Test the copilot's knowledge
+
+1.  Select the **Test** button in the top-right of the screen to open
+    the testing panel.
+
+    ![](./media/image124.png)
+
+2.  Select the **three dots** at the top of the testing panel in the
+    top-right of the screen.
+
+3.  Select **Track between topics**.
+
+4.  Select the **Start a new conversation** icon at the top of the
+    testing panel.
+
+5.  Explore the copilot and see how it uses the different knowledge
+    sources.
+
+**Summary:**
+
+In this lab, we have learnt to
+
+- Use entities and slot filling
+
+- Implement Flow actions
+
+- Add knowledge to the copilot
+
+- Enable Generative AI
