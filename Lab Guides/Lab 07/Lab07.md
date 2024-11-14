@@ -58,7 +58,7 @@ In this lab, we will learn how to create a Conversational action.
     do. Let this topic help the user to find the list of holidays in the
     year 2024.
 
-Type +++**This plugin helps to retrieve the list of holidays for the
+    Type +++**This plugin helps to retrieve the list of holidays for the
 year 2024.**+++ in the Trigger node’s description.
 
     ![](./media/image9.png)
