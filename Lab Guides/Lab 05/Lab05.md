@@ -54,7 +54,7 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image4.png)
 
->[!Alert]**Important:** If you are not able to find Copilot Studio, you will have
+    >[!Alert]**Important:** If you are not able to find Copilot Studio, you will have
 to search for and select !!**Power Virtual agent**!! and add it.
 
     ![](./media/image6.png)
