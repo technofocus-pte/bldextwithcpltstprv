@@ -21,7 +21,7 @@ generated](./media/image1.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image2.png)
 
-3.  Name the team as +++**HR Team**+++, channel as +++**HR Experts**+++
+3.  Name the team as !!**HR Team**!!, channel as !!**HR Experts**!!
     and select **Create**.
 
 ![A screenshot of a computer Description automatically
@@ -64,13 +64,13 @@ generated](./media/image5.png)
 > generated](./media/image9.png)
 
 4.  Under the Condition node of Extended leave, add a question node
-    asking for a description for the issue and add the text +++**How
-    would you describe the issue?***+++*
+    asking for a description for the issue and add the text !!**How
+    would you describe the issue?***!!*
 
 > ![](./media/image10.png)
 
 5.  Select **User’s entire response** under Identity and save the
-    description in a variable named +++**Description**+++.
+    description in a variable named !!**Description**!!.
 
 > ![A screenshot of a computer screen Description automatically
 > generated](./media/image11.png)
@@ -127,7 +127,7 @@ generated](./media/image16.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image20.png)
 
-14. Rename the flow as +++**Send a message to HR team**+++ and click on
+14. Rename the flow as !!**Send a message to HR team**!! and click on
     **Save**.
 
 > ![A screenshot of a computer Description automatically
@@ -150,8 +150,8 @@ generated](./media/image23.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image24.png)
 
-18. Add in a message node with the message, +++**We notified the expert.
-    They’ll reach out shortly**+++.
+18. Add in a message node with the message, !!**We notified the expert.
+    They’ll reach out shortly**!!.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image25.png)
@@ -178,14 +178,14 @@ generated](./media/image28.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image29.png)
 
-2.  Send a message +++**I need help with time off**+++ and select
+2.  Send a message !!**I need help with time off**!! and select
     Extended leave to answer the chatbot.
 
 ![A screenshot of a chat Description automatically
 generated](./media/image30.png)
 
 3.  Describe a reason for your leave extension. Here, we have given it
-    as +++**I need extended leave of one month for travelling**+++.
+    as !!**I need extended leave of one month for travelling**!!.
 
 ![A screenshot of a chat Description automatically
 generated](./media/image31.png)
