@@ -1,219 +1,226 @@
-# **Lab 06 - Sending messages from a Copilot(classic) to a Teams channel**
+# **Lab 06_Creating and deploying a Microsoft Copilot Studio copilot from Teams**
 
 **Lab duration** – 30 minutes
 
 **Objective:**
 
-In this lab, we will send message from a Copilot to a Teams channel by
-invoking a flow.
+In this lab, you will Install the Copilot Studio app in Microsoft Teams,
+create a new copilot in a team and test it.
 
-## **Exercise 1: Add channel and Team in Microsoft Teams**
+## **Exercise 1: Install the Copilot Studio app in Microsoft Teams**
 
-1.  Open **Microsoft Teams** from the VM and login using your tenant
-    credentials if you have closed it already. Select **Teams** option.
+1.  Open the link
+    !!https://www.microsoft.com/en-in/microsoft-teams/download-app!!
+    From a browser. Click on **Download the new Teams app** -\>
+    **Download for Windows (64-bit)**
 
     ![](./media/image1.png)
 
-2.  From the Teams, select **More options** and select **+ -\>**
-    **Create team**.
+2.  **Double click** on the **downloaded file** to install the Teams for
+    School app.
+
+3.  Follow the prompts to install.
+
+4.  Once installed, **Sign in** using your **office 365 tenant
+    credentials**.
 
     ![](./media/image2.png)
 
-3.  Name the team as !!**HR Team**!!, channel as !!**HR Experts**!!
-    and select **Create**.
+5.  Click on **Apps**. Search for !!**Copilot Studio**!! and select
+    **Microsoft Copilot Studio** and click on **Add**.
+
+    **Note:** If you are not able to find Copilot Studio, you will have to
+search for and select **Power Virtual agent** and add it.
 
     ![](./media/image3.png)
 
-4.  Select **Skip** on ‘Add members to HR Team’ window.
-
     ![](./media/image4.png)
 
-5.  Select **Skip** on ‘Add members to the HR Experts channel’ window.
+6.  Click on **Start now**.
 
     ![](./media/image5.png)
 
-## **Exercise 2: Enhance topic to handle complex queries by escalating to HR experts**
+## **Exercise 2: Create a new copilot in a team**
 
-1.  From the Teams app, select the Copilot Studio app(Power Virtual
-    Agents), select **Copilots** tab and open the **HR Support
-    Copilot**.
+1.  **Sign in** to **Teams** using your **office 365 tenant
+    credentials**.
+
+    ![](./media/image2.png)
+
+2.  Click on **Apps**. Search for !!**Copilot Studio**!! and select
+    **Microsoft Copilot Studio** and click on **Add**.
+
+    ![](./media/image3.png)
+
+    ![](./media/image4.png)
+
+>[!Alert]**Important:** If you are not able to find Copilot Studio, you will have
+to search for and select !!**Power Virtual agent**!! and add it.
 
     ![](./media/image6.png)
 
-    >[!Note] **Note:** If Copilot Studio shortcut is not found, search for **Copilot Studio/Power Virtual Agents under Apps** and select **Open**)
-
     ![](./media/image7.png)
 
-2.  Select **Topics** from left pane and return to the topic you created
-    earlier(**Employee time off**) and go to the authoring canvas.
+3.  Click on **Start now**.
+
+    ![](./media/image5.png)
+
+4.  Select **Contoso** and click on **Continue**.
 
     ![](./media/image8.png)
 
-3.  In the **Ask a question node**, add an option named **Extended
-    leave**.
-
     ![](./media/image9.png)
 
-4.  Under the Condition node of Extended leave, add a question node
-    asking for a description for the issue and add the text !!**How
-    would you describe the issue?***!!*
+>[!Alert] **Important:** This step may take around 10 minutes. If it is taking too
+long, close it, select Copilot Studio or Power Virtual Agents from Apps
+in the left pane and redo step 4.
+
+5.  In the Create a copilot pane, provide the name of the Copilot as
+    !!**HR Support Copilot**!! and click on **Create**.
 
     ![](./media/image10.png)
 
-5.  Select **User’s entire response** under Identity and save the
-    description in a variable named !!**Description**!!.
+6.  A success message stating, **Your chatbot is provisioned** is
+    obtained.
 
     ![](./media/image11.png)
 
-6.  Select **Save**.
+## **Exercise 3: Build an employee time-off topic for common time-off queries**
+
+1.  Click on **Topics** from the left pane. Click on **+ New topic -\>
+    From blank.**
 
     ![](./media/image12.png)
 
-7.  Add a node under the question and select **Call an action**. Select
-    **Create a flow** which launches the Power Automate within the
-    Copilot Studio in Teams.
+2.  **Close** the Trigger phrases pane for now.
 
     ![](./media/image13.png)
 
-8.  Choose the **Power Virtual Agents Flow** Template option.
+3.  Click on the **Details** icon.
 
     ![](./media/image14.png)
 
+4.  In the Details pane, provide the name as !!**Employee time off**!!
+    and Description as !!**Employee time off topic for common time-off
+    queries**!!.
+
     ![](./media/image15.png)
 
-9.  Add a **Text** input field by clicking on **+ Add an input** in the
-    first step. Replace the Input by **Description**.
+5.  **Close** the Details pane.
 
     ![](./media/image16.png)
 
-10. Insert a **new step** and select **Add an action**.
+6.  Click on **Save**.
 
     ![](./media/image17.png)
 
-11. Select **Microsoft Teams** under **Choose an operation**.
+7.  Click on the **Trigger phases.**
 
     ![](./media/image18.png)
 
-12. Select **Post message in a chat or channel**.
+8.  Add in a trigger phrase, !!**I need help with time off**!! and
+    click on **+.**
 
     ![](./media/image19.png)
 
-13. Provide the below details:
+9.  Add in the below trigger phrases.
 
-    - Post as – **User**
+    - !!**Need information on time off**!!
 
-    - Post in – **Channel**
+    - !!**How many days of paid vacation do I have**!!
 
-    - Team – **HR Team**
+    - !!**What are the national holidays**!!
 
-    - Channel – **HR Experts**
-
-    - Message **– Description** from **Dynamic Content**
+    - !!**I need extended leave**!!
 
     ![](./media/image20.png)
 
-14. Rename the flow as !!**Send a message to HR team**!! and click on
-    **Save**.
+    Close the Trigger phrases pane.
+
+10. Add a Message node and enter the text, !!I can help with questions
+    related to time-off*!!*.
 
     ![](./media/image21.png)
 
-15. Click on **Close** to close the Power Automate and return to the
-    Authoring canvas.
+11. As an HR employee, you know the most common time-off questions are
+    about **paid vacation** time and **national holidays**. When a
+    question node with user response options is added, the topic
+    automatically gets a forked branch for each response.
+
+12. Select the (**+**) icon below the message node, then select **Ask a
+    question** to add a question node to the topic. Enter *What
+    information are you looking for?* in the **Ask a question** text
+    box.
 
     ![](./media/image22.png)
 
-16. From the Authoring canvas, add a node – **call an action** -\>
-    **Send a message to HR team**.
+13. Under **Options for user**, add !!Paid
+    vacation*!!* and !!National Holidays*!!* as two options.
 
     ![](./media/image23.png)
 
-17. Add in the input as **Description**.
+14. User choices are stored in a variable and the topic branches off,
+    based on the option the user chooses. You can rename the variable to
+    track it better in the topic.
+
+15. On the variable, under **Save response as**, select the pencil icon
+    to edit the variable properties.
+
+16. The **Variable properties** pane opens. Rename the variable
+    to !!TimeoffType*!!*. Close the **Variable properties** pane and
+    you see the changes reflected in the authoring canvas.
 
     ![](./media/image24.png)
 
-18. Add in a message node with the message, !!**We notified the expert.
-    They’ll reach out shortly**!!.
+17. Add a message node for the Paid vacation branch with this message to
+    the user: !!**For paid vacation time-off, go to
+    www.contoso.com/HR/PaidTimeOff**!! to submit time-off requests.
 
     ![](./media/image25.png)
 
-19. End the conversation \> End the survey.
+18. In the **National Holidays** path, add a message node with the
+    following text:
+
+National holidays for 2024:
+
+    - New Year's Day: January 1st
+
+    - Memorial Day: May 27th
+
+    - Independence day: July 4th
+
+    - Labor Day: September 2nd
+
+    - Thanksgiving: November 28th
+
+    - Christmas Eve and Christmas Day: December 24th - 25^(th)
 
     ![](./media/image26.png)
 
-20. Click on **Save** to save the topic.
+19. Click on **Save**.
 
     ![](./media/image27.png)
 
-21. A success message of **Topic saved** is obtained.
-
     ![](./media/image28.png)
 
-## **Exercise 3: Test your chatbot**
+## **Exercise 4: Test copilot for expected behavior**
 
-1.  Select Test your chatbot from the left pane.
+1.  Select the **Copilot/Power Virtual Agent** icon at the top of the
+    screen to launch the test copilot canvas.
 
     ![](./media/image29.png)
 
-2.  Send a message !!**I need help with time off**!! and select
-    Extended leave to answer the chatbot.
+2.  Type **I need time off information** into the copilot chat.
+
+3.  Select **Paid vacation**.
+
+4.  You receive the response as per our configuration.
 
     ![](./media/image30.png)
 
-3.  Describe a reason for your leave extension. Here, we have given it
-    as !!**I need extended leave of one month for travelling**!!.
-
     ![](./media/image31.png)
-
-4.  The bot replies with “We notified an expert…..” message.
-
-    ![](./media/image32.png)
-
-    ![](./media/image33.png)
-
-## **Exercise 4: Check the message in Teams.**
-
-1.  Click on Teams from the left menu of the MS Teams app.
-
-    ![](./media/image34.png)
-
-2.  Select the **HR Experts** channel under the **HR Team** team. Notice
-    that the message from the user to the bot has been sent here.
-
-    ![](./media/image35.png)
-
-## **Exercise 5: Publish your copilot – Teams**
-
-1.  Go back to Microsoft Copilot Studio app. Select the chatbot **HR
-    Support Copilot**.
-
-2.  Select Publish from the left pane.
-
-    ![](./media/image36.png)
-
-3.  Click on **Publish**.
-
-    ![](./media/image37.png)
-
-4.  Select Publish in the **Publish latest content?**
-
-    ![](./media/image38.png)
-
-5.  Success message is obtained as in the screenshot below. Click on the
-    **Availability options**.
-
-    ![](./media/image39.png)
-
-6.  The **Add to Contoso** option adds the bot to the specific team.
-
-7.  **Show to my team mates and shared users** makes the bot to appear
-    under the Built by colleagues section.
-
-8.  **Show to everyone in the org** submits the request to the admin to
-    get the bot listed under the **Built by org** section.
-
-    ![](./media/image40.png)
 
 **Summary:**
 
-In this lab, we have learnt to post a message to the Teams channel from
-the bot.
+In this lab, we have learnt to add the Copilot Studio app to Teams and
+create a classic bot in Teams.
