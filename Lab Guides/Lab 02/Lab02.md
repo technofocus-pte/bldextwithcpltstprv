@@ -21,7 +21,7 @@ the newly created files.
 
 ### Task 1: Setup OneDrive
 
-1.  Open a browser and navigate to +++**https://office.com**+++. **Sign
+1.  Open a browser and navigate to !!**https://office.com**!!. **Sign
     in** using the credentials from the **Resources** tab
 
     ![](./media/image2.png)
@@ -51,7 +51,7 @@ the newly created files.
 
 ### Task 2 : Create a development environment
 
-1.  Login to +++<https://admin.powerplatform.microsoft.com/>+++ using
+1.  Login to !!<https://admin.powerplatform.microsoft.com/>!! using
     you tenant details from the Resources tab.
 
 2.  Select **Environments** from the left navigation pane and click on
@@ -64,8 +64,8 @@ the newly created files.
 
     |	|	|
     |:----|:-----|
-    | +++Property+++	| +++Value+++	|
-    | Name	| +++ Dev env+++	|
+    | !!Property!!	| !!Value!!	|
+    | Name	| !! Dev env!!	|
     | Region	| United States - Default	|
     | Type	| Developer	|
 
@@ -89,7 +89,7 @@ the newly created files.
 
 ### Task 3: Enable Copilot Studio trial
 
-1.  In a new tab, open +++**https://copilotstudio.microsoft.com/**+++.
+1.  In a new tab, open !!**https://copilotstudio.microsoft.com/**!!.
 
 2.  Sign in with the **Credentials** provided under the **Resources**
     tab of your Lab VM.
@@ -117,9 +117,9 @@ the newly created files.
 2.  In the agent creation pane, enter the below details and click on
     **Create**.
 
-    - **Name** - +++New file tracker agent+++
+    - **Name** - !!New file tracker agent!!
 
-    - **Description** - +++This agent will update the File details tracker
+    - **Description** - !!This agent will update the File details tracker
     placed in the OneDrive, each time a new file is created in the
     OneDrive
 
@@ -192,7 +192,7 @@ the newly created files.
 
     ![](./media/image27.png)
 
-4.  Search for +++add a row+++ and select **Add a row into the table**.
+4.  Search for !!add a row!! and select **Add a row into the table**.
 
     ![](./media/image28.png)
 
@@ -200,7 +200,7 @@ the newly created files.
 
     |	|	|
     |:----|:-----|
-    | +++Property+++	| +++Value+++	|
+    | !!Property!!	| !!Value!!	|
     | Location	| OneDrive for Business	|
     | Document Library	| OneDrive	|
     | File	| File details.xlsx	|
