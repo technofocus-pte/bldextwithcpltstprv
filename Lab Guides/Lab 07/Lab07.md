@@ -1,4 +1,4 @@
-# **Lab 12\_ Sending messages from a Copilot(classic) to a Teams channel**
+# **Lab 07_ Sending messages from a Copilot(classic) to a Teams channel**
 
 **Lab duration** – 30 minutes
 
