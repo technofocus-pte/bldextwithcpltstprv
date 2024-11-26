@@ -1,4 +1,4 @@
-#**Lab 08 - Creating conversational actions for Microsoft Copilot**
+# **Lab 08 - Creating conversational actions for Microsoft Copilot**
 
 **Lab duration** – 20 minutes
 
