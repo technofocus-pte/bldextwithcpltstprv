@@ -453,7 +453,7 @@ field, designate **Undecided** as the **Default choice** and click on
     ![](./media/image48.png)
 
 3.  Click on **Environments** on the top left and select
-    **CustomerService Trial**.
+    **Dev One**.
 
     ![](./media/image49.png)
 
@@ -499,7 +499,7 @@ field, designate **Undecided** as the **Default choice** and click on
 
 7.  Once the agent is created, in the Test your copilot pane, enter
     !!**How do I make a booking?**!! and click **Enter** and observe the
-    response.
+    response. You will get a generic response.
 
     ![](./media/image57.png)
 
@@ -546,13 +546,13 @@ topics. Disable system topics that you don't require.
 
 ### Task 5: Publish and test the copilot
 
-1.  Select **Publish** and select **Publish** again.
+1.  Select **Publish** to publish this agent.
 
     ![](./media/image65.png)
 
-2.  Select **Publish** in the **Publish this copilot** dialog.
+2.  Select **Publish** in the **Publish this agent** dialog.
 
-    ![](./media/image66.png)
+    ![](./media/image129.png)
 
 ### Task 6: Demo Website
 
@@ -564,10 +564,11 @@ You can provide them with the URL to the demo website.
 
     ![](./media/image67.png)
 
-2.  In the **Type your message** text box, enter !!**What information is needed to book a viewing for a real estate property?**!! and observe
-    the response from the copilot.
+2.  In the **Type your message** text box, enter !!**What information is needed to book a viewing for a real estate property?**!! and observe the response from the agent.
 
     ![](./media/image68.png)
+
+    It will be generic, similar to the one that you got in the Test your agent in the Studio, since we have not configured any specific topics and implemented any logic to the agent yet. We will do it in the upcoming exercises.
 
 ## Exercise 3: Create and manage topics using Copilot
 
