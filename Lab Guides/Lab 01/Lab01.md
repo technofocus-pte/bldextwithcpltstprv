@@ -942,9 +942,9 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
 2.  Update the instructions as below. Replace **Your email id** place holder with your email id and click on **Save**.
 
-    +++1.  Read the details of the row that gets added or modified+++
+    !!1.  Read the details of the row that gets added or modified!!
 
-    +++2.  Use the action Office 365 Outlook - Send an email (V2)+++
+    !!2.  Use the action Office 365 Outlook - Send an email (V2)!!
 
     ![](./media/image137.png)
 
