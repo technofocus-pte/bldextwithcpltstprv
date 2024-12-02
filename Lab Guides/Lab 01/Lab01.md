@@ -908,6 +908,32 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image112.png)
 
+9. Click on the **Actions** tab and select **+ Add action**.
+
+    ![](./media/image130.png)
+   
+11. Search for !!Send an mail!! and select **Send an email (V2) action**.
+
+    ![](./media/image131.png)
+
+12.  Select End user Authentication to Copilot Authentication and select **Next**.
+
+      ![](./media/image132.png)
+
+13. Select **Edit inputs**.
+
+    ![](./media/image133.png)
+    
+14. Give the email id to which the mail needs to be delivered in the **Description** field under **Required inputs** and click on **Save**.
+
+    ![](./media/image134.png)
+    
+15. Review the inputs and click on **Next** and then **Finish** in the next screen.
+
+    ![](./media/image135.png)
+
+    ![](./media/image136.png)
+
 ### Task 3: Add instructions to the agent
 
 1.  Click on **Edit** in the Overview page.
@@ -918,9 +944,9 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     +++1.  Read the details of the row that gets added or modified+++
 
-    +++2.  Mail the modified information only to < Your email id > with a proper subject and body added to the email+++
+    +++2.  Use the action Office 365 Outlook - Send an email (V2)+++
 
-    ![](./media/image114.png)
+    ![](./media/image137.png)
 
 3.  Click on Publish to publish the agent to all the channels it is
     connected to.
