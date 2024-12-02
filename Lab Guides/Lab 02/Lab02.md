@@ -47,14 +47,13 @@ the newly created files.
 
 ### Task 1: Create an agent from Copilot Studio
 
-1.  Open !!https://copilotstudio.microsoft.com!! if you do not have it open already and clikc on **Agents -> + New agent**.
+1.  Open !!https://copilotstudio.microsoft.com!! if you do not have it open already and click on **Agents -> + New agent**.
 
-3.  Click on the Skip to configure option in the Agent creation page
-    that opens up.
+2.  Click on the Skip to configure option in the Agent creation page that opens up.
 
     ![](./media/image15.png)
 
-4.  In the agent creation pane, enter the below details and click on
+3.  In the agent creation pane, enter the below details and click on
     **Create**.
 
     - **Name** - !!New file tracker agent!!
@@ -138,7 +137,7 @@ the newly created files.
 
     |	|	|
     |:----|:-----|
-    | !!Property!!	| !!Value!!	|
+    | **Property**	| **Value**	|
     | Location	| OneDrive for Business	|
     | Document Library	| OneDrive	|
     | File	| File details.xlsx	|
