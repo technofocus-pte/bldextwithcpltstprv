@@ -43,7 +43,9 @@ booking requests online.
 
 1.  Login to the VM using the **Username** and **Password** from
     the **Home** tab.
-
+    
+    ![](./media/image127.png)
+    
 ### Task 2: Synchronize the VM clock
 
 1.  After logging into the VM, right click on the clock at the bottom
@@ -74,9 +76,11 @@ booking requests online.
 
     ![](./media/image4.png)
 
-2.	Login using the **Administrative Username** and **Password** from the **Home** tab if prompted. This will be your **login credentials** to all the Microsoft sites and apps for the labs.
+2.	Login using the Office Tenant Credentials **Username** and **Password** from the **Home** tab if prompted. This will be your **login credentials** to all the Microsoft sites and apps for the labs.
+
+    ![](./media/image128.png)
    
-3.  Under **Let's get started**, enter the **Administrative Username** from the **Home** tab  in the text
+4.  Under **Let's get started**, enter the **Administrative Username** from the **Home** tab  in the text
     box, check the agreement box and select **Start free**.
 
     ![](./media/image5.png)
