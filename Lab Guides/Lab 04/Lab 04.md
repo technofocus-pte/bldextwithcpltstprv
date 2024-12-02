@@ -244,22 +244,28 @@ Power Automate cloud flows
   enter the following expression:
       !!first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]!!
 
+    :::danger
+    From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula**.
+
+    ![](./media/image126.png)  
+    :::
+    
     ![](./media/image34.png)
 
-22. Select **Settings**. Ensure that **Asynchronous Response** is set
+23. Select **Settings**. Ensure that **Asynchronous Response** is set
     to **Off**.
 
     ![](./media/image35.png)
 
-23. Select **Save draft**.
+24. Select **Save draft**.
 
     ![](./media/image36.png)
 
-24. Once saved, select **Publish**.
+25. Once saved, select **Publish**.
 
     ![](./media/image37.png)
 
-25. Close the Power Automate tab.
+26. Close the Power Automate tab.
 
 ### Task 2: Add a Copilot action for retrieving a property
 
