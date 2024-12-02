@@ -18,9 +18,7 @@ the newly created files.
 ### Task 1: Setup OneDrive
 
 1.  Open a browser and navigate to !!**https://office.com**!!. **Sign
-    in** using the credentials from the **Resources** tab
-
-    ![](./media/image2.png)
+    in** using the credentials from the **Home** tab
 
 2.  Select **OneDrive** from the left menu.
 
