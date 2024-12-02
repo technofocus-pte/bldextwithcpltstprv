@@ -5,7 +5,7 @@
 This lab details the steps to escalate a conversation to a live agent from the agents.
 
 :::danger
-This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 03 of Day 2
+This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 03 of Day 1
 :::
 ## Exercise 1: Configure the Dynamics 365 Customer Service workspace
 
