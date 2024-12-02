@@ -245,6 +245,7 @@ Power Automate cloud flows
       !!first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]!!
 
     :::danger
+    
     From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula**.
 
     ![](./media/image126.png)
