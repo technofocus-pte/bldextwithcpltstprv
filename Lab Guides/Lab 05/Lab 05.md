@@ -199,39 +199,38 @@ topics.
 
     ![](./media/image35.png)
 
-3.  This opens up the **Dynamics 365 Customer Service admin center**
+3.  This opens the **Apps** page. Select **Customer Service admin center** from it.
+
+    ![](./media/image81.png)
+   
+5.  This opens up the **Dynamics 365 Customer Service admin center**
     page.
 
     ![](./media/image36.png)
 
-4.  In **Dynamics 365 Customer Service admin center**, in the site map,
+6.  In **Dynamics 365 Customer Service admin center**, in the site map,
     select **User management** under **Customer support** group.
 
-5.  On the **User management** page, select **Manage** next
+7.  On the **User management** page, select **Manage** next
     to **Users**.
 
     ![](./media/image37.png)
 
-6.  Click the dropdown next to **Enabled Users** and select
+8.  Click the dropdown next to **Enabled Users** and select
     **Omnichannel Users**.
 
     ![](./media/image38.png)
 
-    >[!Alert] **Important:** If you are not able to see the **Omnichannel Users**
-option, it is due to some back-end changes that is happening recently.
-If you are not able to complete this step, then you will not be able to
-complete the Exercises 7 and 8. Please omit them.
-
-7.  On the **Omnichannel Users** page, select a user **MOD
+9.  On the **Omnichannel Users** page, select a user **MOD
     Administrator** in the list.
 
     ![](./media/image39.png)
 
-8.  On the **MOD Administrator** page, select the **Omnichannel** tab.
+10.  On the **MOD Administrator** page, select the **Omnichannel** tab.
 
     ![](./media/image40.png)
 
-9.  Specify the following in the user page.
+11.  Specify the following in the user page.
 
     | Setting   |   Value |
     |:---------|:---------|
@@ -239,7 +238,7 @@ complete the Exercises 7 and 8. Please omit them.
     |   Default Presence | available    |
     ![](./media/image41.png)
 
-10. Select **Save and close**.
+11. Select **Save and close**.
 
     ![](./media/image42.png)
 
@@ -308,7 +307,7 @@ complete the Exercises 7 and 8. Please omit them.
 
     ![](./media/image52.png)
 
-### Task 3: Add the copilot to the workstream
+### Task 3: Add the agent to the workstream
 
 1.  Back in the **New Workstream** page, scroll down and click on **+
     Add bot** in the Bot section.
@@ -316,7 +315,7 @@ complete the Exercises 7 and 8. Please omit them.
     ![](./media/image53.png)
 
 2.  From the list of copilots on the Add bot screen, select the **Store
-    Locator Assistant** copilot and click on **Connect**.
+    Locator Assistant** agent and click on **Connect**.
 
     ![](./media/image54.png)
 
@@ -329,7 +328,7 @@ complete the Exercises 7 and 8. Please omit them.
 
     ![](./media/image56.png)
 
-5.  Ensure that the Real Estate Booking Service copilot is connected.
+5.  Ensure that the **Store locator** agent is connected.
 
     ![](./media/image57.png)
 
@@ -359,9 +358,7 @@ complete the Exercises 7 and 8. Please omit them.
 
     ![](./media/image62.png)
 
-7.  In the Give your site a name textbox, enter the name as !!**Contoso
-    Store assistant**!!, accept the other defaults and click on
-    **Done**.
+7.  In the Give your site a name textbox, enter the name as !!**Contoso Store assistant**!!, accept the other defaults and click on **Done**.
 
     ![](./media/image63.png)
 
