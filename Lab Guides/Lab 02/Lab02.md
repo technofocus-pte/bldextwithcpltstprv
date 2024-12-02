@@ -47,12 +47,14 @@ the newly created files.
 
 ### Task 1: Create an agent from Copilot Studio
 
-1.  Click on the Skip to configure option in the Agent creation page
+1.  Open !!https://copilotstudio.microsoft.com!! if you do not have it open already and clikc on **Agents**.
+
+3.  Click on the Skip to configure option in the Agent creation page
     that opens up.
 
     ![](./media/image15.png)
 
-2.  In the agent creation pane, enter the below details and click on
+4.  In the agent creation pane, enter the below details and click on
     **Create**.
 
     - **Name** - !!New file tracker agent!!
