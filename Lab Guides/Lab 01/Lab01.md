@@ -1012,7 +1012,7 @@ In this lab, we have learnt to
 
 - Build an agent from the Copilot Studio and create topics in it.
 
-- Test the copilot from the Copilot Studio and publish it to the demo
+- Test the agent from the Copilot Studio and publish it to the demo
   web site.
 
 - Build an autonomous agent and test it
