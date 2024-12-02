@@ -5,7 +5,7 @@
 ### Task 1: Configure Omnichannel Power Virtual Agent Extension
 
 1.  Open the link,
-    !!<https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com>!!
+    !!https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com!!
     and click on Get it now in the Omnichannel Power Virtual Agent
     Extension page.
 
