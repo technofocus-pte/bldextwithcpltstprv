@@ -1,19 +1,30 @@
 # Lab 05 - Integrate an agent with the Dynamics 365 Customer Service app and implement automated case escalation to the live agent
 
+**Objective:**
+
+This lab details the steps to escalate a conversation to a live agent from the agents.
+
+:::danger
+This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 03 of Day 2
+:::
 ## Exercise 1: Configure the Dynamics 365 Customer Service workspace
 
 ### Task 1: Configure Omnichannel Power Virtual Agent Extension
 
 1.  Open the link,
     !!https://appsource.microsoft.com/en-cy/product/dynamics-365/mscrm.omnichannelpvaextension?tab=Overview&ref=dynamicsforcrm.com!!
-    and click on Get it now in the Omnichannel Power Virtual Agent
+    and click on **Get it now** in the Omnichannel Power Virtual Agent
     Extension page.
 
     ![](./media/image1.png)
 
+2. Sign in with the tenant credentials from the **Home** tab.
+   
     ![](./media/image2.png)
 
-    ![](./media/image3.png)
+3. Click on **Get it now**.
+
+   ![](./media/image3.png)
 
 2.  Select the **CustomerService Trial** under **Select an
     environment**, select the check boxes and click on **Install**.
@@ -24,8 +35,7 @@
     **Update available**, **select** the **check box** to agree to the
     terms and click on **Update**.
 
-Make sure to do this for **all** the entries with **Update available**
-as the Status.
+    Make sure to do this for **all** the entries with **Update available** as the Status.
 
     ![](./media/image5.png)
 
@@ -33,7 +43,7 @@ as the Status.
 
 ### Task 2: Configure search settings in the Power Platform admin center
 
-1.  Login to !!<https://admin.powerplatform.microsoft.com/>!! using
+1.  Login to !!https://admin.powerplatform.microsoft.com/!! using
     your tenant details. Select **Environments** -\> **CustomerService
     Trial**.
 
@@ -80,9 +90,7 @@ as the Status.
 
     ![](./media/image15.png)
 
-3.  In the Type your message text area, type **!!You are a customer
-    service agent who helps in identifying stores nearby.**!! And hit
-    **send**.
+3.  In the Type your message text area, type **!!You are a customer service agent who helps in identifying stores nearby.**!! And hit **send**.
 
     ![](./media/image16.png)
 
@@ -113,8 +121,7 @@ topics.
     ![](./media/image20.png)
 
 2.  Select the message node of the topic and replace the existing
-    content with, !!**You will be transferred to a live agent
-    shortly**!!
+    content with, !!**You will be transferred to a live agent shortly**!!
 
     ![](./media/image21.png)
 
