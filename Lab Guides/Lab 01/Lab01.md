@@ -271,9 +271,9 @@ Estate Properties.
 
     ![](./media/image30.png)
 
-    **Note:** Repeat the step 8 process with the Value !!**Bathrooms**!!.
+    Create the choice values:
 
-    Create the choice values
+    Select **+ New choice** under **Sync this choice with**.
 
     - Under **Choices**, provide the Display name as !!Bathrooms!!.
 
