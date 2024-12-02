@@ -40,8 +40,8 @@ can create custom entities for your specific purpose.
 
 3.  Enter the below details
 
--   Name - !!Property Type!!
--    Enter item under List items – 
+    -   Name - !!Property Type!!
+    -   Enter item under List items – 
     -   !!Apartment!! - Select Add
 
     ![](./media/image5.png)
@@ -246,7 +246,7 @@ Power Automate cloud flows
 
     :::danger
     
-    From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula**.
+    From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula** above.
 
     ![](./media/image126.png)
     
@@ -332,7 +332,7 @@ Power Automate cloud flows
 
     ![](./media/image49.png)
 
-14. Click on Publish in the Publish confirmation dialog.
+14. Click on **Publish** in the Publish confirmation dialog.
 
     ![](./media/image50.png)
 
@@ -347,7 +347,7 @@ Power Automate cloud flows
     ![](./media/image52.png)
 
 3.  Select **Run a flow from Copilot** in the top-left of the screen and
-    enter !! **Booking Request**!! as the flow name.
+    enter !!**Booking Request**!! as the flow name.
 
     ![](./media/image53.png)
 
@@ -573,7 +573,7 @@ improve your copilot's responses.
 ### Task 1: Enable Generative AI
 
 1.  Login to the Copilot Studio using your tenant credentials at
-    !!<https://copilotstudio.microsoft.com>!! if not logged in
+    !!https://copilotstudio.microsoft.com!! if not logged in
     already.
 
 2.  Select the agent **Real Estate Booking Service**.
@@ -623,7 +623,7 @@ respond**.
 
     ![](./media/image95.png)
 
-4.  Give the name !! Real Estate Website!! in the Name field and then
+4.  Give the name !!Real Estate Website!! in the Name field and then
     select **Add**.
 
     ![](./media/image96.png)
@@ -657,12 +657,12 @@ respond**.
 
     ![](./media/image102.png)
 
-3.  Under **Upload files** section, select **click to browse** and browse to locate the file
+2.  Under **Upload files** section, select **click to browse** and browse to locate the file
     **SummitRealtyCaseStudy.docx** at **C:\LabFiles** and select it.
 
     ![](./media/image104.png)
 
-4.  Select **Add**.
+3.  Select **Add**.
 
     ![](./media/image105.png)
 
@@ -752,7 +752,7 @@ respond**.
 4.  Select the **Start a new conversation** icon at the top of the
     testing panel.
 
-5.  Type in !!What is Summit Realty group?!!
+5.  Type in !!What is Summit Realty group?!! and hit **send**.
 
 6.  You will get a response from the uploaded file as in the screenshot below sinc eit has been added as the knowledge source to look for in the Fallback topic.
 
@@ -766,6 +766,6 @@ In this lab, we have learnt to
 
 - Implement Flow actions
 
-- Add knowledge to the copilot
+- Add knowledge to the agent
 
 - Enable Generative AI
