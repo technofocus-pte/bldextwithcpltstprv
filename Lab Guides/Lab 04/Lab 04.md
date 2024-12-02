@@ -493,9 +493,9 @@ parameter.
 
     ![](./media/image80.png)
 
-## Exercise 3: Test the copilot 
+## Exercise 3: Test the agent 
 
-### Task 1: Test the copilot and make a booking request
+### Task 1: Test the agent and make a booking request
 
 1.  Select the **Test** button in the top-right of the screen to open
     the testing panel. Select the **three dots** at the top of the
@@ -568,7 +568,7 @@ improve your copilot's responses.
     !!<https://copilotstudio.microsoft.com>!! if not logged in
     already.
 
-2.  Select the Copilot **Real Estate Booking Service**.
+2.  Select the agent **Real Estate Booking Service**.
 
     ![](./media/image88.png)
 
@@ -581,7 +581,7 @@ improve your copilot's responses.
     Select **Generative** under **How should your copilot decide how to
 respond**.
 
-    Select **Medium** for **Copilot content moderation**.
+    Select **Medium** for **How strict should the content moderation be?**.
 
     Select **Save**.
 
@@ -593,8 +593,7 @@ respond**.
 
 ### Task 2: Enable knowledge
 
-1.  Select your copilot in the Copilot pane on the left-hand side of the
-    screen to return to the **Overview** tab.
+1.  Click on the **Overview** tab.
 
 2.  Verify that general knowledge is enabled in the Knowledge section.
 
@@ -602,8 +601,7 @@ respond**.
 
 ### Task 3: Add knowledge from a website
 
-1.  Select **+ Add knowledge** under the **Knowledge** section in the
-    Overview page of the copilot.
+1.  Select **+ Add knowledge** under the **Knowledge** section.
 
     ![](./media/image93.png)
 
@@ -651,11 +649,7 @@ respond**.
 
     ![](./media/image102.png)
 
-2.  Select **Files**.
-
-    ![](./media/image103.png)
-
-3.  Select Click to browse and browse to locate the file
+3.  Under **Upload files** section, select **click to browse** and browse to locate the file
     **SummitRealtyCaseStudy.docx** at **C:\LabFiles** and select it.
 
     ![](./media/image104.png)
@@ -705,27 +699,7 @@ respond**.
 
 ### Task 7: Configure Security
 
-1.  Select your copilot in the Copilot pane on the left-hand side of the
-    screen to return to the **Overview** tab.
-
-2.  From the copilot page top menu, click on **Channels** (If the
-    Channels is not visible, click on the +1 to view the **Channels**
-    option)
-
-    ![](./media/image114.png)
-
-3.  Select **Dynamics 365 Customer Service** from the Customer
-    engagement hub pane.
-
-    ![](./media/image115.png)
-
-4.  On the Dynamics 365 Customer Service page, click on **Disconnect**.
-
-    ![](./media/image116.png)
-
-5.  Once done, **close** the Dynamics 365 Customer Service pane.
-
-    ![](./media/image117.png)
+1.  Select the **Overview** tab.
 
 6.  Select **Settings** in the top-right of the screen.
 
@@ -751,14 +725,13 @@ respond**.
 
     ![](./media/image122.png)
 
-12. Select your copilot in the Copilot pane on the left-hand side of the
-    screen to return to the **Overview** tab.
+12. Select the **Overview** tab.
 
-13. Select **Publish** and select **Publish**.
+13. Select **Publish** and select **Publish** again in the dialog.
 
     ![](./media/image123.png)
 
-### Task 8: Test the copilot's knowledge
+### Task 8: Test the agent's knowledge
 
 1.  Select the **Test** button in the top-right of the screen to open
     the testing panel.
@@ -768,13 +741,14 @@ respond**.
 2.  Select the **three dots** at the top of the testing panel in the
     top-right of the screen.
 
-3.  Select **Track between topics**.
-
 4.  Select the **Start a new conversation** icon at the top of the
     testing panel.
 
-5.  Explore the copilot and see how it uses the different knowledge
-    sources.
+5.  Type in !!What is Summit Realty group?!!
+
+6.  You will get a response from the uploaded file as in the screenshot below sinc eit has been added as the knowledge source to look for in the Fallback topic.
+
+    ![](./media/image125.png)
 
 **Summary:**
 
