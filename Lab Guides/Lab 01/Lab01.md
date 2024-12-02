@@ -387,24 +387,29 @@ Estate Property Bookings.
         ![](./media/image42.png)
     
     -	Display name – !!Viewer Name!!
-    -	Data type – Single line of text
+    -	Data type – **Single line of text**
     
+    &nbsp;
     
     -	Display name – !!Viewer Email!!
-    -	Data type – Single line of text
-    -	 Format – Email
+    -	Data type – **Single line of text**
+    -	 Format – **Email**
+
+    &nbsp;
     
     -	Display name – !!Booking Date!!
-    -	Data type – Date and time
+    -	Data type – **Date and time**
+
+    &nbsp;
     
     -	Display name – !!Notes!!
-    -	Data type – Multiple lines of text
+    -	Data type – **Multiple lines of text**
 
     ![](./media/image43.png)
 
     ![](./media/image44.png)
 
-9.  Add a choice data type column with the below details.
+10.  Add a choice data type column with the below details.
 
     -	Display name – !!Decision!!
     -	Data type – Choice -> Choice
@@ -440,7 +445,7 @@ field, designate **Undecided** as the **Default choice** and click on
 
 ### Task 1: Sign up for Copilot Studio trial
 
-1.  Open the url !!https://copilotstudio.microsoft.com/!!.
+1.  In a new tab in the browser, navigate to the url !!https://copilotstudio.microsoft.com/!!.
 
 2.  Leave the **Choose your country/region** with the **default** value
     and click on **Get Started**.
