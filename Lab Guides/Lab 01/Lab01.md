@@ -1004,10 +1004,6 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image126.png)
 
-  :::danger
-  The VM settings might block the mail delivery. In real time, the mail will get delivered to the specified id based on your trigger.
-  :::
-
 6. You can check the status of the trigger from the **Activity** tab.
   
 **Summary**
