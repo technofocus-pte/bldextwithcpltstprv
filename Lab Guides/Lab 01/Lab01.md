@@ -361,9 +361,7 @@ Estate Property Bookings.
 
     ![](./media/image39.png)
 
-6.  Change the name of the column called **New Column** to !!**Booking
-    Name**!! (Click on the drop down next to **New Column** and select
-    **Edit Column** and update the **Display name**).
+6.  Change the name of the column called **New Column** to !!**Booking Name**!! (Click on the drop down next to **New Column** and select **Edit Column** and update the **Display name**).
 
     ![](./media/image40.png)
 
@@ -467,8 +465,7 @@ field, designate **Undecided** as the **Default choice** and click on
     
     - Description - !!**Create bookings for real estate properties**!!
     
-    - Instructions - !!**Create a copilot for topics relating to creating
-      bookings for real estate properties!!**
+    - Instructions - !!**Create a copilot for topics relating to creating bookings for real estate properties!!**
     
     - Language **–** Select **English**
 
@@ -554,8 +551,7 @@ You can provide them with the URL to the demo website.
 
     ![](./media/image67.png)
 
-2.  In the **Type your message** text box, enter !!**What information is
-    needed to book a viewing for a real estate property?**!! and observe
+2.  In the **Type your message** text box, enter !!**What information is needed to book a viewing for a real estate property?**!! and observe
     the response from the copilot.
 
     ![](./media/image68.png)
@@ -575,8 +571,7 @@ Topics can be created and edited using natural language.
 
     - Name your topic - !!**Customer Details**!!
 
-    - Create a topic to... - !!**Ask the customer for their name and email
-  address**!!
+    - Create a topic to... - !!**Ask the customer for their name and email address**!!
 
     ![](./media/image70.png)
 
@@ -598,9 +593,7 @@ Topics can be created and edited using natural language.
 3.  In the **Edit with Copilot** panel, in the **What do you want to
     do?** field, enter the following text:
 
-    !!**Update the message in this question node to say thank you to the
-Name variable from the previous node and then proceed to ask the email
-address question**!!
+    !!**Update the message in this question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question**!!
 
 4.  Select **Update**.
 
@@ -673,9 +666,7 @@ add new ones.
 
 ### Task 2: Add trigger phrases
 
-1.  Select **Edit** under **Phrases** in the **Trigger**. Enter !!**I
-    want to book a real estate showing**!! under **Add Phrases** and
-    select the **+** icon.
+1.  Select **Edit** under **Phrases** in the **Trigger**. Enter !!**I want to book a real estate showing**!! under **Add Phrases** and select the **+** icon.
 
     ![](./media/image82.png)
 
@@ -762,8 +753,7 @@ add new ones.
 2.  Select the the **+** icon under the question node and select **Ask a
     question**. Fill in the below details and click on **Save.**
 
-    - **Enter a message** - !!What date and time do you want to see the
-  property?!!
+    - **Enter a message** - !!What date and time do you want to see the property?!!
 
     - Identify - Select **Date and Time**
 
@@ -831,8 +821,7 @@ add new ones.
 
     **Name** - !!Autonomous agent!!
 
-    **Description** - !!You are an agent to detect the updates to the
-Booking Requests table!!
+    **Description** - !!You are an agent to detect the updates to the Booking Requests table!!
 
     ![](./media/image102.png)
 
