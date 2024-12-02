@@ -914,14 +914,11 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image113.png)
 
-2.  Update the instructions as below and click on **Save**.
+2.  Update the instructions as below. Replace **Your email id** place holder with your email id and click on **Save**.
 
-    ```
-    1.  Read the details of the row that gets added or modified
+    +++1.  Read the details of the row that gets added or modified+++
 
-    2.  Mail the modified information only to < Your email id > with a
-        proper subject and body added to the email
-    ```
+    +++2.  Mail the modified information only to < Your email id > with a proper subject and body added to the email+++
 
     ![](./media/image114.png)
 
@@ -975,14 +972,18 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image124.png)
 
-5.  The mail is sent to the specified mail id.
+5.  The mail will be sent to the specified mail id.
 
     ![](./media/image125.png)
 
-6.  Check the corresponding mail box to have received a mail as below.
-
     ![](./media/image126.png)
 
+  :::danger
+  The VM settings might block the mail delivery. In real time, the mail will get delivered to the specified id based on your trigger.
+  :::
+
+6. You can check the status of the trigger from the **Activity** tab.
+  
 **Summary**
 
 In this lab, we have learnt to
