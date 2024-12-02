@@ -15,10 +15,6 @@ the newly created files.
 
 ## Exercise 1: Set up the environment
 
-1.  Login to the VM using the password from the Resources tab.
-
-    ![](./media/image1.png)
-
 ### Task 1: Setup OneDrive
 
 1.  Open a browser and navigate to !!**https://office.com**!!. **Sign
