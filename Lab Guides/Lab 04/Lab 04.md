@@ -62,8 +62,7 @@ can create custom entities for your specific purpose.
 
     ![](./media/image7.png)
 
-8.  Select **+ Synonyms** for **House**, enter !!**Single-family
-    home**!!, then select the **+** icon and select **Done**.
+8.  Select **+ Synonyms** for **House**, enter !!**Single-family home**!!, then select the **+** icon and select **Done**.
 
 9.  Select **+ Synonyms** for **Condominium**,
     enter !!**Townhouse**!!, then select the **+** icon and
@@ -89,9 +88,9 @@ can create custom entities for your specific purpose.
 
 3.  Enter the below details and click on **Save**.
 
-- Name  - !!**Number of Bedrooms**!! 
-
-- Pattern  - !!**\[1-5\]**!! 
+    - Name  - !!**Number of Bedrooms**!! 
+    
+    - Pattern  - !!**\[1-5\]**!! 
 
     ![](./media/image12.png)
 
@@ -117,12 +116,12 @@ can create custom entities for your specific purpose.
 
 3.  Fill in the below details.
 
-- **Enter a message** - !!What type of property do you want to see?!!
-
-- **Identify** – Select **Property Type**
-
-- Select **Select options for user** and check the **Display** option
-  for all list values.
+    - **Enter a message** - !!What type of property do you want to see?!!
+    
+    - **Identify** – Select **Property Type**
+    
+    - Select **Select options for user** and check the **Display** option
+      for all list values.
 
     ![](./media/image17.png)
 
@@ -140,12 +139,11 @@ can create custom entities for your specific purpose.
 
     - **Identify -** Select **Number of Bedrooms**
 
-    - **Save user response as** -
-  Enter !!NumberofBedrooms!! for **Variable name**
+    - **Save user response as** - Enter !!NumberofBedrooms!! for **Variable name**
 
     ![](./media/image19.png)
 
-## Exercise 2: Create Copilot actions
+## Exercise 2: Create Actions
 
 Microsoft Copilot Studio can access data in Microsoft Dataverse using
 Power Automate cloud flows
@@ -257,7 +255,7 @@ Power Automate cloud flows
 
     ![](./media/image36.png)
 
-24. Once save, select **Publish**.
+24. Once saved, select **Publish**.
 
     ![](./media/image37.png)
 
