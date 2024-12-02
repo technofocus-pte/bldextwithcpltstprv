@@ -576,7 +576,7 @@ You can provide them with the URL to the demo website.
 
 Topics can be created and edited using natural language.
 
-1.  From the **Topics** tab, select **Add a topic** and select **Create
+1.  Navigate back to the browser tab with the Copilot Studio open. From the **Topics** tab, select **Add a topic** and select **Create
     from description with Copilot**.
 
     ![](./media/image69.png)
@@ -814,12 +814,11 @@ add new ones.
 
 ## Exercise 5: Build an Autonomous agent that automatically sends an email when a booking is created or updated
 
+This exercise is to showcase the **When a row is added, modified or deleted** trigger of an Autonomous agent. 
+
 ### Task 1: Create an agent
 
-1.  Login to !!https://copilotstudio.microsoft.com!! and navigate to the
-    Dev One environment if not done already.
-
-2.  Click on Agents from the left navigation pane.
+1.  Click on **Agents** from the left navigation pane.
 
     ![](./media/image99.png)
 
@@ -868,23 +867,25 @@ add new ones.
 
     ![](./media/image107.png)
 
-2.  Select **When a row is added, modifies or deleted** trigger from the
+2.  Select **When a row is added, modified or deleted** trigger from the
     **Add trigger** screen.
 
     ![](./media/image108.png)
 
-3.  Once selected, The **Trigger name** and the **Sign in options** gets
+3. Click on **Continue** in the next screen.
+
+4.  Once selected, The **Trigger name** and the **Sign in options** gets
     loaded in the next screen. This will take a few minutes to get
     populated. For the trigger we selected, there will be two apps, one
     being the **Microsoft Copilot Studio** and the other one being the
     **Microsoft Dataverse**.
 
-4.  Once loaded, ensure that the connectivity status is in **green** for
+5.  Once loaded, ensure that the connectivity status is in **green** for
     the sign in options and then click **Next** to continue.
 
     ![](./media/image109.png)
 
-5.  In the Add trigger screen, select the below details and click on
+6.  In the Add trigger screen, select the below details and click on
     **Create trigger**.
 
     - Change type – **Added or modified**
@@ -898,11 +899,11 @@ add new ones.
 
     ![](./media/image110.png)
 
-6.  The Trigger creation may take 3 to 5 minutes to complete.
+7.  The Trigger creation may take 3 to 5 minutes to complete.
 
     ![](./media/image111.png)
 
-7.  Once done, click on **Close** in the **Time to test your trigger!**
+8.  Once done, click on **Close** in the **Time to test your trigger!**
     Screen.
 
     ![](./media/image112.png)
