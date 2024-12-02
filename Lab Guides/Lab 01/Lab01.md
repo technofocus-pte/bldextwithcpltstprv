@@ -33,6 +33,10 @@ booking requests online.
 
 - Publish the copilot.
 
+:::danger
+Lab 03 needs to be completed by the end of Day 1 in order to execute the Day 2 lab. Even if Lab 01 and 02 not completed, please ensure to complete Lab 03 by the ned of Day1.
+:::
+
 ## Exercise 0: Setting up your environment
 
 ### Task 1: Login to VM
