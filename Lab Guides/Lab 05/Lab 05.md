@@ -228,7 +228,7 @@ topics.
 
 10.  On the **MOD Administrator** page, select the **Omnichannel** tab.
 
-    ![](./media/image40.png)
+     ![](./media/image40.png)
 
 11.  Specify the following in the user page.
 
