@@ -2,21 +2,15 @@
 
 ## Exercise 1: Use natural language to create an agent
 
-1.  Open a browser and login to !!https://copilotstudio.microsoft.com/!! and login with the
-    credentials from the Resources tab if you are not in that page
+1.  Open a browser and login to !!https://copilotstudio.microsoft.com/!! if you are not in that page
     already.
-
-    ![](./media/image1.png)
 
 2.  If you are already on the Copilot Studio page, click on **Home** to
     go to the Home page.
 
     ![](./media/image2.png)
 
-3.  On the Home page, in the text area under Describe your agent to
-    create it, enter !!I want you to be a question and answering
-    assistant that can answer common questions from users using the
-    content of a website and a SharePoint site!! and click on **Send**.
+3.  On the **Home** page, in the text area under **Describe your agent to create it**, enter !!I want you to be a question and answering assistant that can answer common questions from users using the content of a website!! and click on **Send**.
 
     ![](./media/image3.png)
 
@@ -25,11 +19,9 @@
 
 5.  Give other details regarding the functions of the agent like below.
 
-    !!help answer common product and support questions using the content of
-a website, and help answer HR questions from an uploaded file!!
+    !!help answer common product and support questions using the content of a website, and help answer HR questions from an uploaded file!!
 
-6.  Provide !!www.microsoft.com!! for the website that will be used a
-    sknowledge source.
+6.  Provide !!www.microsoft.com!! for the website that will be used a knowledge source.
 
     ![](./media/image4.png)
 
@@ -46,8 +38,7 @@ a website, and help answer HR questions from an uploaded file!!
 
     ![](./media/image7.png)
 
-9.  Click on **Test** icon to Test the agent. Enter !!What is Copilot
-    Studio!! and hit **Enter**.
+9.  Click on **Test** icon to Test the agent. Enter !!What is Copilot Studio!! and hit **Enter**.
 
     ![](./media/image8.png)
 
@@ -195,7 +186,7 @@ parentheses.!!
 18. Next, we need to define the output variable of the prompt action.
     This is so that the response can be referenced downstream in the
     topic. Select the **\>** icon and in the **Custom** tab,
-    select **Create new**
+    select **Create new** and name the variable as !!**VarQuizQuestionsResponse**!!
 
     ![](./media/image25.png)
 
@@ -214,15 +205,13 @@ parentheses.!!
 
 21. The Topic details needs to be updated next which will be used by
     your agent to associate the topic with the user's intent when
-    Generative mode is enabled. Select **Details** and for the **Display
-    name** enter the following.
+    Generative mode is enabled. Select **Details** and enter the following details.
 
-    - Display name - !! generate questions for a quiz!!
+    - Display name - !!generate questions for a quiz!!
 
-    - Description - !! This topic creates questions for a quiz based on the
-  number of questions, the topic and format provided by the user!!
+    - Description - !!This topic creates questions for a quiz based on the number of questions, the topic and format provided by the user!!
 
-    elect **Save** to save your topic.
+    Select **Save** to save your topic.
 
     ![](./media/image29.png)
 
@@ -241,8 +230,7 @@ parentheses.!!
     the **refresh** icon. Then enter the following question and observe
     the output.
 
-    !!Create 5 questions for a quiz based on geography and format the quiz
-as multi choice!!
+    !!Create 5 questions for a quiz based on geography and format the quiz as multi choice!!
 
     ![](./media/image32.png)
 
