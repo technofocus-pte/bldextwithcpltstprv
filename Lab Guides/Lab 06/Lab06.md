@@ -50,19 +50,20 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image9.png)
 
-    >[!Alert] **Important:** This step may take around 10 minutes. If it is taking too
+    :::danger
+    **Important:** This step may take around 10 minutes. If it is taking too
 long, close it, select Copilot Studio or Power Virtual Agents from Apps
 in the left pane and redo step 1.
+    :::
 
-2.  In the Create a copilot pane, provide the name of the Copilot as
+3.  In the Create a copilot pane, provide the name as
     !!**HR Support Copilot**!! and click on **Create**.
 
-    ![](./media/image10.png)
+    ![](./media/image34.png)
 
-3.  A success message stating, **Your chatbot is provisioned** is
-    obtained.
+4.  A success message is obtained.
 
-    ![](./media/image11.png)
+    ![](./media/image35.png)
 
 ## **Exercise 3: Build an employee time-off topic for common time-off queries**
 
@@ -80,18 +81,13 @@ in the left pane and redo step 1.
     ![](./media/image14.png)
 
 4.  In the Details pane, provide the name as !!**Employee time off**!!
-    and Description as !!**Employee time off topic for common time-off
-    queries**!!.
+    and Description as !!**Employee time off topic for common time-off queries**!!.
 
     ![](./media/image15.png)
 
 5.  **Close** the Details pane.
 
     ![](./media/image16.png)
-
-6.  Click on **Save**.
-
-    ![](./media/image17.png)
 
 7.  Click on the **Trigger phases.**
 
@@ -116,8 +112,7 @@ in the left pane and redo step 1.
 
     Close the Trigger phrases pane.
 
-10. Add a Message node and enter the text, !!I can help with questions
-    related to time-off*!!*.
+10. Add a Message node and enter the text, !!I can help with questions related to time-off!!**.
 
     ![](./media/image21.png)
 
@@ -127,14 +122,12 @@ in the left pane and redo step 1.
     automatically gets a forked branch for each response.
 
 12. Select the (**+**) icon below the message node, then select **Ask a
-    question** to add a question node to the topic. Enter *What
-    information are you looking for?* in the **Ask a question** text
+    question** to add a question node to the topic. Enter !!**What information are you looking for?**!! in the **Ask a question** text
     box.
 
     ![](./media/image22.png)
 
-13. Under **Options for user**, add !!Paid
-    vacation*!!* and !!National Holidays*!!* as two options.
+13. Under **Options for user**, add !!Paid vacation!! and !!National Holidays!! as two options.
 
     ![](./media/image23.png)
 
@@ -146,34 +139,35 @@ in the left pane and redo step 1.
     to edit the variable properties.
 
 16. The **Variable properties** pane opens. Rename the variable
-    to !!TimeoffType*!!*. Close the **Variable properties** pane and
+    to !!TimeoffType!!. Close the **Variable properties** pane and
     you see the changes reflected in the authoring canvas.
 
     ![](./media/image24.png)
 
 17. Add a message node for the Paid vacation branch with this message to
-    the user: !!**For paid vacation time-off, go to
-    www.contoso.com/HR/PaidTimeOff**!! to submit time-off requests.
+    the user: !!**For paid vacation time-off, go to www.contoso.com/HR/PaidTimeOff to submit time-off requests**!!.
 
     ![](./media/image25.png)
 
 18. In the **National Holidays** path, add a message node with the
     following text:
 
-National holidays for 2024:
-
-    - New Year's Day: January 1st
-
-    - Memorial Day: May 27th
-
-    - Independence day: July 4th
-
-    - Labor Day: September 2nd
-
-    - Thanksgiving: November 28th
-
-    - Christmas Eve and Christmas Day: December 24th - 25^(th)
-
+    ```
+    National holidays for 2024:
+    
+        - New Year's Day: January 1st
+    
+        - Memorial Day: May 27th
+    
+        - Independence day: July 4th
+    
+        - Labor Day: September 2nd
+    
+        - Thanksgiving: November 28th
+    
+        - Christmas Eve and Christmas Day: December 24th - 25th
+    ```
+    
     ![](./media/image26.png)
 
 19. Click on **Save**.
