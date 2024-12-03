@@ -112,7 +112,7 @@ search for and select **Power Virtual agent** and add it.
 
     Close the Trigger phrases pane.
 
-10. Add a Message node and enter the text, !!I can help with questions related to time-off!!**.
+10. Add a Message node and enter the text, !!I can help with questions related to time-off!!.
 
     ![](./media/image21.png)
 
