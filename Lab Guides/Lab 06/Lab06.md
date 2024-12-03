@@ -12,7 +12,7 @@ create a new copilot in a team and test it.
 1.  Open the link
     !!https://www.microsoft.com/en-in/microsoft-teams/download-app!! from a browser. Click on **Download Teams** under **Download Microsoft Teams for Windows desktop**
 
-    ![](./media/image31.png)
+    ![](./media/image32.png)
 
 2.  **Double click** on the **downloaded file** to install the Teams for
     School app.
