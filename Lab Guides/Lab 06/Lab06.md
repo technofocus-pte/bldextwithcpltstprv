@@ -10,11 +10,9 @@ create a new copilot in a team and test it.
 ## **Exercise 1: Install the Copilot Studio app in Microsoft Teams**
 
 1.  Open the link
-    !!https://www.microsoft.com/en-in/microsoft-teams/download-app!!
-    From a browser. Click on **Download the new Teams app** -\>
-    **Download for Windows (64-bit)**
+    !!https://www.microsoft.com/en-in/microsoft-teams/download-app!! from a browser. Click on **Download Teams** under **Download Microsoft Teams for Windows desktop**
 
-    ![](./media/image1.png)
+    ![](./media/image31.png)
 
 2.  **Double click** on the **downloaded file** to install the Teams for
     School app.
