@@ -56,14 +56,12 @@ generated](./media/image5.png)
 
     ![A screenshot of a chat Description automatically generated](./media/image8.png)
 
-3.  In the **Ask a question node**, add an option named **Extended
-    leave**.
+3.  In the **Ask a question node**, add an option named !!**Extended leave**.!!
 
     ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
 4.  Under the Condition node of Extended leave, add a question node
-    asking for a description for the issue and add the text !!**How
-    would you describe the issue?***!!*
+    asking for a description for the issue and add the text !!**How would you describe the issue?**!!
 
     ![](./media/image10.png)
 
@@ -89,7 +87,7 @@ generated](./media/image5.png)
     ![A screenshot of a computer Description automatically generated](./media/image15.png)
 
 9.  Add a **Text** input field by clicking on **+ Add an input** in the
-    first step. Replace the Input by **Description**.
+    first step. Replace the Input by !!**Description**!!.
 
     ![A computer screen shot of a computer error Description automatically generated](./media/image16.png)
 
@@ -137,8 +135,7 @@ generated](./media/image5.png)
 
     ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-18. Add in a message node with the message, !!**We notified the expert.
-    They’ll reach out shortly**!!.
+18. Add in a message node with the message, !!**We notified the expert. They’ll reach out shortly**!!.
 
     ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
