@@ -183,7 +183,7 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image29.png)
 
-2.  Type **I need time off information** into the copilot chat.
+2.  Type !!**I need time off information**!! into the copilot chat.
 
 3.  Select **Paid vacation**.
 
