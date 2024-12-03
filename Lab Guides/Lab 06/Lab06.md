@@ -51,9 +51,9 @@ search for and select **Power Virtual agent** and add it.
     ![](./media/image9.png)
 
     :::danger
-    **Important:** This step may take around 10 minutes. If it is taking too
-long, close it, select Copilot Studio or Power Virtual Agents from Apps
-in the left pane and redo step 1.
+    
+    **Important:** This step may take around 10 minutes. If it is taking too long, close it, select Copilot Studio or Power Virtual Agents from Apps in the left pane and redo step 1.
+
     :::
 
 3.  In the Create a copilot pane, provide the name as
