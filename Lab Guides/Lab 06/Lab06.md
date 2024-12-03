@@ -52,7 +52,7 @@ search for and select **Power Virtual agent** and add it.
 
     >[!Alert] **Important:** This step may take around 10 minutes. If it is taking too
 long, close it, select Copilot Studio or Power Virtual Agents from Apps
-in the left pane and redo step 4.
+in the left pane and redo step 1.
 
 2.  In the Create a copilot pane, provide the name of the Copilot as
     !!**HR Support Copilot**!! and click on **Create**.
