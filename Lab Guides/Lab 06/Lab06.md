@@ -34,6 +34,10 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image4.png)
 
+6. Click on **Open** to open the app.
+
+    ![](./media/image33.png)
+   
 6.  Click on **Start now**.
 
     ![](./media/image5.png)
