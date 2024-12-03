@@ -236,7 +236,8 @@ topics.
     |:---------|:---------|
     |   Capacity |  100|
     |   Default Presence | available    |
-    ![](./media/image41.png)
+    
+   ![](./media/image41.png)
 
 11. Select **Save and close**.
 
