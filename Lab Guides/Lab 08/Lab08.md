@@ -21,6 +21,10 @@ In this lab, we will learn how to create a Conversational action.
 1.  Login to !!**https://copilotstudio.microsoft.com/**!! using your
     tenant credentials if not already logged in.
 
+2.  Select the environment as Dev one from top right.
+
+    ![](./media/image17.png)
+    
 2.  Select **Copilot for Microsoft 365**.
 
     ![](./media/image1.png)
@@ -29,7 +33,7 @@ In this lab, we will learn how to create a Conversational action.
 
     ![](./media/image2.png)
 
-4.  Select **+ Add an action**.
+4.  Select **+ Add action**.
 
     ![](./media/image3.png)
 
@@ -37,19 +41,17 @@ In this lab, we will learn how to create a Conversational action.
 
     ![](./media/image4.png)
 
-6.  Provide the name for the action as **Conversational action**.
+6.  Provide the name for the action as !!**Conversational action**!!.
     Select **Create**.
 
     ![](./media/image5.png)
-
-    ![](./media/image6.png)
 
 7.  Once ready, the created action opens in Authoring canvas. Select
     **Topics**.
 
     ![](./media/image7.png)
 
-8.  Name the topic as Holidaylist
+8.  Name the topic as !!Holidaylist!!
 
     ![](./media/image8.png)
 
@@ -58,16 +60,16 @@ In this lab, we will learn how to create a Conversational action.
     do. Let this topic help the user to find the list of holidays in the
     year 2024.
 
-    Type !!**This plugin helps to retrieve the list of holidays for the
-year 2024.**!! in the Trigger node’s description.
+    Type !!**This plugin helps to retrieve the list of holidays for the year 2024.**!! in the Trigger node’s description.
 
     ![](./media/image9.png)
 
-This description has functional purpose and is used by the Microsoft
+    This description has functional purpose and is used by the Microsoft
 Copilot to determine whether to invoke your plugin or not.
 
 10. Add a message node with the list of holidays.
 
+    ```
     - New Year's Day - January 1
 
     - Martin Luther King, Jr.'s Birthday (Third Monday of January) -
@@ -91,7 +93,9 @@ Copilot to determine whether to invoke your plugin or not.
     - Thanksgiving Day (fourth Thursday of November): November 28
 
     - Christmas Day - December 25
-
+    
+    ```
+    
     ![](./media/image10.png)
 
 11. Click on **Save** to save the plugin.
@@ -123,18 +127,24 @@ Copilot to determine whether to invoke your plugin or not.
 
     ![](./media/image16.png)
 
-    >[!Note] Note: The publish should complete quickly. The actual availability in
-the Microsoft Admin Center can take up to 4 hours.
+    ::: secondary
+    
+    **Note:** The publish should complete quickly. The actual availability in the Microsoft Admin Center can take up to 4 hours.
 
->[!Alert] **Important:** **:** For the admin to get it listed in the admin center,
-the company will have to hold a valid Copilot license.
+    :::
 
-6.  Your Admin can find the **Dataverse and Microsoft Copilot
+    ::: danger
+
+    **Important:** **:** For the admin to get it listed in the admin center, the company will have to hold a valid Copilot license.
+
+    :::
+
+7.  Your Admin can find the **Dataverse and Microsoft Copilot
     Studio** integrated app in the Microsoft Admin Center
     under **Settings**, then **Integrations to be reviewed and
     approved**.
 
-7.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
+8.  Once your Tenant admin approves the Dataverse and Microsoft Copilot
     Studio integrated app, it should appear in the user's list of
     plugins in their Microsoft Copilot UI.
 
