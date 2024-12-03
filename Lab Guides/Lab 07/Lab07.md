@@ -17,8 +17,7 @@ generated](./media/image1.png)
 
 2.  From the Teams, select **More options** and select **+ -\>** **Create team**.
 
-    ![A screenshot of a computer Description automatically
-generated](./media/image2.png)
+    ![](./media/image41.png)
 
 3.  Name the team as !!**HR Team**!!, channel as !!**HR Experts**!!
     and select **Create**.
