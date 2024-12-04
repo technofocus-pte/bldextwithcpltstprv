@@ -161,7 +161,7 @@ parentheses.!!
 
     ![](./media/image20.png)
 
-14. Select Save custom prompt to save the prompt.
+14. Select **Save custom prompt** to save the prompt.
 
     ![](./media/image21.png)
 
