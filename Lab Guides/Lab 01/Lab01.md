@@ -122,7 +122,7 @@ booking requests online.
 
     ![](./media/image10.png)
 
-    :::secondary:::
+    ::: secondary
     **Note:** If you get a message stating that the publisher is already available, close the publisher creation pane and select the Publisher in the New Solution creator pane.
     :::
     
