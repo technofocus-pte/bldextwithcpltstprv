@@ -922,33 +922,35 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image130.png)
    
-11. Search for !!Send an mail!! and select **Send an email (V2) action**.
+10. Search for !!Send an mail!! and select **Send an email (V2) action**.
 
     ![](./media/image131.png)
 
-12.  Select End user Authentication to Copilot Authentication and select **Next**.
+11.  Once the connection is established, click on **Next**.
 
-      ![](./media/image132.png)
+     ![](./media/Pict9.png)
+     
+12.  Select **End user Authentication** as **Copilot Authentication** and select **Add action**.
 
-13. Select **Edit inputs**.
+     ![](./media/Pict10.png)
 
-    ![](./media/image133.png)
-    
-14. Give the email id to which the mail needs to be delivered in the **Description** field under **Required inputs** and click on **Save**.
+13.	Select the created Action.
 
-    ![](./media/image134.png)
-    
-15. Review the inputs and click on **Next** and then **Finish** in the next screen.
+     ![](./media/Pict11.png)
 
-    ![](./media/image135.png)
+14.	Select the **Inputs** tab.
 
-    ![](./media/image136.png)
+     ![](./media/Pict12.png)
+
+15.	Give the email id to which the mail needs to be delivered in the **Description** field and click on **Save**. This can be any mail id you have access to.
+
+    ![](./media/Pict13.png)
 
 ### Task 3: Add instructions to the agent
 
-1.  Click on **Edit** in the Overview page.
+1.	Select **Overview** to go to the Overview page and then click on **Edit** in the Overview page.
 
-    ![](./media/image113.png)
+    ![](./media/Pict14.png)
 
 2.  Update the instructions as below. Replace **Your email id** place holder with your email id and click on **Save**.
 
