@@ -140,7 +140,7 @@ booking requests online.
 1.  Under Solutions in the Maker portal, select **Manage** for **Set
     your preferred solution**.
 
-    ![](./media/image13.png)
+    ![](./media/Pict8.png)
 
 2.  Select **Bookings (contoso)** under **Unless otherwise specified,
     save my changes in** and select **Apply**.
@@ -324,7 +324,9 @@ select **Save**:
 14. Once the columns are all created, under **Real Estate Property
     columns and data**, enter the following test data:
 
-    Note: If the required columns are not getting displayed, adjust the columns that are displayed by selecting the **+\<number\>more**
+    :::secondary:::
+    Note: If the required columns are not getting displayed, adjust the columns that are displayed by selecting the **+\<number>more**
+    :::
 
     ![](./media/image34.png)
 
@@ -382,7 +384,7 @@ Estate Property Bookings.
     ![](./media/image41.png)
 
 8.  Create the following columns with the name and data type as
-    specified in the table below. Select **Save**.
+    specified below. Select **Save**.
 
     -	Display name –  !!Property!!
     -	Data type –  Lookup -> Lookup
@@ -563,7 +565,7 @@ topics. Disable system topics that you don't require.
 The Demo website allows users without a license to test your copilot.
 You can provide them with the URL to the demo website.
 
-1.  Select the **three dots** next to the **Settings** button in the
+1.  Select the **three dots** next to the **Settings** or the **Publish** button in the
     top-right of the screen and select **Go to demo website**.
 
     ![](./media/image67.png)
@@ -585,7 +587,11 @@ Topics can be created and edited using natural language.
 
     ![](./media/image69.png)
 
-2.  Enter the below details and click on **Create**.
+    :::secondary:::
+    **Note:** Select Allow if prompted with See text and images copied to the clipboard
+    :::
+    
+3.  Enter the below details and click on **Create**.
 
     - Name your topic - !!**Customer Details**!!
 
@@ -593,10 +599,10 @@ Topics can be created and edited using natural language.
 
     ![](./media/image70.png)
 
-3.  A new topic displays with the  trigger phrases and question
+4.  A new topic displays with the  trigger phrases and question
     nodes.
 
-4.  Select **Save**.
+5.  Select **Save**.
 
     ![](./media/image71.png)
 
