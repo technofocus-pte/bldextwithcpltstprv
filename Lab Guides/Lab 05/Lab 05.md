@@ -230,14 +230,12 @@ topics.
 
      ![](./media/image40.png)
 
-10.  Specify the following in the user page.
+10.  Ensure that the values are as below.
 
-        | Setting   |   Value |
-        |:---------|:---------|
-        |   Capacity |  100|
-        |   Default Presence | available    |
+     -    Capacity:  100
+     -    Default Presence: available  
         
-       ![](./media/image41.png)
+     ![](./media/image41.png)
 
 11. Select **Save and close**.
 
