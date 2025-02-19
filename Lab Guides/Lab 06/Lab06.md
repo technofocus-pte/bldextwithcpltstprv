@@ -153,22 +153,21 @@ search for and select **Power Virtual agent** and add it.
     following text:
 
     ```
-    National holidays for 2024:
-    
-        - New Year's Day: January 1st
-    
-        - Memorial Day: May 27th
-    
-        - Independence day: July 4th
-    
-        - Labor Day: September 2nd
-    
-        - Thanksgiving: November 28th
-    
-        - Christmas Eve and Christmas Day: December 24th - 25th
+    National holidays for 2025:
+    -	New Year’s Day:	Jan 1
+    -	Martin Luther King Jr. Day: Jan 20
+    -	Washington’s Birthday (Presidents’ Day): Feb 17
+    -	Memorial Day: May 26
+    -	Juneteenth National Independence Day: June 19
+    -	Independence Day: July 4
+    -	Labor Day: Sep 1
+    -	Columbus Day / Indigenous Peoples’ Day: Oct 13
+    -	Veterans Day: Nov 11
+    -	Thanksgiving Day: Nov 27
+    -	Christmas Day: Dec 25
     ```
     
-    ![](./media/image26.png)
+    ![](./media/Pict32.png)
 
 19. Click on **Save**.
 
