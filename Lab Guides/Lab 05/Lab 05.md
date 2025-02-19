@@ -273,7 +273,7 @@ topics.
 
     - Name - !!**Chat Channel**!!
 
-    - Language – **United States**
+    - Language – **English - United States**
 
     ![](./media/image47.png)
 
