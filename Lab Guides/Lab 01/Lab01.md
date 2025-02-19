@@ -122,12 +122,16 @@ booking requests online.
 
     ![](./media/image10.png)
 
-5.  Select **Contoso (contoso)** under Publisher and then click on
+    :::secondary:::
+    **Note:** If you get a message stating that the publisher is already available, close the publisher creation pane and select the Publisher in the New Solution creator pane.
+    :::
+    
+6.  Select **Contoso (contoso)** under Publisher and then click on
     **Create**.
 
     ![](./media/image11.png)
 
-6.  Select **Back to solutions** in the top-left of the screen.
+7.  Select **Back to solutions** in the top-left of the screen.
 
     ![](./media/image12.png)
 
