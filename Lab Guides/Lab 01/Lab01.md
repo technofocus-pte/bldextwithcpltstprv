@@ -1013,9 +1013,10 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image125.png)
 
+6. Check the corresponding mail box to see if you have received a mail as below.
+   
     ![](./media/Pict16.png)
 
-6. You can check the status of the trigger from the **Activity** tab.
   
 **Summary**
 
