@@ -203,34 +203,34 @@ topics.
 
     ![](./media/image81.png)
    
-5.  This opens up the **Dynamics 365 Customer Service admin center**
+4.  This opens up the **Dynamics 365 Customer Service admin center**
     page.
 
     ![](./media/image36.png)
 
-6.  In **Dynamics 365 Customer Service admin center**, in the site map,
+5.  In **Dynamics 365 Customer Service admin center**, in the site map,
     select **User management** under **Customer support** group.
 
-7.  On the **User management** page, select **Manage** next
+6.  On the **User management** page, select **Manage** next
     to **Users**.
 
     ![](./media/image37.png)
 
-8.  Click the dropdown next to **Enabled Users** and select
+7.  Click the dropdown next to **Enabled Users** and select
     **Omnichannel Users**.
 
     ![](./media/image38.png)
 
-9.  On the **Omnichannel Users** page, select a user **MOD
+8.  On the **Omnichannel Users** page, select a user **MOD
     Administrator** in the list.
 
     ![](./media/image39.png)
 
-10.  On the **MOD Administrator** page, select the **Omnichannel** tab.
+9.  On the **MOD Administrator** page, select the **Omnichannel** tab.
 
      ![](./media/image40.png)
 
-11.  Specify the following in the user page.
+10.  Specify the following in the user page.
 
         | Setting   |   Value |
         |:---------|:---------|
