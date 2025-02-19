@@ -156,8 +156,18 @@ the newly created files.
 
     ![](./media/image31.png)
 
-7.  Save the flow and **publish** it.
+7.  Click on the **New designer toggle**. If that is already enabled, ignore this step.
+   
+    ![](./media/Pict17.png)
 
+8.  Select **Save draft**.
+   
+    ![](./media/Pict18.png)
+    
+10.  Select **Publish** to publish the flow.
+
+    ![](./media/Pict19.png)
+    
 ### Task 4: Publish the trigger
 
 1.  Back in the Copilot Studio, select **Settings**.
@@ -173,6 +183,10 @@ the newly created files.
 
     ![](./media/image34.png)
 
+4.  **Close** the **Settings** pane.
+   
+    ![](./media/Pict20.png)
+    
 4.  Now, select **Publish** to publish the agent.
 
     ![](./media/image35.png)
