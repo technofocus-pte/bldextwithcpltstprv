@@ -3,17 +3,17 @@ Microsoft Copilot Studio lets you create powerful AI-powered agents for a range 
 
 ### Lab 01 - Creating and using an agent from Copilot Studio for managing a Real Estate Application
 
-### Lab 02 – Build an autonomous agent to track new files created in OneDrive
+### Lab 02 - Build an autonomous agent to track new files created in OneDrive
 
-### Lab 03: Configure the Dynamics 365 Customer Service
+### Lab 03 - Configure the Dynamics 365 Customer Service
 
 ### Lab 04 - Enhancing the Real Estate copilot with Gen AI capabilities
 
 ### Lab 05 - Integrate an agent with the Dynamics 365 Customer Service app and implement automated case escalation to the live agent
 
-### Lab 06_Creating and deploying a Microsoft Copilot Studio copilot from Teams
+### Lab 06 - Creating and deploying a Microsoft Copilot Studio copilot from Teams
 
-### Lab 07_ Sending messages from a Copilot(classic) to a Teams channel
+### Lab 07 - Sending messages from a Copilot(classic) to a Teams channel
 
 ### Lab 08 - Creating conversational actions for Microsoft Copilot
 
