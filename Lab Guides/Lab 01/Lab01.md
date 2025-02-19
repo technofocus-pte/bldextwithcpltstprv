@@ -1013,7 +1013,7 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image125.png)
 
-    ![](./media/image126.png)
+    ![](./media/Pict16.png)
 
 6. You can check the status of the trigger from the **Activity** tab.
   
