@@ -117,25 +117,26 @@ add the trigger.
 
 7.  Paste the below content in the Prompt field.
 
-    !!Generate a quiz with [number] questions to cover this [topic].
-Decide on the format, such as multiple-choice questions or true/false
-statements. Use this [format]. Designate the correct answer within
-parentheses.!!
+    !!Generate a quiz with [number] questions to cover this [topic]. Decide on the format, such as multiple-choice questions or true/false statements. Use this [format]. Designate the correct answer within parentheses.!!
 
     Expand the **Input** section and select **+ Add input**.
 
+    ::: secondary
+    **Note:** Scroll down to see the Input section if it is not visible.
+    :::
+    
     ![](./media/image13.png)
 
-8.  Select **Text** under the **Add input** option.
+9.  Select **Text** under the **Add input** option.
 
     ![](./media/image14.png)
 
-9.  Enter the name as !!number!! and enter sample data such as
+10.  Enter the name as !!number!! and enter sample data such as
     !!5!!. Select **+ Add input** -\> **Text** to add the next input.
 
     ![](./media/image15.png)
 
-10.  Enter the name as !!topic!! and enter sample data such as
+11.  Enter the name as !!topic!! and enter sample data such as
     !!Science!! and then select **+ Add input** -\> **Text** to add
     the next input.
 
