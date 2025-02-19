@@ -952,24 +952,23 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/Pict14.png)
 
-2.  Update the instructions as below. Replace **Your email id** place holder with your email id and click on **Save**.
+2.  Update the instructions as below, replacing the place holder for Your mail id with the mail id to which the details needs to be sent and click on Save.
+   
+    !!a.	Read the details of the row that gets added or modified!!
+    !!b.	Mail the modified information only to <Your email id> with a proper subject and body added to the email!!
 
-    !!1.  Read the details of the row that gets added or modified!!
+    ![](./media/Pict15.png)
 
-    !!2.  Use the action Office 365 Outlook - Send an email (V2)!!
-
-    ![](./media/image137.png)
-
-3.  Click on Publish to publish the agent to all the channels it is
+4.  Click on **Publish** to publish the agent to all the channels it is
     connected to.
 
     ![](./media/image115.png)
 
-4.  Click on **Publish** in the **Publish this agent** dialog box.
+5.  Click on **Publish** in the **Publish this agent** dialog box.
 
     ![](./media/image116.png)
 
-5.  Once published, you will get a success message.
+6.  Once published, you will get a success message.
 
     ![](./media/image117.png)
 
