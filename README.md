@@ -1,4 +1,4 @@
-# Technofocus - Copilot extensibility using Copilot Studio
+# Technofocus - Build and extend AI-powered agents using Copilot Studio
 Microsoft Copilot Studio lets you create powerful AI-powered agents for a range of requests—from providing simple answers to common questions to resolving issues requiring complex conversations. Learn how you can build and extend these copilots, boot their capabilities with AI and extend them to perform actions, and provide answers for your copilot users.
 
 ### Lab 01 - Creating and using an agent from Copilot Studio for managing a Real Estate Application
