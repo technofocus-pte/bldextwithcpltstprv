@@ -9,22 +9,13 @@ create a new copilot in a team and test it.
 
 ## **Exercise 1: Install the Copilot Studio app in Microsoft Teams**
 
-1.  Open the link
-    !!https://www.microsoft.com/en-in/microsoft-teams/download-app!! from a browser. Click on **Download Teams** under **Download Microsoft Teams for Windows desktop**
+1. Open the **Microsoft Teams**(Work or School) from the Start menu.
 
-    ![](./media/image32.png)
-
-2.  **Double click** on the **downloaded file** to install the Teams for
-    School app.
-
-3.  Follow the prompts to install.
-
-4.  Once installed, **Sign in** using your **office 365 tenant
-    credentials**.
+2.  **Sign in** using your **office 365 tenant credentials**.
 
     ![](./media/image2.png)
 
-5.  Click on **Apps**. Search for !!**Copilot Studio**!! and select
+3.  Click on **Apps**. Search for !!**Copilot Studio**!! and select
     **Microsoft Copilot Studio** and click on **Add**.
 
     **Note:** If you are not able to find Copilot Studio, you will have to
@@ -34,11 +25,11 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image4.png)
 
-6. Click on **Open** to open the app.
+4. Click on **Open** to open the app.
 
     ![](./media/image33.png)
    
-6.  Click on **Start now**.
+5.  Click on **Start now**.
 
     ![](./media/image5.png)
 
