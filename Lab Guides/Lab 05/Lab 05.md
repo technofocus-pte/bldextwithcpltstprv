@@ -54,11 +54,6 @@ This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 
 
     ![](./media/image8.png)
 
-3.  Make sure that **Omnichannel for Customer Service** is
-    **Installed**.
-
-    ![](./media/image9.png)
-
 4.  Navigate back to the **Environments -\> CustomerService** **Trial**
     page in the admin center. Select **Settings** from the top pane.
 
@@ -94,16 +89,18 @@ This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 
 
     ![](./media/image16.png)
 
-4.  Type the message !!**Maintain a polite tone**!! next and hit
+4. A **name** might be **proposed** for the agent. It can either be accepted or a new name can be given by the user. Reply accordingly.
+   
+5.  Type the message !!**Maintain a polite tone**!! next and hit
     **send.**
 
     ![](./media/image17.png)
 
-5.  Click on **Create**.
+6.  Click on **Create**.
 
     ![](./media/image18.png)
 
-6.  The created agent opens up with a message, **Your agent is ready**.
+7.  The created agent opens up with a message, **Your agent is ready**.
 
     ![](./media/image19.png)
 
