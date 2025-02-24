@@ -105,7 +105,7 @@ the newly created files.
 
 7.  Once the trigger is created, **Time to test your trigger** message
     is displayed. **Close** it. We will tweak the basic flow of the
-    trigger a bit to get out functionality implemented and then will
+    trigger a bit to get our functionality implemented and then will
     test it.
 
     ![](./media/image24.png)
@@ -122,12 +122,14 @@ the newly created files.
 
     ![](./media/image26.png)
 
-3.  Select the **+** icon between **When the file is created** and
+    **Note:** The editor opens either in old or new designer mode. The screenshots attached are for the old designer mode. If there is discrepancy in the screenshots, change the mode in the top right.
+    
+4.  Select the **+** icon between **When the file is created** and
     **Sends a prompt action** and select **Add an action**.
 
     ![](./media/image27.png)
 
-4.  Search for !!add a row!! and select **Add a row into the table**.
+5.  Search for !!add a row!! and select **Add a row into the table**.
 
     ![](./media/image28.png)
 
