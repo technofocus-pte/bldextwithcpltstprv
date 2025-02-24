@@ -366,6 +366,8 @@ topics.
 
     ![](./media/image63.png)
 
+    >[!Note] **Note:** The site creation takes around 15 minutes to complete.
+    
 8.  Once the site is created, click on **Edit site header** in the
     **Company name** title.
 
