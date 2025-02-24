@@ -615,11 +615,11 @@ respond**.
     link !!https://create.microsoft.com/templates/real-estate!!.
     Select **Add**.
 
-    ![](./media/image95.png)
+    ![](./media/Picture13.png)
 
 4.  Give the name !!Real Estate Website!! in the Name field and then select **Add**.
 
-    ![](./media/image96.png)
+    ![](./media/Picture14.png)
 
 ### Task 4: Add knowledge from Dataverse
 
