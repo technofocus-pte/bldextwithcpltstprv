@@ -37,11 +37,13 @@ This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 
     **Update available**, **select** the **check box** to agree to the
     terms and click on **Update**.
 
-    Make sure to do this for **all** the entries with **Update available** as the Status.
+    Make sure to do this for **all** the entries with **Update available** as the Status. Scroll down to check for the  available updates.
 
     ![](./media/image5.png)
 
     ![](./media/image6.png)
+
+    >[!Note] **Note:** Continue with the next task while the updates will install at the backend and complete.
 
 ### Task 2: Configure search settings in the Power Platform admin center
 
