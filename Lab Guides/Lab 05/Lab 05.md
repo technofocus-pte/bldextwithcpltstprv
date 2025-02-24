@@ -200,45 +200,49 @@ topics.
 
     ![](./media/image35.png)
 
-3.  This opens the **Apps** page. Select **Customer Service admin center** from it.
+3. This opens the **Customer Service workspace**. Select **Customer Service workspace** from th top.
+
+    ![](./media/Picture19.png)
+   
+4.  Select **Customer Service admin center** from it.
 
     ![](./media/image81.png)
    
-4.  This opens up the **Dynamics 365 Customer Service admin center**
+5.  This opens up the **Dynamics 365 Customer Service admin center**
     page.
 
     ![](./media/image36.png)
 
-5.  In **Dynamics 365 Customer Service admin center**, in the site map,
+6.  In **Dynamics 365 Customer Service admin center**, in the site map,
     select **User management** under **Customer support** group.
 
-6.  On the **User management** page, select **Manage** next
+7.  On the **User management** page, select **Manage** next
     to **Users**.
 
     ![](./media/image37.png)
 
-7.  Click the dropdown next to **Enabled Users** and select
+8.  Click the dropdown next to **Enabled Users** and select
     **Omnichannel Users**.
 
     ![](./media/image38.png)
 
-8.  On the **Omnichannel Users** page, select a user **MOD
+9.  On the **Omnichannel Users** page, select a user **MOD
     Administrator** in the list.
 
     ![](./media/image39.png)
 
-9.  On the **MOD Administrator** page, select the **Omnichannel** tab.
+10.  On the **MOD Administrator** page, select the **Omnichannel** tab.
 
      ![](./media/image40.png)
 
-10.  Ensure that the values are as below.
+11.  Ensure that the values are as below.
 
      -    Capacity:  100
      -    Default Presence: available  
         
      ![](./media/image41.png)
 
-11. Select **Save and close**.
+12. Select **Save and close**.
 
     ![](./media/image42.png)
 
