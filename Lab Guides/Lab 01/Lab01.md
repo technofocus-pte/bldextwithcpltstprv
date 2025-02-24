@@ -67,6 +67,14 @@ booking requests online.
 
     ![](./media/image3.png)
 
+6. If there is a **Sign in required** alert, click on **Sign In** and select **Sign in with a different account** and sign in using the **admin credentials** available in the **Home** tab of the VM.
+   
+    ![](./media/Picture10.png)
+
+    ![](./media/Picture11.png)
+   
+8. Once logged in, **close** the **Teams** app. We will be using it in Day 3 labs.
+
 ## Exercise 1: Setting up Power Apps and Dataverse
 
 ### Task 1: Sign up for the Microsoft Power Apps Developer Plan
