@@ -41,8 +41,7 @@ can create custom entities for your specific purpose.
 3.  Enter the below details
 
     -   Name - !!Property Type!!
-    -   Enter item under List items – 
-    -   !!Apartment!! - Select Add
+    -   Enter item under List items –  !!Apartment!! - Select **Add**
 
     ![](./media/image5.png)
 
@@ -165,21 +164,21 @@ Power Automate cloud flows
    
     ![](./media/Pict22.png)
   	
-4.  Select **Run a flow from Copilot** in the top-left of the screen and
+5.  Select **Run a flow from Copilot** in the top-left of the screen and
     enter !!**Get Property**!! as the flow name.
 
     ![](./media/image22.png)
 
-5.  Select the trigger step **Run a flow from Copilot** and select **+
+6.  Select the trigger step **Run a flow from Copilot** and select **+
     Add an input**.
 
     ![](./media/image23.png)
 
-6.  Select **Text**.
+7.  Select **Text**.
 
     ![](./media/image24.png)
 
-7.  Enter the below details
+8.  Enter the below details
 
     - **Input** – !!Bedrooms!!
 
@@ -187,43 +186,43 @@ Power Automate cloud flows
 
     ![](./media/image25.png)
 
-8.  Select the **+** icon between the two steps in the flow and
+9.  Righ click the **+** icon between the two steps in the flow and
     select **Add an action**.
 
     ![](./media/image26.png)
 
-9.  Enter !!**Dataverse**!! in the **Search** field and select **See
+10.  Enter !!**Dataverse**!! in the **Search** field and select **See
     more** for the **Microsoft Dataverse connector**.
 
     ![](./media/image27.png)
 
-10. Select the **List rows** action.
+11. Select the **List rows** action.
 
     ![](./media/image28.png)
 
-11. If prompted for authentication, select **OAuth** and select **Sign
+12. If prompted for authentication, select **OAuth** and select **Sign
     in**. Sign in using your tenant id if prompted.
 
     ![](./media/image29.png)
 
-12. Select **Real Estate Properties** for table name.
+13. Select **Real Estate Properties** for table name.
 
-13. Select **Show all** if all the options does not get listed automatically
+14. Select **Show all** if all the options does not get listed automatically
 
-14. Enter !!contoso_bedrooms eq!! in the **Filter Rows** field.
+15. Enter !!contoso_bedrooms eq!! in the **Filter Rows** field.
 
-15. Use **spacebar** next to **eq** to ensure that you are adding the value after a space. Use **Dynamic content** to select the **Bedrooms** parameter and select **Add**.
+16. Use **spacebar** next to **eq** to ensure that you are adding the value after a space. Use **Dynamic content** to select the **Bedrooms** parameter and select **Add**.
 
     ![](./media/image30.png)
 
-16. Select the **Respond to Copilot** action and select **+ Add an
+17. Select the **Respond to Copilot** action and select **+ Add an
     output**.
 
     ![](./media/image31.png)
 
-17. Select **Text**.
+18. Select **Text**.
 
-18. Enter the below details
+19. Enter the below details
 
     - **Enter a name** - !!PropertyId!!
 
@@ -233,17 +232,17 @@ Power Automate cloud flows
 
     ![](./media/image32.png)
 
-19. Select **Add**.
+20. Select **Add**.
 
     ![](./media/image33.png)
+   
+22. Select **+ Add an output**.
 
-22.  From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula** above.
+21.  From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula** below.
 
      ![](./media/Pict23.png)
-    
-20. Select **+ Add an output**.
-
-21. Select **Text**.
+     
+23. Select **Text**.
 
     - **Enter a name** - !!PropertyName!! 
 
@@ -255,20 +254,20 @@ Power Automate cloud flows
     
     ![](./media/image34.png)
 
-23. Select **Settings**. Ensure that **Asynchronous Response** is set
+24. Select **Settings**. Ensure that **Asynchronous Response** is set
     to **Off**.
 
     ![](./media/image35.png)
 
-24. Select **Save draft**.
+25. Select **Save draft**.
 
     ![](./media/image36.png)
 
-25. Once saved, select **Publish**.
+26. Once saved, select **Publish**.
 
     ![](./media/image37.png)
 
-26. Close the Power Automate tab.
+27. Close the Power Automate tab.
 
 ### Task 2: Add a Copilot action for retrieving a property
 
@@ -661,7 +660,7 @@ respond**.
     ![](./media/image105.png)
 
     :::danger
-    **Important:** The file upload will take around 10 minutes to complete. Check the status in the Knowledge tab to ensure that the file has been uploaded successfully.
+    **Important:** The file upload will complete and the indexing will take some time to complete. Check the status in the Knowledge tab to ensure that the file is available.
     :::
 ### Task 6: Use generative answers in System fallback topic
 
@@ -746,10 +745,9 @@ respond**.
 2.  Select the **three dots** at the top of the testing panel in the
     top-right of the screen.
 
-3.	Select **Activity map**.
+3.	Select **Activity map** if not selected already.
    
-5.  Select the **Start a new conversation** icon at the top of the
-    testing panel.
+5.  Select the **Refresh** button in Test Panel to **Start a new conversation** .
 
 6.  Type in !!What is Summit Realty group?!! and hit **send**.
 
