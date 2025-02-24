@@ -72,6 +72,10 @@ booking requests online.
     ![](./media/Picture10.png)
 
     ![](./media/Picture11.png)
+
+7. Select **sign in to this app only**.
+
+   ![](./media/Picture12.png)
    
 8. Once logged in, **close** the **Teams** app. We will be using it in Day 3 labs.
 
