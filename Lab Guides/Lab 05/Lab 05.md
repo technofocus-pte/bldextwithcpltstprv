@@ -278,7 +278,7 @@ topics.
 
     ![](./media/image47.png)
 
-5.  In the Live chat setup – Chat widget screen, provide the name as
+5.  In the Live chat setup – Chat widget screen, provide the **Title** as
     !!**Store Locator Assistant**!!, accept the other defaults and
     click on **Next**.
 
