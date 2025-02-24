@@ -458,7 +458,7 @@ field, designate **Undecided** as the **Default choice** and click on
 2.  Leave the **Choose your country/region** with the **default** value
     and click on **Start free trial**.
 
-    ![](./media/image48.png)
+    ![](./media/Picture9.png)
 
 3.  Click on **Environments** on the top left and select
     **Dev One**.
