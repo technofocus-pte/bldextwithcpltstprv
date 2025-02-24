@@ -11,9 +11,7 @@ create a new copilot in a team and test it.
 
 1. Open the **Microsoft Teams**(Work or School) from the Start menu.
 
-2.  **Sign in** using your **office 365 tenant credentials**.
-
-    ![](./media/image2.png)
+    ![](./media/Picture20.png)
 
 3.  Click on **Apps**. Search for !!**Copilot Studio**!! and select
     **Microsoft Copilot Studio** and click on **Add**.
