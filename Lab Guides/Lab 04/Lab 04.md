@@ -719,7 +719,7 @@ respond**.
 
 9.  Select **Save**.
 
-    ![](./media/image120.png)
+    ![](./media/Picture15.png)
 
 10. Select **Save**.
 
