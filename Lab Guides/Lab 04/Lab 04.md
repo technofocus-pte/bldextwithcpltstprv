@@ -742,16 +742,13 @@ respond**.
 
     ![](./media/image124.png)
 
-2.  Select the **three dots** at the top of the testing panel in the
-    top-right of the screen.
-
-3.	Select **Activity map** if not selected already.
+2.	Select **Activity map** if not selected already.
    
-5.  Select the **Refresh** button in Test Panel to **Start a new conversation** .
+3.  Select the **Refresh** button in Test Panel to **Start a new conversation** .
 
-6.  Type in !!What is Summit Realty group?!! and hit **send**.
+4.  Type in !!What is Summit Realty group?!! and hit **send**.
 
-7.  You will get a response from the uploaded file as in the screenshot below sinc eit has been added as the knowledge source to look for in the Fallback topic.
+5.  You will get a response from the uploaded file as in the screenshot below sinc eit has been added as the knowledge source to look for in the Fallback topic.
 
     ![](./media/image125.png)
 
