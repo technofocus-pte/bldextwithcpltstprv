@@ -122,7 +122,7 @@ booking requests online.
     ![](./media/image10.png)
 
     ::: secondary
-    **Note:** If you get a message stating that **A record with matching key value already exists**, close the publisher creation pane and select the Publisher in the New Solution creator pane.
+    **Note:** If you get a message stating that **A record with matching key value already exists**, close the publisher creation pane and select the Publisher **Contoso** in the New Solution creator pane.
     :::
     
 6.  Select **Contoso (contoso)** under Publisher and then click on
@@ -345,6 +345,9 @@ select **Save**:
 
     ![](./media/image35.png)
 
+    :::secondary
+    Note: If there is no **client** record in the **Contact** table, ignore adding data to that column.
+    :::
 ### Task 5: Create the Bookings table
 
 Follow these steps to create a new custom table in Dataverse for Real
