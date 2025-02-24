@@ -2,9 +2,7 @@
 
 **Introduction**
 
-OneDrive For Business of an organization has been getting multiple files
-created in it and it has become difficult for the admin to keep track of
-them.
+Contoso, a management company has been getting multiple files created in its OneDrive For Business and it has become difficult for the admin to keep track of them as the number of files kept increasing.
 
 **Objective**
 
@@ -133,7 +131,9 @@ the newly created files.
 
     ![](./media/image28.png)
 
-5.  Select the below values for each row and click on **Save**.
+    **Note:** **Sign in** if prompted.
+
+6.  Select the below values for each row and click on **Save**.
 
     |	|	|
     |:----|:-----|
@@ -152,15 +152,15 @@ the newly created files.
 
     ![](./media/image30.png)
 
-6.  The flow will now look like the one in the below screenshot.
+7.  The flow will now look like the one in the below screenshot.
 
     ![](./media/image31.png)
 
-7.  Click on the **New designer toggle**. If that is already enabled, ignore this step.
+8.  Click on the **New designer toggle**. If that is already enabled, ignore this step.
    
     ![](./media/Pict17.png)
 
-8.  Select **Save draft**.
+9.  Select **Save draft**.
    
     ![](./media/Pict18.png)
     
@@ -202,7 +202,7 @@ the newly created files.
 
     ![](./media/image37.png)
 
-2.  Give a **name** to the document and select **Create**.
+2.  Give a **name** to the document if asked for, and then select **Create**.
 
     ![](./media/image38.png)
 
@@ -220,9 +220,6 @@ the newly created files.
 6.  When the file is created in OneDrive, the trigger is invoked which
     in turn executes the flow **When a file is added** and updates the
     tracker.
-
-7.  You can also check the details of the autonomous agent in the
-    Activity tab in Copilot Studio.
 
 **Summary**
 
