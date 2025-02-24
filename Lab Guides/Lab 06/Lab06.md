@@ -43,16 +43,16 @@ search for and select **Power Virtual agent** and add it.
 
     :::danger
     
-    **Important:** This step may take around 10 minutes. If it is taking too long, close it, select Copilot Studio or Power Virtual Agents from Apps in the left pane, select the Copilots tab, .
+    **Important:** This step may take around 10 minutes. If it is taking too long, close it, select Copilot Studio or Power Virtual Agents from Apps in the left pane, and click on Start now again.
 
     :::
 
-3.  In the Create a copilot pane, provide the name as
+2.  In the Create a copilot pane, provide the name as
     !!**HR Support Copilot**!! and click on **Create**.
 
     ![](./media/image34.png)
 
-4.  A success message is obtained.
+3.  A success message will display once the Copilot is created.
 
     ![](./media/image35.png)
 
@@ -80,16 +80,16 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image16.png)
 
-7.  Click on the **Trigger phases.**
+6.  Click on the **Trigger phases.**
 
     ![](./media/image18.png)
 
-8.  Add in a trigger phrase, !!**I need help with time off**!! and
+7.  Add in a trigger phrase, !!**I need help with time off**!! and
     click on **+.**
 
     ![](./media/image19.png)
 
-9.  Add in the below trigger phrases.
+8.  Add in the below trigger phrases.
 
     - !!**Need information on time off**!!
 
@@ -103,44 +103,44 @@ search for and select **Power Virtual agent** and add it.
 
     Close the Trigger phrases pane.
 
-10. Add a Message node and enter the text, !!I can help with questions related to time-off!!.
+9. In the Message node and enter the text, !!I can help with questions related to time-off!!.
 
     ![](./media/image21.png)
 
-11. As an HR employee, you know the most common time-off questions are
+10. As an HR employee, you know the most common time-off questions are
     about **paid vacation** time and **national holidays**. When a
     question node with user response options is added, the topic
     automatically gets a forked branch for each response.
 
-12. Select the (**+**) icon below the message node, then select **Ask a
+11. Select the (**+**) icon below the message node, then select **Ask a
     question** to add a question node to the topic. Enter !!**What information are you looking for?**!! in the **Ask a question** text
     box.
 
     ![](./media/image22.png)
 
-13. Under **Options for user**, add !!Paid vacation!! and !!National Holidays!! as two options.
+12. Under **Options for user**, add !!Paid vacation!! and !!National Holidays!! as two options.
 
     ![](./media/image23.png)
 
-14. User choices are stored in a variable and the topic branches off,
+13. User choices are stored in a variable and the topic branches off,
     based on the option the user chooses. You can rename the variable to
     track it better in the topic.
 
-15. On the variable, under **Save response as**, select the pencil icon
+14. On the variable, under **Save response as**, select the pencil icon
     to edit the variable properties.
 
-16. The **Variable properties** pane opens. Rename the variable
+15. The **Variable properties** pane opens. Rename the variable
     to !!TimeoffType!!. Close the **Variable properties** pane and
     you see the changes reflected in the authoring canvas.
 
     ![](./media/image24.png)
 
-17. Add a message node for the Paid vacation branch with this message to
+16. Add a message node for the Paid vacation branch with this message to
     the user: !!**For paid vacation time-off, go to www.contoso.com/HR/PaidTimeOff to submit time-off requests**!!.
 
     ![](./media/image25.png)
 
-18. In the **National Holidays** path, add a message node with the
+17. In the **National Holidays** path, add a message node with the
     following text:
 
     ```
@@ -160,7 +160,7 @@ search for and select **Power Virtual agent** and add it.
     
     ![](./media/Pict32.png)
 
-19. Click on **Save**.
+18. Click on **Save**.
 
     ![](./media/image27.png)
 
