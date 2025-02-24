@@ -1,4 +1,4 @@
-# **Lab 06_Creating and deploying a Microsoft Copilot Studio copilot from Teams**
+# **Lab 06 - Creating and deploying a Microsoft Copilot Studio copilot from Teams**
 
 **Lab duration** – 30 minutes
 
@@ -43,7 +43,7 @@ search for and select **Power Virtual agent** and add it.
 
     :::danger
     
-    **Important:** This step may take around 10 minutes. If it is taking too long, close it, select Copilot Studio or Power Virtual Agents from Apps in the left pane and redo step 7 of Exercise 1.
+    **Important:** This step may take around 10 minutes. If it is taking too long, close it, select Copilot Studio or Power Virtual Agents from Apps in the left pane, select the Copilots tab, .
 
     :::
 
