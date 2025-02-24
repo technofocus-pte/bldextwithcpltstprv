@@ -1,4 +1,4 @@
-# Lab 03: Configure the Dynamics 365 Customer Service
+# Lab 03: Configure Dynamics 365 Customer Service
 
 ### Task 1: Sign up for Dynamics 365 Customer Service trial
 
@@ -28,7 +28,7 @@
 
     ![](./media/image4.png)
 
-7. Once activated, your Customer Service workspace will get opened.
+7. Once activated, your Customer Service workspace will open automatically.
 
    ![](./media/image5.png)
 
