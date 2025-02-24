@@ -80,18 +80,17 @@ booking requests online.
 
     ![](./media/image128.png)
    
-4.  Under **Let's get started**, enter the **Administrative Username** from the **Home** tab  in the text
+3.  Under **Let's get started**, enter the **Administrative Username** from the **Home** tab  in the text
     box, check the agreement box and select **Start free**.
 
     ![](./media/image5.png)
 
-3.  If you see a prompt that you have an existing account with
+4.  If you see a prompt that you have an existing account with
     Microsoft. Select **Sign in**. Enter your password.
 
-4.  If prompted, Select **Yes** to stay signed in.
+5.  If prompted, Select **Yes** to stay signed in.
 
-5.  Click on **Environment** in the top-right corner of the screen and
-    select **Dev One**.
+6.  Click on **Environment** in the top-right corner of the screen and ensure that **Dev One** is selected. If not, select **Dev One**.
 
     ![](./media/image6.png)
 
@@ -123,7 +122,7 @@ booking requests online.
     ![](./media/image10.png)
 
     ::: secondary
-    **Note:** If you get a message stating that the publisher is already available, close the publisher creation pane and select the Publisher in the New Solution creator pane.
+    **Note:** If you get a message stating that **A record with matching key value already exists**, close the publisher creation pane and select the Publisher in the New Solution creator pane.
     :::
     
 6.  Select **Contoso (contoso)** under Publisher and then click on
@@ -303,7 +302,7 @@ Estate Properties.
 
     ![](./media/image31.png)
 
-    Select the created choice and click on Save in the column addition pane.
+    Select the created choice and click on **Save** in the column addition pane.
 
     ![](./media/image32.png)
 
@@ -324,7 +323,7 @@ select **Save**:
 14. Once the columns are all created, under **Real Estate Property
     columns and data**, enter the following test data:
 
-    :::secondary:::
+    :::secondary
     Note: If the required columns are not getting displayed, adjust the columns that are displayed by selecting the **+\<number>more**
     :::
 
@@ -415,7 +414,7 @@ Estate Property Bookings.
 
     ![](./media/image44.png)
 
-10.  Add a choice data type column with the below details.
+9.  Add a choice data type column with the below details.
 
     -	Display name – !!Decision!!
     -	Data type – Choice -> Choice
@@ -454,7 +453,7 @@ field, designate **Undecided** as the **Default choice** and click on
 1.  In a new tab in the browser, navigate to the url !!https://copilotstudio.microsoft.com/!!.
 
 2.  Leave the **Choose your country/region** with the **default** value
-    and click on **Get Started**.
+    and click on **Start free trial**.
 
     ![](./media/image48.png)
 
@@ -694,7 +693,7 @@ add new ones.
 
     ![](./media/image82.png)
 
-2.  Enter the below phrases one by one.
+2.  Enter the below phrases one by one. Select the **+** icon after entering each phrase.
 
     - !!**Schedule a real estate showing**!!
 
@@ -952,7 +951,7 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/Pict14.png)
 
-2.  Update the instructions as below, replacing the place holder for Your mail id with the mail id to which the details needs to be sent and click on Save.
+2.  Paste the instructions below inside the **Instructions** text area, replacing the place holder for **<Your mail id>** in the section **b** below, with the mail id to which the details needs to be sent and click on **Save**.
    
     !!a.	Read the details of the row that gets added or modified!!
     !!b.	Mail the modified information only to <Your email id> with a proper subject and body added to the email!!
