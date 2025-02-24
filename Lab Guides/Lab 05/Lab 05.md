@@ -18,20 +18,22 @@ This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 
 
     ![](./media/image1.png)
 
-2. Sign in with the tenant credentials from the **Home** tab.
+2. If you do not get the next 2 steps, continue from the step 5.
+   
+3. Sign in with the tenant credentials from the **Home** tab.
    
     ![](./media/image2.png)
 
-3. Click on **Get it now**.
+4. Click on **Get it now**.
 
    ![](./media/image3.png)
 
-2.  Select the **CustomerService Trial** under **Select an
+5.  Select the **CustomerService Trial** under **Select an
     environment**, select the check boxes and click on **Install**.
 
     ![](./media/image4.png)
 
-3.  In the Dynamics 365 apps page, click on the entries that shows
+6.  In the Dynamics 365 apps page, click on the entries that shows
     **Update available**, **select** the **check box** to agree to the
     terms and click on **Update**.
 
