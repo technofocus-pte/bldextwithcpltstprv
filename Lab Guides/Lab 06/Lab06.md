@@ -138,9 +138,9 @@ search for and select **Power Virtual agent** and add it.
 
     ![](./media/image25.png)
 
-17. In the **National Holidays** path, add a message node with the
-    following text:
-
+17. In the **National Holidays** path, add a message node.
+    Copy the following text to a notepad and then copy it from there and paste it to the newly added Message node.
+    
     ```
     National holidays for 2025:
     -	New Year’s Day:	Jan 1
@@ -158,7 +158,7 @@ search for and select **Power Virtual agent** and add it.
     
     ![](./media/Pict32.png)
 
-18. Click on **Save**.
+19. Click on **Save**.
 
     ![](./media/image27.png)
 
