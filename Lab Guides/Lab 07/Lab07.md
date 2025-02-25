@@ -1,4 +1,4 @@
-# **Lab 07_ Sending messages from a Copilot(classic) to a Teams channel**
+# **Lab 07 - Sending messages from a Copilot(classic) to a Teams channel**
 
 **Lab duration** – 30 minutes
 
@@ -45,7 +45,7 @@ generated](./media/image5.png)
 
     ::: secondary
     
-    **Note:** If Copilot Studio shortcut is not found, search for **Copilot Studio/Power Virtual Agents under Apps** and select **Open**)
+    **Note:** If the Copilot Studio shortcut is not found, search for **Copilot Studio/Power Virtual Agents under Apps** and select **Open**)
 
     :::
 
@@ -71,6 +71,8 @@ generated](./media/image5.png)
     ![A screenshot of a computer screen Description automatically generated](./media/image11.png)
 
 6.  Select **Save**.
+
+    **Note:** If the save button is not visible, adjust the zoom settings for it to become visible. 
 
     ![A screenshot of a computer Description automatically generated](./media/image12.png)
 
@@ -135,19 +137,19 @@ generated](./media/image5.png)
 
     ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-18. Add in a message node with the message, !!**We notified the expert. They’ll reach out shortly**!!.
+18. Add in a message node with the message, !!We notified the expert. They’ll reach out shortly!!.
 
     ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
-19. End the conversation \> End the survey.
+20. End the conversation \> End the survey.
 
     ![A screenshot of a chat Description automatically generated](./media/image26.png)
 
-20. Click on **Save** to save the topic.
+21. Click on **Save** to save the topic.
 
     ![A screenshot of a computer Description automatically generated](./media/image27.png)
 
-21. A success message of **Topic saved** is obtained.
+22. A success message of **Topic saved** is obtained.
 
     ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
