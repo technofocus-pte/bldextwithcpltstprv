@@ -43,9 +43,11 @@ This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 
 
     ![](./media/image6.png)
 
-    >[!Note] **Note:** Continue with the next task while the updates will install at the backend and complete.
-    >
-    >![](./media/Picture21.png)
+    :::secondary 
+    **Note:** Continue with the next task while the updates will install at the backend and complete.
+    
+    ![](./media/Picture21.png)
+    :::
 
 ### Task 2: Configure search settings in the Power Platform admin center
 
