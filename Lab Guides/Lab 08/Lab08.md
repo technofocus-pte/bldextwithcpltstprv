@@ -47,9 +47,11 @@ In this lab, we will learn how to create a Conversational action.
     Select **Create**.
 
     ![](./media/Pict33.png)
-
+    
 9.  Once ready, the created action opens in Authoring canvas. Select
     **Topics**.
+
+    **Note:** If it does not get opened, select the Agent again. 
 
 10.	If it does not open up, refresh the page and see if it is listed under **Library -> Conversational**.
 
@@ -73,6 +75,8 @@ Copilot to determine whether to invoke your plugin or not.
 
 13. Add a message node with the list of holidays.
 
+    Copy the below to a notepad and then paste it into the Message node from there.
+    
     ```
     National holidays for 2025:
     -	New Year’s Day:	Jan 1
@@ -111,7 +115,7 @@ Copilot to determine whether to invoke your plugin or not.
 
     ![](./media/image14.png)
 
-4.  Select **Publish** on **Publish latest content** dialog.
+4.  Select **Publish** on the **Publish latest content** dialog.
 
     ![](./media/image15.png)
 
