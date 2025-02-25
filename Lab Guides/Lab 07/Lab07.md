@@ -169,7 +169,7 @@ generated](./media/image5.png)
 
     ![A screenshot of a chat Description automatically generated](./media/image31.png)
 
-4.  The bot replies with “We notified an expert…..” message.
+4.  The bot replies with “We notified an expert…..” message. Type **Yes** to **Did that answer your question**.
 
     ![A screenshot of a chatbot Description automatically generated](./media/image32.png)
 
