@@ -137,7 +137,7 @@ generated](./media/image5.png)
 
     ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-18. Add in a message node with the message, !!We notified the expert. They’ll reach out shortly!!.
+18. Add in a message node with the message, !!**We notified the expert. They’ll reach out shortly**!!.
 
     ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
