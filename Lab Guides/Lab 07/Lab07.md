@@ -203,7 +203,7 @@ generated](./media/image5.png)
 
     ![A close-up of a computer screen Description automatically generated](./media/image38.png)
 
-5.  Success message is obtained as in the screenshot below. Click on the
+5.  A success message is displayed as indicated in the screenshot below. Click on the
     **Availability options**.
 
     ![A screenshot of a computer Description automatically generated](./media/image39.png)
