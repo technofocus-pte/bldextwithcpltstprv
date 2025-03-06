@@ -938,7 +938,7 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
    
 10. Search for !!Send an mail!! and select **Send an email (V2) action**.
 
-    ![](./media/image131.png)
+    ![](./media/img43.png)
 
 11.  Once the connection is established, click on **Next**.
 
