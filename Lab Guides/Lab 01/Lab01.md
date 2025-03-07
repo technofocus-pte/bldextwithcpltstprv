@@ -662,6 +662,22 @@ add new ones.
 3.  A new question node is added to the end of the topic with options
     for the user to select.
 
+4. In the question part below the content **Are the details correct?**, enter the below content.
+
+    ```
+    <h3>Summary</h3>
+     
+    <p><strong>Full Name:</strong> 
+    Name
+    string
+    </p>
+    <p><strong>Email Address:</strong> 
+    EmailAddress
+    string
+    </p>   
+    ```
+    ![](./media/img44.png)
+   
 4.  Select **Save**.
 
     ![](./media/image75.png)
