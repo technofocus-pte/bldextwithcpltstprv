@@ -238,7 +238,7 @@ Power Automate cloud flows
    
 22. Select **+ Add an output**.
 
-21.  From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name** and if it is different from Property Name, replace the **propertyname** with that value in the **formula** below.
+21.  From !!https://make.powerapps.com!!, open the table **Real Estate Property**. Navigate to its column, Property Name -> Edit Column -> Advanced options. Look for the value of the **Logical name**. It should be something similar to **contoso_newcolumn**. It might be slightly different as well. Save the part that is there after **contoso_** locally. If the Logical name is **contoso_newcolumn**, keep a note of **newcolumn** for usage in the next step.
 
      ![](./media/Pict23.png)
      
@@ -250,24 +250,28 @@ Power Automate cloud flows
   enter the following expression:
       !!first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]!!
 
-    (Replace **propertyname** based on the **Logical name** fetched in the earlier step)
+    Replace **propertyname** in **contoso_propertyname** in the above expression, with the value saved in the step before this(**newcolumn**).
+
+    ::: secondary
+    This value replacement needs to be done since the Logical name for this column is not a standard value and we will have to check and update based on the value from the Table.
+    :::
     
     ![](./media/image34.png)
 
-24. Select **Settings**. Ensure that **Asynchronous Response** is set
+25. Select **Settings**. Ensure that **Asynchronous Response** is set
     to **Off**.
 
     ![](./media/image35.png)
 
-25. Select **Save draft**.
+26. Select **Save draft**.
 
     ![](./media/image36.png)
 
-26. Once saved, select **Publish**.
+27. Once saved, select **Publish**.
 
     ![](./media/image37.png)
 
-27. Close the Power Automate tab.
+28. Close the Power Automate tab.
 
 ### Task 2: Add a Copilot action for retrieving a property
 
@@ -750,7 +754,7 @@ respond**.
 
 5.  Type in !!What is Summit Realty group?!! and hit **send**.
 
-6.  You will get a response from the uploaded file as in the screenshot below sinc eit has been added as the knowledge source to look for in the Fallback topic.
+6.  You will get a response from the uploaded file as in the screenshot below since it has been added as the knowledge source to look for in the Fallback topic.
 
     ![](./media/image125.png)
 
