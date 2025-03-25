@@ -45,7 +45,7 @@ the newly created files.
 
 ### Task 1: Create an agent from Copilot Studio
 
-1.  Open !!https://copilotstudio.microsoft.com!! if you do not have it open already and click on **Agents -> + New agent**.
+1.  Open !!https://copilotstudio.microsoft.com!! if you do not have it open already. Ensure that you are in the **Dev One** environment and click on **Agents -> + New agent**. 
 
 2.  Click on the Skip to configure option in the Agent creation page that opens up.
 
