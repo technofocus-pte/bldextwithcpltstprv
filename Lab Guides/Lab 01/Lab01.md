@@ -474,7 +474,7 @@ field, designate **Undecided** as the **Default choice** and click on
 
     ![](./media/Picture9.png)
 
-3.  Click on **Environments** on the top left and select
+3.  Click on **Environments** on the top right and select
     **Dev One**.
 
     ![](./media/image49.png)
@@ -604,7 +604,7 @@ Topics can be created and edited using natural language.
     ![](./media/image69.png)
 
     :::secondary
-    **Note:** Select Allow if prompted with See text and images copied to the clipboard
+    **Note:** Select Allow if prompted with** See text and images** copied to the clipboard. This will be a pop up and is related to allowing access to the clip board content.
     :::
     
 3.  Enter the below details and click on **Create**.
