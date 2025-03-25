@@ -158,8 +158,14 @@ booking requests online.
 
 ### Task 4: Create the Real Estate Properties custom table
 
+There are 2 ways to create a new table. One is the conventional manual method and the next one is using Copilot.
+
+#### Task 4.1: Create the Real Estate Properties custom table using the Copilot
+
+#### Task 4.2: Create the Real Estate Properties custom table using the Copilot
+
 Follow these steps to create a new custom table in Dataverse for Real
-Estate Properties.
+Estate Properties manually.
 
 1.  From the left navigation pane, select **Tables**, select the drop
     down next to **+ New table** and then select **Create** **new
