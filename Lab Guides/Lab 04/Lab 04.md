@@ -186,7 +186,7 @@ Power Automate cloud flows
 
     ![](./media/image25.png)
 
-9.  Righ click the **+** icon between the two steps in the flow and
+9.  Right click the **+** icon between the two steps in the flow and
     select **Add an action**.
 
     ![](./media/image26.png)
@@ -194,7 +194,7 @@ Power Automate cloud flows
 10.  Enter !!**Dataverse**!! in the **Search** field and select **See
     more** for the **Microsoft Dataverse connector**.
 
-    ![](./media/image27.png)
+     ![](./media/image27.png)
 
 11. Select the **List rows** action.
 
