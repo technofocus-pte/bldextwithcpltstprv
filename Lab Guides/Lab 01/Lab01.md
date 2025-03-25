@@ -542,14 +542,14 @@ field, designate **Undecided** as the **Default choice** and click on
 
 4.  Select **Save** in the **Save this configuration** prompt.
 
-    ![](./media/image61.png)
+    ![](./media/img53.png)
 
 5.  Once the Authentication settings are saved, click on the **Close**
     option to close the **Settings** pane.
 
     ![](./media/image62.png)
 
-### Task 4: Remove topics
+### Task 4: Disable topics you don’t need
 
 Sample topics are included with new copilots. Remove these sample
 topics. Disable system topics that you don't require.
@@ -603,7 +603,7 @@ Topics can be created and edited using natural language.
 
     ![](./media/image69.png)
 
-    :::secondary:::
+    :::secondary
     **Note:** Select Allow if prompted with See text and images copied to the clipboard
     :::
     
@@ -634,9 +634,6 @@ Topics can be created and edited using natural language.
     do?** field, enter the following text:
 
     !!**Update the message in this question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question**!!
-
-  :::
-  :::
   
 4.  Select **Update**.
 
@@ -670,14 +667,15 @@ add new ones.
     <h3>Summary</h3>
      
     <p><strong>Full Name:</strong> 
-    Name
-    string
+    Name string
     </p>
     <p><strong>Email Address:</strong> 
-    EmailAddress
-    string
+    EmailAddress string
     </p>   
     ```
+
+    Replace the **Name string** and the **Email address string** inside the <p> tag with the corresponding variables, by selecting the **{x}** symbol.
+   
     ![](./media/img44.png)
    
 4.  Select **Save**.
@@ -690,6 +688,10 @@ add new ones.
 
     ![](./media/image76.png)
 
+2.	We have variables that receive values and the ones that return values. Our topic variables will return values to the original topic.
+   
+    ![](./media/img54.png)
+  	
 2.  Select the right-hand check boxes for the topic variables and click
     on **Save**.
 
@@ -816,8 +818,7 @@ add new ones.
 
     - Identify - Select **Date and Time**
 
-    - **Save user response as** - Enter !!**DateTime**!! for **Variable
-  name**
+    - **Save user response as** - Click on **Var1** to open the Variable properties pane and enter !!DateTime!! for **Variable name**.
 
     ![](./media/image94.png)
 
@@ -867,15 +868,15 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image99.png)
 
-3.  Click on **+ New agent** to create a new agent.
+2.  Click on **+ New agent** to create a new agent.
 
     ![](./media/image100.png)
 
-4.  Click on **Skip to configure** to configure the agent.
+3.  Click on **Skip to configure** to configure the agent.
 
     ![](./media/image101.png)
 
-5.  Enter the below details and click on **Create**.
+4.  Enter the below details and click on **Create**.
 
     **Name** - !!Autonomous agent!!
 
@@ -883,7 +884,7 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image102.png)
 
-6.  The agent setup will take few minutes to get completed. Once done,
+5.  The agent setup will take few seconds to get completed. Once done,
     the Autonomous agent opens with the **Your agent is ready** message.
 
     ![](./media/image103.png)
@@ -897,9 +898,9 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
 9.  Select the **Generative AI** option from the list of options on the
     left side of the **Settings** screen. Under **Using generative AI in
-    conversations**, select **Generative (preview)**. Click on **Save**.
+    conversations**, select **Generative**. Click on **Save**.
 
-    ![](./media/image105.png)
+    ![](./media/img55.png)
 
 10. Close the **Settings** pane.
 
@@ -942,7 +943,7 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
     - Trigger instructions – Leave as **default**. This will return the
   entire response to the agent.
 
-    ![](./media/image110.png)
+    ![](./media/img56.png)
 
 7.  The Trigger creation may take 3 to 5 minutes to complete.
 
@@ -957,7 +958,7 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/image130.png)
    
-10. Search for !!Send an mail!! and select **Send an email (V2) action**.
+10. Search for !!Send an email!! and select **Send an email (V2) action**.
 
     ![](./media/img43.png)
 
@@ -965,9 +966,9 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
      ![](./media/Pict9.png)
      
-12.  Select **End user Authentication** as **Copilot Authentication** and select **Add action**.
+12.	Choose **Copilot author Authentication** as the option from the drop down of **End user authentication** and select **Add action**.
 
-     ![](./media/Pict10.png)
+     ![](./media/img57.png)
 
 13.	Select the created Action.
 
@@ -987,12 +988,13 @@ This exercise is to showcase the **When a row is added, modified or deleted** tr
 
     ![](./media/Pict14.png)
 
-2.  Paste the instructions below inside the **Instructions** text area, replacing the place holder for **<Your mail id>** in the section **b** below, with the mail id to which the details needs to be sent and click on **Save**.
+2.	Paste the instructions below inside the **Instructions** text area, replacing the place holder for **< Mail ID >** in the section **b** below, with the mail id to which the details need to be sent and click on **Save**.
    
     !!a.	Read the details of the row that gets added or modified!!
-    !!b.	Mail the modified information only to <Your email id> with a proper subject and body added to the email!!
+  	
+    !!b.	Mail the modified information only to < Mail id > with a proper subject and body added to the email!!
 
-    ![](./media/Pict15.png)
+    ![](./media/img58.png)
 
 4.  Click on **Publish** to publish the agent to all the channels it is
     connected to.
