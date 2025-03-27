@@ -31,13 +31,9 @@ In this lab, we will learn how to create a Conversational action.
 
     ![](./media/image1.png)
 
-5.  Select **Actions**.
+6.  Select **Add an action**.
 
-    ![](./media/image2.png)
-
-6.  Select **+ Add action**.
-
-    ![](./media/image3.png)
+    ![](./media/img59.png)
 
 7.  Select **Conversational** in the **New action** pane.
 
