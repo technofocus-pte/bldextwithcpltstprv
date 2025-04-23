@@ -142,18 +142,18 @@ search for and select **Power Virtual agent** and add it.
     Copy the following text to a notepad and then copy it from there and paste it to the newly added Message node.
     
     ```
-    National holidays for 2025:
-    -	New Year’s Day:	Jan 1
-    -	Martin Luther King Jr. Day: Jan 20
-    -	Washington’s Birthday (Presidents’ Day): Feb 17
-    -	Memorial Day: May 26
-    -	Juneteenth National Independence Day: June 19
-    -	Independence Day: July 4
-    -	Labor Day: Sep 1
-    -	Columbus Day / Indigenous Peoples’ Day: Oct 13
-    -	Veterans Day: Nov 11
-    -	Thanksgiving Day: Nov 27
-    -	Christmas Day: Dec 25
+        National holidays for 2025:
+        -	New Year’s Day:	Jan 1
+        -	Martin Luther King Jr. Day: Jan 20
+        -	Washington’s Birthday (Presidents’ Day): Feb 17
+        -	Memorial Day: May 26
+        -	Juneteenth National Independence Day: June 19
+        -	Independence Day: July 4
+        -	Labor Day: Sep 1
+        -	Columbus Day / Indigenous Peoples’ Day: Oct 13
+        -	Veterans Day: Nov 11
+        -	Thanksgiving Day: Nov 27
+        -	Christmas Day: Dec 25
     ```
     
     ![](./media/Pict32.png)
