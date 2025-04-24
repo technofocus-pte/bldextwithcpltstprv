@@ -7,6 +7,11 @@ This lab details the steps to escalate a conversation to a live agent from the a
 :::danger
 This lab can be executed only if the Dynamics 365 trial has been enabled in Lab 03 of Day 1
 :::
+
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 ## Exercise 1: Configure the Dynamics 365 Customer Service workspace
 
 ### Task 1: Configure Omnichannel Power Virtual Agent Extension
