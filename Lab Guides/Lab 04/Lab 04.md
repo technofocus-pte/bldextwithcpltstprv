@@ -8,6 +8,10 @@ Implement entities, slot filling and variables usage in the Copilot for
 Real Estate app. Enhance the copilot created for the Real Estate app to
 elevate the customer experience by implementing Generative AI.
 
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 ## Exercise 1: Use entities to improve the copilot
 
 Microsoft Copilot Studio uses entities to understand user intent. There
