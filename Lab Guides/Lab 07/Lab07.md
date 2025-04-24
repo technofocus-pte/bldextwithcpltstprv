@@ -7,6 +7,10 @@
 In this lab, we will send message from a Copilot to a Teams channel by
 invoking a flow.
 
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 ## **Exercise 1: Add channel and Team in Microsoft Teams**
 
 1.  Open **Microsoft Teams** from the VM and login using your tenant
