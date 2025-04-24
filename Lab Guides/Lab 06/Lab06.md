@@ -7,6 +7,10 @@
 In this lab, you will Install the Copilot Studio app in Microsoft Teams,
 create a new copilot in a team and test it.
 
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 ## **Exercise 1: Install the Copilot Studio app in Microsoft Teams**
 
 1. Open the **Microsoft Teams**(Work or School) from the Start menu.
