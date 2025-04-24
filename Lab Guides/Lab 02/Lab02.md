@@ -11,6 +11,10 @@ to the File Details tracker. This resolves the issue of tracking the
 file additions and the File details tracker will have the details of all
 the newly created files.
 
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 ## Exercise 1: Set up the environment
 
 ### Task 1: Setup OneDrive
