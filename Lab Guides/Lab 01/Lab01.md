@@ -79,6 +79,10 @@ booking requests online.
    
 8. Once logged in, **close** the **Teams** app. We will be using it in Day 3 labs.
 
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 ## Exercise 1: Setting up Power Apps and Dataverse
 
 ### Task 1: Sign up for the Microsoft Power Apps Developer Plan
