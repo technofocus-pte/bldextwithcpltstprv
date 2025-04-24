@@ -2,6 +2,10 @@
 
 ## Exercise 1: Use natural language to create an agent
 
+:::secondary
+If any of the pastable text or block of text does not work, please paste them to a Notepad and use it from there, or perform a manual paste, copying from the lab guide.
+:::
+
 1.  Open a browser and login to !!https://copilotstudio.microsoft.com/!! if you are not in that page
     already.
 
