@@ -523,6 +523,10 @@ field, designate **Undecided** as the **Default choice** and click on
 
     ![](./media/image57.png)
 
+8. From the Overview page, disable **Orchestration**.
+
+   <img width="504" alt="image" src="https://github.com/user-attachments/assets/eee75ac0-9112-41ec-a4c4-26131fdc71a3" />
+
 ### Task 3: Configure Security
 
 1.  Select **Settings** in the top-right of the screen.
