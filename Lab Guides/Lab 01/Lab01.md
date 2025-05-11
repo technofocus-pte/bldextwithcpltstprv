@@ -602,7 +602,7 @@ Topics can be created and edited using natural language.
     ![](./media/image69.png)
 
     :::secondary
-    **Note:** Select Allow if prompted with** See text and images** copied to the clipboard. This will be a pop up and is related to allowing access to the clip board content.
+    **Note:** Select Allow if prompted with **See text and images** copied to the clipboard. This will be a pop up and is related to allowing access to the clip board content.
     :::
     
 3.  Enter the below details and click on **Create**.
