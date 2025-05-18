@@ -122,6 +122,10 @@ If any of the pastable text or block of text does not work, please paste them to
 
     ![](./media/image19.png)
 
+8.	Disable Orchestration in the Home page of the agent.
+
+    ![image](https://github.com/user-attachments/assets/0cc9bd68-65fb-4f6c-99cb-39448f09db38)
+	
 ## Exercise 3: Connect the copilot to Dynamics 365 Customer Service and configure the Escalate topic
 
 ### Task 1: Configure the Escalate topic
