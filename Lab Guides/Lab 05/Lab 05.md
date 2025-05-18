@@ -57,12 +57,17 @@ If any of the pastable text or block of text does not work, please paste them to
 ### Task 2: Configure search settings in the Power Platform admin center
 
 1.  Login to !!https://admin.powerplatform.microsoft.com/!! using
-    your tenant details. Select **Environments** -\> **CustomerService
-    Trial**.
+    your tenant details. Toggle the **New admin center** toggle to **Off**.
+
+    ![image](https://github.com/user-attachments/assets/64de3855-3667-4f36-a2f5-15fb391abd23)
+
+    ![image](https://github.com/user-attachments/assets/bfe11d2f-08f8-47bd-ac9d-34cac6ab796a)
+
+2.  Select **Environments** -\> **CustomerService Trial**.
 
     ![](./media/image7.png)
 
-2.  Select the drop down next to **Resource** (in the top pane) and
+3.  Select the drop down next to **Resource** (in the top pane) and
     select **Dynamics 365 apps**.
 
     ![](./media/image8.png)
@@ -209,15 +214,11 @@ topics.
 
     ![](./media/image35.png)
 
-3. This opens the **Customer Service workspace**. Select **Customer Service workspace** from th top.
+3. This opens the **Apps** page. Select **Copilot Service admin center** from it.
 
-    ![](./media/Picture19.png)
+    ![image](https://github.com/user-attachments/assets/ed2a8c88-01f2-4522-8565-8fb1fa4602fd)
    
-4.  Select **Customer Service admin center** from it.
-
-    ![](./media/image81.png)
-   
-5.  This opens up the **Dynamics 365 Customer Service admin center**
+4.  This opens up the **Dynamics 365 Customer Service admin center**
     page.
 
     ![](./media/image36.png)
@@ -337,9 +338,9 @@ topics.
 
     ![](./media/image55.png)
 
-4.  From the left pane, select **Bots**.
+4.  From the left pane, select **AI Agents**.
 
-    ![](./media/image56.png)
+    ![image](https://github.com/user-attachments/assets/4ccce1be-9e60-455b-9f06-7b1687fcb61e)
 
 5.  Ensure that the **Store locator** agent is connected.
 
@@ -377,57 +378,60 @@ topics.
 
     >[!Note] **Note:** The site creation takes around 15 minutes to complete.
     
-8.  Once the site is created, click on **Edit site header** in the
-    **Company name** title.
+8.  Once the site is created, click on **More options** and select **Details**.
+
+    ![image](https://github.com/user-attachments/assets/11eb4c41-a67e-426a-bde2-bab8ff21616f)
+
+9.	In the Details page, select **Edit site header**.
 
     ![](./media/image64.png)
-
-9.  In the **Edit site header** pane, provide the **Site title** as
-    !!**Contoso Store assistant**!!.
+  	
+10.  In the **Edit site header** pane, provide the **Site title** as
+    !!**Contoso Store assistant**!! and close the dialog.
 
     ![](./media/image65.png)
 
-10. Click on Edit code in the top right corner of the page.
+11. Click on Edit code in the top right corner of the page.
 
     ![](./media/image66.png)
 
-11. Click on **Open Visual Studio Code**.
+12. Click on **Open Visual Studio Code**.
 
     ![](./media/image67.png)
 
-12. Click **Allow**.
+13. Click **Allow**.
 
     ![](./media/image68.png)
 
-13. The Home page of the web page opens up in the Visual Studio Code.
+14. The Home page of the web page opens up in the Visual Studio Code.
 
     ![](./media/image69.png)
 
-14. Scroll to the end of the file. Add the **script** copied while
+15. Scroll to the end of the file. Add the **script** copied while
     creating the workstream, after the last line of this file.
 
     ![](./media/image70.png)
 
-15. Save the file, close the Visual Studio Code tab and return to the
+16. Save the file, close the Visual Studio Code tab and return to the
     Power pages. Click on **Sync**.
 
     ![](./media/image71.png)
 
-16. Once the Sync is completed, select **Preview** -\> **Desktop.**
+17. Once the Sync is completed, select **Preview** -\> **Desktop.**
 
     ![](./media/image72.png)
 
-17. Your web page opens in a new tab. Find the **Store Locator
+18. Your web page opens in a new tab. Find the **Store Locator
     Assistant** embedded to the page at the bottom right of the web
     page. **Click** on it.
 
     ![](./media/image73.png)
 
-18. Enter !!Talk to agent!!.
+19. Enter !!Talk to agent!!.
 
     ![](./media/image74.png)
 
-19. From the Customer Service admin page, click on **Customer Service
+20. From the Customer Service admin page, click on **Customer Service
     admin center** and select the app **Customer Service workspace**
     from it.
 
@@ -435,18 +439,18 @@ topics.
 
     ![](./media/image76.png)
 
-20. In the Customer Service workspace page, you will get a **chat
+21. In the Customer Service workspace page, you will get a **chat
     request**. **Accept** it.
 
     ![](./media/image77.png)
 
-21. Once accepted, the chat screen opens up with the message that we had
+22. Once accepted, the chat screen opens up with the message that we had
     given in the Escalate topic. We can also add any other information
     provided by the user here to the live agent.
 
     ![](./media/image78.png)
 
-22. Simulate the chat between the live agent and the customer if you
+23. Simulate the chat between the live agent and the customer if you
     wish to see how it works and then ends.
 
     ![](./media/image79.png)
