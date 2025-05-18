@@ -386,14 +386,15 @@ topics.
 
     ![image](https://github.com/user-attachments/assets/11eb4c41-a67e-426a-bde2-bab8ff21616f)
 
-9.	In the Details page, select **Edit site header**.
+9.  In the Details page, select **Edit site header**.
 
     ![](./media/image64.png)
   	
 10.  In the **Edit site header** pane, provide the **Site title** as
     !!**Contoso Store assistant**!! and close the dialog.
 
-    ![](./media/image65.png)
+   ![image](https://github.com/user-attachments/assets/6413340b-edac-4075-9632-9e72bd828226)
+
 
 11. Click on Edit code in the top right corner of the page.
 
