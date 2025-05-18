@@ -429,7 +429,7 @@ topics.
 
 19. Enter !!Talk to agent!!.
 
-    ![](./media/image74.png)
+    ![image](https://github.com/user-attachments/assets/33e33c08-b62c-499d-8efb-0997443b42fb)
 
 20. From the Customer Service admin page, click on **Customer Service
     admin center** and select the app **Customer Service workspace**
